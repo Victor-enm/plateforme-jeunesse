@@ -1,34 +1,27 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
+import Button from './components/ui/Button.vue'
+
 </script>
 
 <template>
-  <div>
-    <div class="overflow-x-auto snap-x snap-mandatory flex space-x-4 p-4">
-    <div class="snap-center flex-shrink-0 w-64 h-64 bg-red-500 text-white flex items-center justify-center text-2xl font-bold">
-      Slide 1
-    </div>
-    <div class="snap-center flex-shrink-0 w-64 h-64 bg-green-500 text-white flex items-center justify-center text-2xl font-bold">
-      Slide 2
-    </div>
-    <div class="snap-center flex-shrink-0 w-64 h-64 bg-blue-500 text-white flex items-center justify-center text-2xl font-bold">
-      Slide 3
-    </div>
-    <div class="snap-center flex-shrink-0 w-64 h-64 bg-yellow-500 text-white flex items-center justify-center text-2xl font-bold">
-      Slide 4
-    </div>
-  </div>
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <Header />
+  <main class="h-screen w-screen snap-y snap-mandatory overflow-y-scroll">
+    <section class="h-screen w-screen snap-start bg-red-300 flex items-center justify-center">
+      <h1 class="text-4xl font-bold">Section 1</h1>
+      <Button variant="secondary"> Test </Button>
+    </section>
+    <section class="h-auto w-screen snap-start scroll-mt-16 bg-green-300 flex flex-col items-center justify-center">
+      <h1 class="text-4xl font-bold">Section 2</h1>
+      <p v-for="i in 50" :key="i" class="mb-2">Ligne {{ i }} — du texte pour tester le scroll libre dans cette section.</p>
+      </section>
+    <section class="h-screen w-screen snap-start bg-blue-300 flex items-center justify-center">
+      <h1 class="text-4xl font-bold">Section 3</h1>
+    </section>
+  </main>
+
+  
 </template>
 
 <style scoped>
