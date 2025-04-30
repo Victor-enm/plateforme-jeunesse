@@ -1,24 +1,56 @@
 <template>
-    <button :class="buttonClasses" class="px-4 py-2 rounded font-semibold transition">
-        <slot />
-    </button>
-</template>
-
-<script setup>
-import { computed } from 'vue'
-import { toRefs } from 'vue'
-
-const props = defineProps({
-    variant : {
-        type: String,
-        default: 'primary'
+    <component
+      :is="componentType"
+      :to="to"
+      :href="href"
+      class="inline-block"
+      :class="buttonClasses"
+      v-bind="linkAttrs"
+    >
+      <slot />
+    </component>
+  </template>
+  
+  <script setup>
+  import { computed } from 'vue'
+  import { RouterLink } from 'vue-router'
+  
+  const props = defineProps({
+    variant: {
+      type: String,
+      default: 'white',
+    },
+    to: String,   // Lien interne
+    href: String, // Lien externe
+  })
+  
+  // Détermine le type de composant à utiliser
+  const componentType = computed(() => {
+    if (props.to) return RouterLink
+    if (props.href) return 'a'
+    return 'button'
+  })
+  
+  // Ajoute target="_blank" et rel="noopener" si lien externe
+  const linkAttrs = computed(() => {
+    return props.href
+      ? { target: '_blank', rel: 'noopener noreferrer' }
+      : {}
+  })
+  
+  // Gère les classes selon le variant
+  const buttonClasses = computed(() => {
+    switch (props.variant) {
+      case 'violet':
+        return 'px-6 py-3 bg-transparent text-violet-800 border border-violet-800 rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
+      case 'fullWhite':
+        return 'px-6 py-3 bg-neutral-50 text-red-800 rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
+      case 'white':
+      default:
+        return 'px-6 py-3 bg-transparent text-white border border-white rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
+      case 'red':
+        return 'px-6 py-3 bg-transparent text-red-800 border border-red-800 rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
     }
-})
-
-const variants = {
-    primary: 'bg-blue-600 text-white hover:bg-blue-700',
-    secondary : 'bg-red-600 text-white hover:bg-red-600'
-}
-
-const buttonClasses = computed(() => variants[props.variant] || variants.primary)
-</script>
+  })
+  </script>
+  

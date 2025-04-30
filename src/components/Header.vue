@@ -4,7 +4,9 @@
         <div class="relative flex items-center justify-between h-16">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <img class="h-8" src="/src/assets/vue.svg" alt="Logo" />
+            <RouterLink to="/" class="cursor-pointer">
+                <img class="h-8" src="/src/assets/vue.svg" alt="Logo" />
+            </RouterLink>
           </div>
   
           <!-- Menu mobile, burger aligné à droite -->
@@ -168,6 +170,7 @@
   
   <script setup>
   import { ref } from 'vue';
+  import { RouterLink } from 'vue-router'
   
   const isMenuOpen = ref(false);
   
