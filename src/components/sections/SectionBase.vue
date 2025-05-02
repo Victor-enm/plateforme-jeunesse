@@ -2,9 +2,15 @@
     <section
         class="snap-start w-full h-screen flex flex-col items-center justify-center px-4 text-center"
         :class="bgColor"
-    >
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">{{ title }}</h2>
-        <p class="text-base md:text-lg text-gray-800 mb-10 max-w-xl">
+
+        
+    >   <div class="w-20 h-20">
+          <SvgIcon v-if="iconName" :name="iconName" className="object-contain mb-4 text-violet" />
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4"
+        :class="txtColor">{{ title }}</h2>
+        <p class="text-base md:text-lg mb-10 max-w-xl"
+        :class="txtColor">
             {{ text }}
         </p>
         <Button
@@ -25,7 +31,11 @@ const props = defineProps({
   text: String,
   bgColor: {
     type: String,
-    default: 'bg-red-800',
+    default: 'bg-rouge',
+  },
+  txtColor: {
+    type: String,
+    default: 'text-violet',
   },
   buttonText: String,
   buttonVariant: {
@@ -35,5 +45,6 @@ const props = defineProps({
   buttonTo: String,   // Pour liens internes
   buttonHref: String, // Pour liens externes
   onClick: Function,  // Pour actions custom si ni to ni href
+  iconName: String, // Nom de l'icône SVG sans extension
 })
 </script>

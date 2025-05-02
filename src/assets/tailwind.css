@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@import './fonts.css';
+
+@theme {
+    --font-sans: 'Syne', sans-serif;
+    --color-violet: #3B193D;
+    --color-rouge: #DE4632;
+    --color-gris: #E8E4E8;
+}
+
+@layer{
+    svg{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+body {
+    @apply font-sans;
+}

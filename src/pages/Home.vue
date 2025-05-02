@@ -1,24 +1,26 @@
 <template>
     <main class="h-screen w-screen snap-y snap-mandatory overflow-y-scroll">
       <SectionBase
-        title="Bienvenue !"
-        text="Découvre les métiers de la justice à travers une expérience interactive."
-        bgColor="bg-red-800"
-        buttonText="Commencer"
+        title="Être magistrat(e), c’est quoi ?"
+        text="Les magistrats veillent à l’application de la loi en tant que juges ou procureurs, jouant ainsi un rôle clé dans la société. Découvre celui qui te correspond et les études à suivre en passant le test !"
+        bgColor="bg-gris"
+        buttonText="Je fais le test !"
+        buttonVariant="violet"
+        buttonTo="/autre"
+        iconName="code penal"
+      />
+
+      <SectionBase
+        title="Quel magistrat sommeille en toi ?"
+        text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi !"
+        bgColor="bg-rouge"
+        buttonText="Je fais le test !"
         buttonVariant="fullWhite"
         buttonTo="/autre"
+        txtColor="text-gris"
       />
   
-      <section class="h-screen w-screen snap-start bg-red-300 flex items-center justify-center">
-        <h1 class="text-4xl font-bold">Section 1</h1>
-      </section>
-      <section class="h-auto w-screen snap-start scroll-mt-16 bg-green-300 flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-bold">Section 2</h1>
-        <p v-for="i in 50" :key="i" class="mb-2">Ligne {{ i }} — du texte pour tester le scroll libre dans cette section.</p>
-        </section>
-      <section class="h-screen w-screen snap-start bg-blue-300 flex items-center justify-center">
-        <h1 class="text-4xl font-bold">Section 3</h1>
-      </section>
+     
     </main>
   
     

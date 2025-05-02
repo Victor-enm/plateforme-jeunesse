@@ -1,185 +1,82 @@
 <template>
-    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
-      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div class="relative flex items-center justify-between h-16">
-          <!-- Logo -->
-          <div class="flex-shrink-0">
-            <RouterLink to="/" class="cursor-pointer">
-                <img class="h-8" src="/src/assets/vue.svg" alt="Logo" />
-            </RouterLink>
-          </div>
-  
-          <!-- Menu mobile, burger aligné à droite -->
-          <div class="absolute inset-y-0 right-0 flex items-center sm:hidden ml-auto">
-            <button
-              type="button"
-              class="inline-flex items-center justify-center p-2 rounded-md text-violet-800 hover:text-violet-500 hover:bg-violet-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-              @click="toggleMenu"
-              aria-controls="mobile-menu"
-              :aria-expanded="isMenuOpen.toString()"
-            >
-              <span class="sr-only">Open main menu</span>
-              <svg
-                class="block h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-                :class="{ 'hidden': isMenuOpen, 'block': !isMenuOpen }"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-              <svg
-                class="block h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-                :class="{ 'hidden': !isMenuOpen, 'block': isMenuOpen }"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-  
-          <!-- Menu Desktop -->
-          <div class="hidden sm:block sm:ml-6">
-            <div class="flex space-x-4">
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Quel magistrat es-tu ?</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Les métiers de la magistrature</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >L'école nationale de la magistrature</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Les grandes étapes d'un procès</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Les carrières dans la magistrature</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Rencontrons-nous</a
-              >
-              <a
-                href="#"
-                class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Les classes Prépas Talents de l'ENM</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Mobile Menu -->
+  <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[27.57]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <RouterLink to="/" class="flex items-center">
+        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="h-10 sm:h-12" />
+      </RouterLink>
+
+      <!-- Mobile burger -->
+      <button
+        type="button"
+        class="sm:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+        @click="toggleMenu"
+        aria-controls="mobile-menu"
+        :aria-expanded="isMenuOpen.toString()"
+      >
+        <span class="sr-only">Toggle menu</span>
+        <i
+          class="fas fa-bars text-2xl"
+          v-if="!isMenuOpen"
+        ></i>
+        <i
+          class="fas fa-xmark text-2xl"
+          v-else
+        ></i>
+      </button>
+
+      <!-- Desktop nav -->
+      <nav class="hidden sm:flex space-x-4">
+        <NavLink v-for="item in navItems" :key="item.label" :href="item.href">{{ item.label }}</NavLink>
+      </nav>
+    </div>
+
+    <!-- Mobile Menu Fullscreen -->
+    <transition name="fade">
       <div
-        class="sm:hidden fixed inset-0 bg-white z-40 transform transition-all duration-300"
-        v-show="isMenuOpen"
+        v-if="isMenuOpen"
+        class="sm:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-6 text-center px-6"
         id="mobile-menu"
       >
-        <div class="flex justify-end p-6">
-          <button
-            type="button"
-            class="text-violet-800 hover:text-violet-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-            @click="toggleMenu"
-          >
-            <span class="sr-only">Close menu</span>
-            <svg
-              class="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="flex flex-col items-stretch space-y-3 py-8 mx-15 text-center">
-          <a
-            href="#"
-            class="text-white bg-red-600 block px-3 py-2 rounded-full text-lg font-medium mb-20"
-            >Quel magistrat es-tu ?</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >Les métiers de la magistrature</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >L'école nationale de la magistrature</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >Les grandes étapes d'un procès</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >Les carrières dans la magistrature</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >Rencontrons-nous</a
-          >
-          <a
-            href="#"
-            class="text-violet-700 border-2 border-violet-700 block px-3 py-2 rounded-full text-lg font-medium"
-            >Les classes Prépas Talents de l'ENM</a
-          >
-        </div>
+        <a
+          v-for="item in navItems"
+          :key="item.label"
+          :href="item.href"
+          class="text-violet border-2 border-violet px-4 py-3 rounded-full text-lg font-medium w-full max-w-xs"
+        >
+          {{ item.label }}
+        </a>
       </div>
-    </header>
-  </template>
-  
-  <script setup>
-  import { ref } from 'vue';
-  import { RouterLink } from 'vue-router'
-  
-  const isMenuOpen = ref(false);
-  
-  const toggleMenu = () => {
-    isMenuOpen.value = !isMenuOpen.value;
-  };
-  </script>
-  
-  <style scoped>
-  /* Ajout d'une ombre ou d'un effet de transition pour le menu mobile */
-  </style>
-  
+    </transition>
+  </header>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
+
+const isMenuOpen = ref(false)
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+const navItems = [
+  { label: 'Quel magistrat es-tu ?', href: '#' },
+  { label: 'Les métiers de la magistrature', href: '#' },
+  { label: 'L\'école nationale de la magistrature', href: '#' },
+  { label: 'Les grandes étapes d\'un procès', href: '#' },
+  { label: 'Les carrières dans la magistrature', href: '#' },
+  { label: 'Rencontrons-nous', href: '#' },
+  { label: 'Les classes Prépas Talents de l\'ENM', href: '#' },
+]
+</script>
+
+<style scoped>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+</style>

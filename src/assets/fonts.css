@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Syne';
+    src: url('./fonts/Syne-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'InterItalic';
+    src: url('./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf');
+}

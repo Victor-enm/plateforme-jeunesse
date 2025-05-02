@@ -42,9 +42,9 @@
   const buttonClasses = computed(() => {
     switch (props.variant) {
       case 'violet':
-        return 'px-6 py-3 bg-transparent text-violet-800 border border-violet-800 rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-violet border border-violet rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
       case 'fullWhite':
-        return 'px-6 py-3 bg-neutral-50 text-red-800 rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-neutral-50 text-rouge rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
       case 'white':
       default:
         return 'px-6 py-3 bg-transparent text-white border border-white rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
