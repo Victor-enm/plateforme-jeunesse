@@ -19,3 +19,10 @@
 body {
     @apply font-sans;
 }
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+.font-interItalic {
+    font-family: 'InterItalic', sans;
+}

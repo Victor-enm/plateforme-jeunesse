@@ -4,30 +4,29 @@
         :class="bgColor"
 
         
-    >   <div class="w-20 h-20">
-          <SvgIcon v-if="iconName" :name="iconName" className="object-contain mb-4 text-violet" />
-        </div>
+    >   
         <h2 class="text-3xl md:text-4xl font-bold mb-4"
         :class="txtColor">{{ title }}</h2>
         <p class="text-base md:text-lg mb-10 max-w-xl font-inter"
         :class="txtColor">
             {{ text }}
         </p>
-        <Button
-          v-for="(button, index) in buttons"
-          :key="index"
-          :variant="button.variant"
-          :to="button.to"
-          :href="button.href"
-          @click="button.onClick"
-          :class="button.class"
-        >
-          {{ button.text }}
-        </Button>
-      </section>
+        
+
+        <div class="w-full max-w-xl space-y-4">
+            <ExpandableCard
+                v-for="(card, index) in cards"
+                :key="index"
+                :title="card.title"
+                :description="card.description"
+            />
+        </div>
+    </section>
 </template>
 
 <script setup>
+import ExpandableCard from '../ui/AccordeonCard.vue' 
+
 const props = defineProps({
   title: String,
   text: String,
@@ -37,12 +36,11 @@ const props = defineProps({
   },
   txtColor: {
     type: String,
-    default: 'text-violet',
+    default: 'text-gris',
   },
-  buttons: {
-    type: Array,
-    default: () => []
-  }, 
-  iconName: String,
+ cards: {
+    type: Array, 
+    default: () => [],
+ },
 })
 </script>

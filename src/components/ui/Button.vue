@@ -47,9 +47,9 @@
         return 'px-6 py-3 bg-neutral-50 text-rouge rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
       case 'white':
       default:
-        return 'px-6 py-3 bg-transparent text-white border border-white rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-gris border border-gris rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
       case 'red':
-        return 'px-6 py-3 bg-transparent text-red-800 border border-red-800 rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-rouge border border-rouge rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
     }
   })
   </script>

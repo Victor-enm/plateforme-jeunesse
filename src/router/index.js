@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
-import AutrePage from '../pages/HelloWorld.vue'
+import LesMetiers from '../pages/LesMetiers.vue'
+import Erreur from '../pages/404.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
-  { path : '/autre', component: AutrePage},
+  { path: '/les-metiers', name: 'Les métiers de la magistrature', component: LesMetiers },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: Erreur},
 ]
 
 const router = createRouter({

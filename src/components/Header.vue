@@ -1,26 +1,26 @@
 <template>
-  <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[27.57]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+  <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[10vh] flex items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center">
-        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="h-10 sm:h-12" />
+        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12" />
       </RouterLink>
 
       <!-- Mobile burger -->
       <button
         type="button"
-        class="sm:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+        class="sm:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 z-50 float-end"
         @click="toggleMenu"
         aria-controls="mobile-menu"
         :aria-expanded="isMenuOpen.toString()"
       >
         <span class="sr-only">Toggle menu</span>
         <i
-          class="fas fa-bars text-2xl"
+          class="fas fa-bars text-3xl"
           v-if="!isMenuOpen"
         ></i>
         <i
-          class="fas fa-xmark text-2xl"
+          class="fas fa-xmark text-4xl"
           v-else
         ></i>
       </button>
@@ -35,14 +35,14 @@
     <transition name="fade">
       <div
         v-if="isMenuOpen"
-        class="sm:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-6 text-center px-6"
+        class="sm:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
         id="mobile-menu"
       >
         <a
           v-for="item in navItems"
           :key="item.label"
           :href="item.href"
-          class="text-violet border-2 border-violet px-4 py-3 rounded-full text-lg font-medium w-full max-w-xs"
+          class="text-violet border-2 border-violet px-4 py-3 rounded-full text-lg font-medium w-full max-w-xs  first:text-gris first:bg-rouge first:border-rouge first:mb-15"
         >
           {{ item.label }}
         </a>
@@ -62,8 +62,8 @@ const toggleMenu = () => {
 }
 
 const navItems = [
-  { label: 'Quel magistrat es-tu ?', href: '#' },
-  { label: 'Les métiers de la magistrature', href: '#' },
+  { label: 'Quel magistrat es-tu ?', href: '/autre' },
+  { label: 'Les métiers de la magistrature', href: '/de' },
   { label: 'L\'école nationale de la magistrature', href: '#' },
   { label: 'Les grandes étapes d\'un procès', href: '#' },
   { label: 'Les carrières dans la magistrature', href: '#' },
