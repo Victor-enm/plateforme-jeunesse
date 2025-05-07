@@ -33,10 +33,16 @@
   
   // Ajoute target="_blank" et rel="noopener" si lien externe
   const linkAttrs = computed(() => {
-    return props.href
-      ? { target: '_blank', rel: 'noopener noreferrer' }
-      : {}
-  })
+  if (!props.href) return {}
+
+  // Si c'est une ancre interne, ne pas ajouter target="_blank"
+  if (props.href.startsWith('#')) return {}
+
+  return {
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  }
+})
   
   // Gère les classes selon le variant
   const buttonClasses = computed(() => {

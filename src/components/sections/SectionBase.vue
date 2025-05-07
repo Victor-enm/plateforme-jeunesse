@@ -1,17 +1,19 @@
 <template>
     <section
-        class="snap-start w-full h-screen flex flex-col items-center justify-center px-4 text-center"
+        class="snap-start w-full h-screen flex flex-col items-center justify-center px-10 text-center scroll-mt-20 pb-20"
         :class="bgColor"
+        :id="ancre"
 
         
-    >   <div class="w-20 h-20">
+    >   <div class="w-20 h-20 mb-5">
           <SvgIcon v-if="iconName" :name="iconName" className="object-contain mb-4 text-violet" />
         </div>
-        <h2 class="text-3xl md:text-4xl font-bold mb-4"
+        <h2 class="text-4xl md:text-4xl mb-4"
         :class="txtColor">{{ title }}</h2>
         <p class="text-base md:text-lg mb-10 max-w-xl font-inter"
-        :class="txtColor">
-            {{ text }}
+        :class="txtColor"
+        v-html="text">
+           
         </p>
         <Button
           v-for="(button, index) in buttons"
@@ -39,6 +41,7 @@ const props = defineProps({
     type: String,
     default: 'text-violet',
   },
+  ancre: String,
   buttons: {
     type: Array,
     default: () => []
