@@ -35,7 +35,7 @@ Découvre la formation, la vie sur le campus ainsi que les témoignages d’él�
           
         <SectionVideo
         bgColor="bg-violet"
-        videoUrl="https://pod.enm.justice.fr/media/videos/6054459514b05c135788d0c30201a9852b8fdaa0b525f77db07b47996aaba47b/1543/720p.mp4"
+        videoId="https://www.youtube.com/embed/I59NnurT_jE"
 
         />
     </main>
