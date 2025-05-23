@@ -5,8 +5,9 @@
         :id="ancre"
 
         
-    >   <div class="w-20 h-20 mb-5">
-          <SvgIcon v-if="iconName" :name="iconName" className="object-contain mb-4 text-violet" />
+    >   <div v-if="iconName" class="w-20 h-20 mb-5"
+        :class="pictoSize">
+          <SvgIcon  :name="iconName" className="object-contain mb-4 text-violet" />
         </div>
         <h2 class="text-4xl md:text-4xl mb-4"
         :class="txtColor">{{ title }}</h2>
@@ -37,6 +38,7 @@ const props = defineProps({
     type: String,
     default: 'bg-rouge',
   },
+  pictoSize : String,
   txtColor: {
     type: String,
     default: 'text-violet',

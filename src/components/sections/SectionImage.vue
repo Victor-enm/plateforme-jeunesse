@@ -19,6 +19,14 @@
         v-html="text"
         ></p>
     </div>
+
+    <div v-if="cardTitle" class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full text-center"
+    :class="cardBg">
+      <h3>{{ cardTitle }}</h3>
+      <p class="text-m md:text-s max-w-xl font-inter"
+        v-html="cardText">
+      </p>
+    </div>
     </section>
 </template>
 
@@ -37,6 +45,9 @@ const props = defineProps({
     type: String,
     default: 'text-gris',
   },
+  cardTitle: String,
+  cardBg: String,
+  cardText: String,
  
 })
 </script>

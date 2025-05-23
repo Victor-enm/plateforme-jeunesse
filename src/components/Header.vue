@@ -64,7 +64,7 @@ const toggleMenu = () => {
 const navItems = [
   { label: 'Quel magistrat es-tu ?', href: '/autre' },
   { label: 'Les métiers de la magistrature', href: '/les-metiers' },
-  { label: 'L\'école nationale de la magistrature', href: '#' },
+  { label: 'L\'école nationale de la magistrature', href: '/ENM' },
   { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces' },
   { label: 'Les carrières dans la magistrature', href: '#' },
   { label: 'Rencontrons-nous', href: '#' },
