@@ -10,7 +10,7 @@
       :poster="vignette"
     />-->
     <iframe 
-    class="w-full h-full max-h-screen rounded-4xl aspect-[9/16]"
+    class="w-full h-full max-h-screen rounded-2xl aspect-[9/16]"
     :src="videoId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 </template>
