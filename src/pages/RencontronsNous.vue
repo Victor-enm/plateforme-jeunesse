@@ -74,6 +74,14 @@
         },
       ]"
       />
+
+      <SectionBase
+        title="Suis-nous sur nos différents réseaux"
+        text="Instagram, Facebook, X, TikTok, LinkedIn, nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
+        bgColor="bg-violet"
+        txtColor="text-gris"
+        Rs="true"
+        />
       
     </main>
   </template>

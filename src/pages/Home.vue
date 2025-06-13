@@ -8,7 +8,7 @@
         :buttons="[
           {
             text: 'Je fais  le test !',
-            to: '/',
+            to: '/autre',
             variant: 'violet',
           },
         ]"

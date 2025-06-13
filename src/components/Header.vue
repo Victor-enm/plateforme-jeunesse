@@ -1,9 +1,9 @@
 <template>
-  <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[10vh]">
+  <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[10vh] lg:h-34">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center">
-        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12" />
+        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-40 lg:h-auto" />
       </RouterLink>
 
       <!-- Mobile burger -->
@@ -27,7 +27,7 @@
 
       <!-- Desktop nav -->
       <nav class="hidden sm:flex space-x-4">
-        <NavLink v-for="item in navItems" :key="item.label" :href="item.href">{{ item.label }}</NavLink>
+        <router-link v-for="item in navItems" :key="item.label" :to="item.href">{{ item.label }}</router-link>
       </nav>
     </div>
 
@@ -38,14 +38,15 @@
         class="sm:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
         id="mobile-menu"
       >
-        <a
+        <router-link
           v-for="item in navItems"
           :key="item.label"
-          :href="item.href"
+          :to="item.href"
+          @click="closeMenu"
           class="text-violet border-2 border-violet px-4 py-3 rounded-full text-lg font-medium w-full max-w-xs  first:text-gris first:bg-rouge first:border-rouge first:mb-15"
         >
           {{ item.label }}
-        </a>
+        </router-link>
       </div>
     </transition>
   </header>
@@ -61,6 +62,11 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
 
+// Méthode pour fermer le menu
+const closeMenu = () => {
+    isMenuOpen.value = false;
+};
+
 const navItems = [
   { label: 'Quel magistrat es-tu ?', href: '/autre' },
   { label: 'Les métiers de la magistrature', href: '/les-metiers' },
@@ -68,7 +74,7 @@ const navItems = [
   { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces' },
   { label: 'Les carrières dans la magistrature', href: '/carriere-dans-la-magistrature' },
   { label: 'Rencontrons-nous', href: '/rencontrons-nous' },
-  { label: 'Les classes Prépas Talents de l\'ENM', href: '#' },
+  { label: 'Les classes Prépas Talents de l\'ENM', href: '/classes-prepas-talents-enm' },
 ]
 </script>
 

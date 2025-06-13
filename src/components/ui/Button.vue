@@ -49,6 +49,8 @@
     switch (props.variant) {
       case 'violet':
         return 'px-6 py-3 bg-transparent text-violet border border-violet rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
+      case 'fullViolet':
+        return 'px-6 py-3 bg-violet text-gris border border-violet rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
       case 'fullWhite':
         return 'px-6 py-3 bg-neutral-50 text-rouge rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
       case 'white':
