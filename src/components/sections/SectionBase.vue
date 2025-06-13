@@ -45,6 +45,10 @@
         <p v-if="textSecondary" class="text-base md:text-lg mt-10 max-w-xl font-inter"
         :class="txtColor"
         v-html="textSecondary"></p>
+
+        <div v-if="imgSrc2" class="w-full h-auto flex items-center justify-center mb-5">
+          <img  :src="imgSrc2" className="object-contain mt-4 text-violet rounded-2xl" />
+        </div>
       </section>
 </template>
 
@@ -69,6 +73,7 @@ const props = defineProps({
   }, 
   iconName: String,
   imgSrc: String,
+  imgSrc2: String,
   card: Boolean,
   cards: {
     type: Array, 

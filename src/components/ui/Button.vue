@@ -56,6 +56,8 @@
         return 'px-6 py-3 bg-transparent text-gris border border-gris rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
       case 'red':
         return 'px-6 py-3 bg-transparent text-rouge border border-rouge rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
+      case 'fullRed':
+        return 'px-6 py-3 bg-rouge text-gris border border-rouge rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
     }
   })
   </script>

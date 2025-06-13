@@ -66,8 +66,8 @@ const navItems = [
   { label: 'Les métiers de la magistrature', href: '/les-metiers' },
   { label: 'L\'école nationale de la magistrature', href: '/ENM' },
   { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces' },
-  { label: 'Les carrières dans la magistrature', href: '#' },
-  { label: 'Rencontrons-nous', href: '#' },
+  { label: 'Les carrières dans la magistrature', href: '/carriere-dans-la-magistrature' },
+  { label: 'Rencontrons-nous', href: '/rencontrons-nous' },
   { label: 'Les classes Prépas Talents de l\'ENM', href: '#' },
 ]
 </script>

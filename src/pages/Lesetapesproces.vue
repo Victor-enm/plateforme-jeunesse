@@ -85,7 +85,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
           {
             text: 'Quel magistrat es-tu ?',
             to: '/',
-            variant: 'red',
+            variant: 'fullRed',
           },
         ]"
       />
