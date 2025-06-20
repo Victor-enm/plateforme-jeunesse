@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between lg:justify-evenly lg:max-w-full lg:pl-15 lg:pr-15 text-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center">
-        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-28 lg:h-auto " />
+        <img src="/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-28 lg:h-auto " />
       </RouterLink>
 
       <!-- Mobile burger -->

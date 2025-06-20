@@ -11,7 +11,7 @@
         title="L'ouverture de l'audience"
         text="Le procès commence avec le président de l’audience (le juge ou le président de la cour d’assises). Il rappelle les faits et présente les éléments du dossier afin que tout le monde ait bien en tête les enjeux de l’affaire. Il veille également à ce que les règles de procédure soient respectées tout au long de l’audience."
         bgColor="bg-violet"
-        imgSrc="src/assets/images/test2.jpg"
+        imgSrc="/images/test2.jpg"
         nombre="1"
         />
 
@@ -27,7 +27,7 @@ Enfin, l’avocat de la défense intervient pour défendre son client en plaidan
 <br><br>
 Parfois, des témoins ou des experts (comme des médecins légistes ou des psychologues) sont appelés à témoigner pour éclairer le tribunal sur certains aspects de l’affaire."
         bgColor="bg-rouge"
-        imgSrc="src/assets/images/test2.jpg"
+        imgSrc="/images/test2.jpg"
         nombre="2"
         />
 
@@ -39,7 +39,7 @@ Ils doivent analyser les preuves, les témoignages et les arguments des parties 
         bgColor="bg-gris "
         txtColor="text-violet"
         borderColor="border-violet"
-        imgSrc="src/assets/images/test2.jpg"
+        imgSrc="/images/test2.jpg"
         nombre="3"
         />
 
@@ -51,7 +51,7 @@ Si la personne est reconnue coupable, une peine est prononcée. Il peut s’agir
         bgColor="bg-violet "
         txtColor="text-gris"
         borderColor="border-gris"
-        imgSrc="src/assets/images/test2.jpg"
+        imgSrc="/images/test2.jpg"
         nombre="4"
         />
 
@@ -63,7 +63,7 @@ Ces étapes permettent de garantir une justice équitable en écoutant toutes le
         bgColor="bg-rouge "
         txtColor="text-gris"
         borderColor="border-gris"
-        imgSrc="src/assets/images/test2.jpg"
+        imgSrc="/images/test2.jpg"
         nombre="5"
         />
 
