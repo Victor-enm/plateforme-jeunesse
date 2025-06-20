@@ -1,10 +1,12 @@
 <template>
     <main class="h-screen w-screen snap-y snap-mandatory overflow-y-scroll">
       <SectionBase
-        title="Être magistrat(e), c’est quoi ?"
+        title="Être magistrat(e), c’est quoi&nbsp;?"
         text="Les magistrats veillent à l’application de la loi en tant que juges ou procureurs, jouant ainsi un rôle clé dans la société. Découvre celui qui te correspond et les études à suivre en passant le test !"
         bgColor="bg-gris"
         iconName="code penal"
+        responsivTxt="lg:flex-row"
+        pictoSize="lg:relative lg:top-20 lg:right-90"
         :buttons="[
           {
             text: 'Je fais  le test !',
@@ -15,10 +17,11 @@
       />
 
       <SectionBase
-        title="Quel magistrat sommeille en toi ?"
+        title="Quel magistrat sommeille en toi&nbsp;?"
         text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi !"
         bgColor="bg-rouge"
         txtColor="text-gris"
+        responsivTxt="lg:flex-row"
         :buttons="[
           {
             text: 'Je fais  le test !',
@@ -34,16 +37,17 @@
         bgColor="bg-violet"
         iconName="codes"
         txtColor="text-gris"
+        pictoSize="md:hidden"
         :buttons="[
           {
             text: 'Magistrat du siège',
-            to: '/',
+            to: '/les-metiers#magistratsiege',
             variant: 'white',
-            class: 'mb-5'
+            class: 'mb-5 lg:mr-5 lg:mt-6'
           },
           {
             text: 'Magistrat du parquet',
-            to: '/',
+            to: '/les-metiers#magistratparquet',
             variant: 'red',
           },
         ]"
@@ -54,10 +58,11 @@
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique."
         bgColor="bg-gris"
         iconName="toque"
+        responsivTxt="lg:flex-row"
         :buttons="[
           {
             text: 'Découvrir',
-            to: '/',
+            to: '/ENM',
             variant: 'violet',
           },
         ]"
@@ -71,8 +76,9 @@
         :buttons="[
           {
             text: 'Découvre les grandes étapes',
-            to: '/',
+            to: '/les-etapes-proces',
             variant: 'white',
+            class: 'mt-5',
           },
         ]"
       />
@@ -81,12 +87,12 @@
         title="Une carrière dans la magistrature"
         text="Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
         bgColor="bg-violet"
-        txtColor="text-gris"
-        :buttons="[
+        txtColor="text-gris"        :buttons="[
           {
             text: 'Découve les évolutions possibles',
-            to: '/',
+            to: '/carriere-dans-la-magistrature',
             variant: 'white',
+            class: 'mt-5',
           },
         ]"
       />
@@ -99,8 +105,9 @@
         :buttons="[
           {
             text: 'Dates à venir',
-            to: '/',
+            to: '/rencontrons-nous',
             variant: 'violet',
+            class: 'mt-5',
           },
         ]"
       />
@@ -114,8 +121,9 @@
         :buttons="[
           {
             text: 'Découvre comment y accéder',
-            to: '/',
+            to: '/classes-prepas-talents-enm',
             variant: 'white',
+            class: 'mt-5',
           },
         ]"
       />

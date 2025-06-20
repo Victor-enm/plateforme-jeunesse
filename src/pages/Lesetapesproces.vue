@@ -7,7 +7,7 @@
         iconName="balance"
         />
 
-        <SectionImage
+        <SectionImageStages
         title="L'ouverture de l'audience"
         text="Le procès commence avec le président de l’audience (le juge ou le président de la cour d’assises). Il rappelle les faits et présente les éléments du dossier afin que tout le monde ait bien en tête les enjeux de l’affaire. Il veille également à ce que les règles de procédure soient respectées tout au long de l’audience."
         bgColor="bg-violet"
@@ -15,7 +15,7 @@
         nombre="1"
         />
 
-        <SectionImage
+        <SectionImageStages
         title="L’écoute des parties"
         text="Chaque personne concernée par l’affaire prend la parole pour exprimer sa version des faits et défendre ses intérêts.
 <br><br>
@@ -31,7 +31,7 @@ Parfois, des témoins ou des experts (comme des médecins légistes ou des psych
         nombre="2"
         />
 
-        <SectionImage
+        <SectionImageStages
         title="La délibération"
         text="Une fois que tout le monde s’est exprimé, les juges (ou les jurés dans certains cas) se retirent pour discuter et prendre leur décision. 
 <br><br>
@@ -43,7 +43,7 @@ Ils doivent analyser les preuves, les témoignages et les arguments des parties 
         nombre="3"
         />
 
-        <SectionImage
+        <SectionImageStages
         title="L’annonce du jugement"
         text="Enfin, le tribunal revient en audience et annonce la décision : coupable ou non coupable. 
 <br><br>
@@ -55,7 +55,7 @@ Si la personne est reconnue coupable, une peine est prononcée. Il peut s’agir
         nombre="4"
         />
 
-        <SectionImage
+        <SectionImageStages
         title="L’importance du respect des droits"
         text="Durant tout le procès, chaque partie dispose de droits fondamentaux. L’accusé a le droit d’être assisté par un avocat et de se défendre, tandis que la victime peut être représentée et demander réparation. Le tribunal doit garantir une justice impartiale et équitable, en respectant les lois en vigueur.
 <br><br>
@@ -80,12 +80,13 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
             text: 'École nationale de la magistrature',
             to: '/ENM',
             variant: 'violet',
-            class: 'mb-5'
+            class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
             text: 'Quel magistrat es-tu ?',
             to: '/',
             variant: 'fullRed',
+            class: 'lg:hover:border-rouge'
           },
         ]"
       />

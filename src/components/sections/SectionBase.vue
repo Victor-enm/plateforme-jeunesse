@@ -1,6 +1,6 @@
 <template>
     <section
-        class="snap-start w-full min-h-screen flex flex-col items-center justify-center px-4 text-center pt-25 pb-32"
+        class="snap-start w-full min-h-screen flex flex-col items-center justify-center px-4 text-center pt-25 pb-32 lg:pt-34"
         :class="bgColor"
         :id="ancre"
 
@@ -13,15 +13,20 @@
         :class="pictoSize">
           <SvgIcon  :name="iconName" className="object-contain mb-4 text-violet" />
         </div>
-        <h2 class="text-4xl md:text-4xl mb-4 lg:text-6xl"
+        <h2 class="text-4xl lg:text-2xl mb-4  xl:text-8xl lg:w-4xl"
         :class="txtColor">{{ title }}</h2>
-        <p v-if="text" class="text-base md:text-lg mb-10 max-w-xl font-inter"
+
+        <div 
+        :class="responsivTxt"
+        class="flex flex-col items-center justify-center"
+        >
+        <p v-if="text" class="text-base text-center md:text-lg mb-10 lg:mb-0 max-w-xl font-inter"
         :class="txtColor"
         v-html="text">
-           
         </p>
-        <Button
+        <span><Button
           v-for="(button, index) in buttons"
+          class="lg:text-2xl"
           :key="index"
           :variant="button.variant"
           :to="button.to"
@@ -31,8 +36,10 @@
         >
           {{ button.text }}
         </Button>
+        </span>
+        </div>
 
-        <div v-if="card" class="w-full max-w-xl space-y-4">
+        <div v-if="card" class="w-full max-w-xl space-y-4 flex flex-col items-center mt-5">
             <SimpleCard
                 v-for="(card, index) in cards"
                 :key="index"
@@ -50,21 +57,21 @@
           <img  :src="imgSrc2" className="object-contain mt-4 text-violet rounded-2xl" />
         </div>
 
-        <div v-if="Rs" class="w-80 h-auto flex items-center justify-evenly flex-wrap text-gris">
-          <a href="https://www.instagram.com/enm_france/" target="_blank" aria-label="Instagram" class="w-16 h-16 mr-5">
+        <div v-if="Rs" class="w-80 h-auto flex items-center justify-evenly flex-wrap text-gris lg:w-auto lg:mt-10 lg:justify-between">
+          <a href="https://www.instagram.com/enm_france/" target="_blank" aria-label="Instagram" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
             <InstagramIcon class="w-full h-full " />
           </a>
-        <a href="https://www.facebook.com/EcoleNationaleMagistrature" target="_blank" aria-label="Facebook" class="w-16 h-16 mr-5">
+        <a href="https://www.facebook.com/EcoleNationaleMagistrature" target="_blank" aria-label="Facebook" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
             <FacebookIcon class="w-full h-full " />
           </a>
-          <a href="https://twitter.com/ENM_France" target="_blank" aria-label="X" class="w-16 h-16 mr-5">
+          <a href="https://twitter.com/ENM_France" target="_blank" aria-label="X" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
             <XIcon class="w-full h-full " />
           </a>
-          <a href="#" target="_blank" aria-label="Tiktok" class="w-16 h-16 mr-5">
-            <TiktokIcon class="w-full h-full mt-5" />
+          <a href="#" target="_blank" aria-label="Tiktok" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+            <TiktokIcon class="w-full h-full mt-5 lg:mt-0" />
           </a>
-          <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16 mr-5">
-            <LinkedinIcon class="w-full h-full mt-5" />
+          <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+            <LinkedinIcon class="w-full h-full mt-5 lg:mt-0" />
           </a>
         </div>
       </section>
@@ -80,6 +87,7 @@ import LinkedinIcon from '../../assets/icons/linkedin.svg'
 const props = defineProps({
   title: String,
   text: String,
+  responsivTxt: String,
   textSecondary: String,
   bgColor: {
     type: String,

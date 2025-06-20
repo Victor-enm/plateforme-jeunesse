@@ -1,6 +1,6 @@
 <template>
     <div
-      class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full cursor-pointer select-none transition text-center"
+      class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full cursor-pointer select-none transition text-center lg:max-w-xs"
       @click="toggle"
     >
       <h2 class="text-xl font-bold text-violet mb-4">{{ title }}</h2>

@@ -48,18 +48,18 @@
   const buttonClasses = computed(() => {
     switch (props.variant) {
       case 'violet':
-        return 'px-6 py-3 bg-transparent text-violet border border-violet rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-violet border border-violet rounded-full md:hover:bg-violet md:hover:text-gris transition font-semibold cursor-pointer';
       case 'fullViolet':
-        return 'px-6 py-3 bg-violet text-gris border border-violet rounded-full lg:hover:bg-violet-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-violet text-gris border border-violet rounded-full md:hover:bg-gris md:hover:text-violet transition font-semibold cursor-pointer';
       case 'fullWhite':
-        return 'px-6 py-3 bg-neutral-50 text-rouge rounded-full lg:hover:bg-red-700 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-neutral-50 border text-rouge rounded-full md:hover:bg-transparent md:hover:text-gris md:hover:border-gris transition font-semibold cursor-pointer';
       case 'white':
       default:
-        return 'px-6 py-3 bg-transparent text-gris border border-gris rounded-full lg:hover:bg-gray-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-gris border border-gris rounded-full md:hover:bg-gris md:hover:text-rouge md:hover:border-gris transition font-semibold cursor-pointer';
       case 'red':
-        return 'px-6 py-3 bg-transparent text-rouge border border-rouge rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-transparent text-rouge border border-rouge rounded-full md:hover:bg-rouge md:hover:text-gris md:hover:border-rouge transition font-semibold cursor-pointer';
       case 'fullRed':
-        return 'px-6 py-3 bg-rouge text-gris border border-rouge rounded-full lg:hover:bg-red-900 transition font-semibold cursor-pointer';
+        return 'px-6 py-3 bg-rouge text-gris border border-rouge rounded-full md:hover:bg-transparent md:hover:text-rouge md:hover:border-gris transition font-semibold cursor-pointer';
     }
   })
   </script>

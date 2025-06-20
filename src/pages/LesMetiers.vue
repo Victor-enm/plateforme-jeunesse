@@ -9,7 +9,7 @@
             text: 'Magistrat du siège',
             href: '#magistratsiege',
             variant: 'violet',
-            class: 'mb-5'
+            class: 'mb-5 lg:mr-5 lg:mt-6',
           },
           {
             text: 'Magistrat du parquet',
@@ -75,6 +75,8 @@
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique. <br><br> Découvre la formation, la vie sur le campus ainsi que les témoignages d’élèves de l’ENM."
         bgColor="bg-gris"
         iconName="toque"
+        pictoSize="lg:w-60 lg:h-60"
+        responsivTxt="lg:flex-row"
         :buttons="[
           {
             text: 'Découvrir',

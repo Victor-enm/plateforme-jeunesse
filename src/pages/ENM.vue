@@ -20,6 +20,7 @@ Découvre la formation, la vie sur le campus ainsi que les témoignages d’él�
             text: 'Découvrir la formation',
             to: '/',
             variant: 'fullWhite',
+            class: 'lg:mt-5',
           },
         ]"
         />

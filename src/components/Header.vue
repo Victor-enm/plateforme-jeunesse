@@ -1,9 +1,9 @@
 <template>
   <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[10vh] lg:h-34">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between lg:justify-evenly lg:max-w-full lg:pl-15 lg:pr-15 text-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center">
-        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-40 lg:h-auto" />
+        <img src="../assets/icons/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-28 lg:h-auto " />
       </RouterLink>
 
       <!-- Mobile burger -->
@@ -26,8 +26,11 @@
       </button>
 
       <!-- Desktop nav -->
-      <nav class="hidden sm:flex space-x-4">
-        <router-link v-for="item in navItems" :key="item.label" :to="item.href">{{ item.label }}</router-link>
+      <nav class="hidden sm:flex space-x-4 font-inter">
+        <router-link v-for="item in navItems" :key="item.labelDesk" :to="item.hrefDesk"
+        class="last:bg-rouge last:text-gris last:p-2 last:border last:rounded-full last:font-sans pt-3 last:md:hover:bg-transparent last:md:hover:text-rouge last:md:hover:border-rouge transition">
+        {{ item.labelDesk }}
+      </router-link>
       </nav>
     </div>
 
@@ -68,13 +71,13 @@ const closeMenu = () => {
 };
 
 const navItems = [
-  { label: 'Quel magistrat es-tu ?', href: '/autre' },
-  { label: 'Les métiers de la magistrature', href: '/les-metiers' },
-  { label: 'L\'école nationale de la magistrature', href: '/ENM' },
-  { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces' },
-  { label: 'Les carrières dans la magistrature', href: '/carriere-dans-la-magistrature' },
-  { label: 'Rencontrons-nous', href: '/rencontrons-nous' },
-  { label: 'Les classes Prépas Talents de l\'ENM', href: '/classes-prepas-talents-enm' },
+  { label: 'Quel magistrat es-tu ?', href: '/autre', labelDesk:'Les métiers de la magistrature', hrefDesk: '/les-metiers' },
+  { label: 'Les métiers de la magistrature', href: '/les-metiers', labelDesk:'L’ENM', hrefDesk: '/ENM' },
+  { label: 'L\'école nationale de la magistrature', href: '/ENM', labelDesk:'Étapes d’un procès', hrefDesk: '/les-etapes-proces' },
+  { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces', labelDesk:'Les carrières dans la magistrature', hrefDesk: '/carriere-dans-la-magistrature' },
+  { label: 'Les carrières dans la magistrature', href: '/carriere-dans-la-magistrature', labelDesk:'Rencontrons-nous', hrefDesk: '/rencontrons-nous' },
+  { label: 'Rencontrons-nous', href: '/rencontrons-nous', labelDesk:'Les classes Prépas Talents de l’ENM', hrefDesk: '/classes-prepas-talents-enm' },
+  { label: 'Les classes Prépas Talents de l\'ENM', href: '/classes-prepas-talents-enm', labelDesk:'Quel magistrat es-tu ?', hrefDesk: '/autre' },
 ]
 </script>
 
