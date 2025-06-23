@@ -6,6 +6,7 @@ import ENM from '../pages/ENM.vue'
 import Carriere from '../pages/Carriere.vue'
 import Erreur from '../pages/404.vue'
 import RencontronsNous from '../pages/RencontronsNous.vue'
+import Quiz from '../pages/Quiz.vue'
 import CPT from '../pages/CPT.vue'
 
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
   { path: '/carriere-dans-la-magistrature', name: 'Une carrière dans la magistrature', component: Carriere},
   { path: '/rencontrons-nous', name: 'Rencontrons-nous', component: RencontronsNous},
   { path: '/classes-prepas-talents-enm', name: 'Classes prépas Talents ENM', component: CPT},
+  { path: '/quiz', name: 'Quiz', component: Quiz},
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: Erreur},
 ]
 

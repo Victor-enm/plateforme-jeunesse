@@ -10,7 +10,7 @@
         :buttons="[
           {
             text: 'Je fais  le test !',
-            to: '/autre',
+            to: '/quiz',
             variant: 'violet',
           },
         ]"
@@ -25,7 +25,7 @@
         :buttons="[
           {
             text: 'Je fais  le test !',
-            to: '/',
+            to: '/autre',
             variant: 'fullWhite',
           },
         ]"
