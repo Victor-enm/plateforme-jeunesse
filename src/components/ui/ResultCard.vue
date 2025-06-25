@@ -1,15 +1,15 @@
 <template>
   <div v-if="result" class="w-full max-w-xl text-center space-y-6">
-    <h2 class="text-3xl font-bold">{{ result.title }}</h2>
-    <p class="text-lg">{{ result.description }}</p>
-    <div class="flex justify-center gap-4">
+    <h2 class="text-3xl font-bold text-violet">{{ result.title }}</h2>
+    <p class="text-base md:text-lg mb-10 max-w-xl font-inter text-violet">{{ result.description }}</p>
+    <div class="flex flex-col justify-center gap-4">
       <router-link
-        :href="result.to"
-        class="bg-green-500 text-white px-4 py-2 rounded"
+        :to="result.to"
+        class="px-6 py-3 bg-rouge text-gris border border-rouge rounded-full md:hover:bg-transparent md:hover:text-rouge md:hover:border-rouge transition font-semibold cursor-pointer"
       >
         Voir la fiche métier
     </router-link>
-      <button class="bg-gray-400 text-white px-4 py-2 rounded" @click="$emit('reset')">
+      <button class="px-6 py-3 bg-transparent text-rouge border border-rouge rounded-full md:hover:bg-rouge md:hover:text-gris md:hover:border-rouge transition font-semibold cursor-pointer"  @click="$emit('reset')">
         Recommencer
       </button>
     </div>

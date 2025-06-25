@@ -4,21 +4,21 @@
       <p class="mb-4 font-inter">Suis l’actualité de l’ENM sur nos différents réseaux !</p>
   
       <!-- Réseaux sociaux -->
-      <div class="flex justify-center gap-4 mb-4">
+      <div class="flex justify-center gap-4 mb-4 text-violet">
         <a href="#" aria-label="Instagram">
-          <img src="../assets/icons/instagram.svg" alt="Instagram" class="w-6 h-6" />
+          <SvgIcon name="instagram" alt="Instagram" class="w-6 h-6" />
         </a>
         <a href="#" aria-label="Facebook">
-          <img src="../assets/icons/facebook.svg" alt="Facebook" class="w-6 h-6" />
+          <SvgIcon name="facebook" alt="Facebook" class="w-6 h-6" />
         </a>
         <a href="#" aria-label="X (Twitter)">
-          <img src="../assets/icons/x.svg" alt="X (Twitter)" class="w-6 h-6" />
+          <SvgIcon name="x" alt="X (Twitter)" class="w-6 h-6" />
         </a>
         <a href="#" aria-label="YouTube">
-          <img src="../assets/icons/tiktok.svg" alt="YouTube" class="w-6 h-6" />
+          <SvgIcon name="tiktok" alt="YouTube" class="w-6 h-6" />
         </a>
         <a href="#" aria-label="LinkedIn">
-          <img src="../assets/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
+          <SvgIcon name="linkedin" alt="LinkedIn" class="w-6 h-6" />
         </a>
       </div>
   
