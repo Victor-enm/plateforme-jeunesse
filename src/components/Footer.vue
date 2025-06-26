@@ -25,6 +25,7 @@
       <!-- Liens légaux -->
       <div class="flex justify-center gap-6 font-inter no-underline mb-4">
         <RouterLink to="/cookies" class=" hover:text-violet-700">Cookies</RouterLink>
+        <RouterLink to="/mentions-legales" class=" hover:text-violet-700">Mentions légales</RouterLink>
         <RouterLink to="/confidentialite" class=" hover:text-violet-700">Confidentialité</RouterLink>
       </div>
       <div class="flex justify-center gap-6 font-inter">

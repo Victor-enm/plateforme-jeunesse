@@ -8,6 +8,7 @@ import Erreur from '../pages/404.vue'
 import RencontronsNous from '../pages/RencontronsNous.vue'
 import Quiz from '../pages/Quiz.vue'
 import CPT from '../pages/CPT.vue'
+import MentionsLegales from '../pages/MentionsLegales.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/rencontrons-nous', name: 'Rencontrons-nous', component: RencontronsNous},
   { path: '/classes-prepas-talents-enm', name: 'Classes prépas Talents ENM', component: CPT},
   { path: '/quiz', name: 'Quiz', component: Quiz},
+  { path: '/mentions-legales', name: 'Mentions Légales', component: MentionsLegales},
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: Erreur},
 ]
 
