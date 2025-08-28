@@ -82,11 +82,12 @@
         txtColor="text-gris"
         Rs="true"
         />
-      
+      <Footer />
     </main>
   </template>
   
-  <script setup>  
-  
-  </script>
+  <script setup>
+import Footer from '../components/Footer.vue'
+
+</script>
   

@@ -126,11 +126,11 @@
       card= "true"
       :cards= "[
         {
-          title: 'Montant minimum 382,80 € par mois',
+          title: 'Montant minimum 382,80 € par mois',
           css: '!bg-transparent !text-violet !border-violet'
         },
         {
-          title: 'Une aide complémentaire de 4000 € peut aussi être versée pendant l’année.',
+          title: 'Une aide complémentaire de 4000 € peut aussi être versée pendant l’année.',
           css: '!bg-transparent !text-violet !border-violet'
         },
       ]"

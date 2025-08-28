@@ -38,8 +38,12 @@ Toute reproduction, représentation, modification, publication ou adaptation des
         pictoSize="md:hidden"
       />
   
-  
+      <Footer />
     </main>
   
     
   </template>
+  <script setup>
+import Footer from '../components/Footer.vue'
+
+</script>

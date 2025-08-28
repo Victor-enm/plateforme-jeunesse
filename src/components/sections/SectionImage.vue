@@ -1,7 +1,9 @@
 <template>
     <section
         class="snap-start w-full min-h-screen flex flex-col items-center justify-center px-4 text-center pt-25 pb-32 lg:pt-45"
-        :class="bgColor"        
+        :class="bgColor"   
+        :id="ancre"
+
     >
     <div v-if="imgSrc" class="w-full h-auto flex items-center justify-center mb-5">
           <img :src="imgSrc" className="object-contain mb-4 text-violet rounded-2xl" />
@@ -22,6 +24,8 @@
 
     <div v-if="cardTitle" class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full text-center"
     :class="cardBg">
+      <Piece v-if="piece"
+      :class="piece"/>
       <h3>{{ cardTitle }}</h3>
       <p class="text-m md:text-s max-w-xl font-inter"
         v-html="cardText">
@@ -31,12 +35,15 @@
 </template>
 
 <script setup>
+import Piece from '@/assets/icons/piece.svg'
 
 const props = defineProps({
   title: String,
   text: String,
   imgSrc: String,
   nombre: Number,
+  ancre: String,
+  piece: String,
   bgColor: {
     type: String,
     default: 'bg-rouge',

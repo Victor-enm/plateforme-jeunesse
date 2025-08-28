@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-gris text-center py-10 px-20 text-sm text-neutral-700 snap-y snap-mandatory overflow-y-scroll">
+    <footer class="bg-gris text-center py-10 px-20 text-sm text-neutral-700 snap-start">
       <!-- Texte principal -->
       <p class="mb-4 font-inter">Suis l’actualité de l’ENM sur nos différents réseaux !</p>
   

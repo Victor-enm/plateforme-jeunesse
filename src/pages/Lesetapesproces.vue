@@ -5,13 +5,14 @@
         text="Un procès, c’est un moment important où la justice intervient pour trancher un conflit ou juger une personne accusée d’une infraction. Voici les grandes étapes d’une audience judiciaire."
         bgColor="bg-gris"
         iconName="balance"
+        pictoSize="w-35 h-35"
         />
 
         <SectionImageStages
         title="L'ouverture de l'audience"
         text="Le procès commence avec le président de l’audience (le juge ou le président de la cour d’assises). Il rappelle les faits et présente les éléments du dossier afin que tout le monde ait bien en tête les enjeux de l’affaire. Il veille également à ce que les règles de procédure soient respectées tout au long de l’audience."
         bgColor="bg-violet"
-        imgSrc="/images/test2.jpg"
+        :imgSrc=Ouverture
         nombre="1"
         />
 
@@ -19,7 +20,7 @@
         title="L’écoute des parties"
         text="Chaque personne concernée par l’affaire prend la parole pour exprimer sa version des faits et défendre ses intérêts.
 <br><br>
-La personne accusée (appelée « prévenu » en correctionnelle ou « accusé » aux assises) commence par donner sa version des événements. Si une victime est impliquée, elle peut expliquer ce qu’elle a vécu. 
+La personne accusée (appelée « prévenu » en correctionnelle ou « accusé » aux assises) commence par donner sa version des événements. Si une victime est impliquée, elle peut expliquer ce qu’elle a vécu. 
 <br><br>
 Ensuite, le Procureur de la République, représentant l’intérêt de la société, présente ses arguments et peut proposer une sanction. 
 <br><br>
@@ -27,7 +28,7 @@ Enfin, l’avocat de la défense intervient pour défendre son client en plaidan
 <br><br>
 Parfois, des témoins ou des experts (comme des médecins légistes ou des psychologues) sont appelés à témoigner pour éclairer le tribunal sur certains aspects de l’affaire."
         bgColor="bg-rouge"
-        imgSrc="/images/test2.jpg"
+        :imgSrc=EcouteDesParties
         nombre="2"
         />
 
@@ -90,5 +91,12 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
           },
         ]"
       />
+      <Footer />
     </main>
 </template>
+<script setup>
+import Footer from '@/components/Footer.vue'
+import Ouverture from '@/assets/images/proces/FI1_.webp'
+import EcouteDesParties from '@/assets/images/proces/Ecoute des parties_.webp'
+
+</script>

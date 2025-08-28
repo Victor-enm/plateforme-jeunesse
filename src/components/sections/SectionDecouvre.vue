@@ -17,12 +17,21 @@
         </p>
         
 
-        <div class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl">
+        <div v-if="ExpandableCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl">
             <ExpandableCard
-                v-for="(card, index) in cards"
+                v-for="(card, index) in ExpandableCards"
                 :key="index"
                 :title="card.title"
                 :description="card.description"
+            />
+        </div>
+        <div v-if="DecouvreCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl">
+            <DecouvreCard
+                v-for="(card, index) in DecouvreCards"
+                :key="index"
+                :title="card.title"
+                :description="card.description"
+                :to="card.to"
             />
         </div>
     </div>
@@ -31,11 +40,13 @@
 
 <script setup>
 import ExpandableCard from '../ui/AccordeonCard.vue' 
+import DecouvreCard from '../ui/DecouvreCard.vue';
 
 const props = defineProps({
   title: String,
   text: String,
   ancre: String,
+  to: String,
   bgColor: {
     type: String,
     default: 'bg-rouge',
@@ -44,7 +55,11 @@ const props = defineProps({
     type: String,
     default: 'text-gris',
   },
- cards: {
+ ExpandableCards: {
+    type: Array, 
+    default: () => [],
+ },
+ DecouvreCards: {
     type: Array, 
     default: () => [],
  },

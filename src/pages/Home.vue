@@ -21,6 +21,7 @@
         text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi !"
         bgColor="bg-rouge"
         txtColor="text-gris"
+        iconName="crayons"
         responsivTxt="lg:flex-row"
         :buttons="[
           {
@@ -37,17 +38,11 @@
         bgColor="bg-violet"
         iconName="codes"
         txtColor="text-gris"
-        pictoSize="md:hidden"
+        pictoSize="w-30 h-30 md:hidden"
         :buttons="[
           {
-            text: 'Magistrat du siège',
-            to: '/les-metiers#magistratsiege',
-            variant: 'white',
-            class: 'mb-5 lg:mr-5 lg:mt-6'
-          },
-          {
-            text: 'Magistrat du parquet',
-            to: '/les-metiers#magistratparquet',
+            text: 'Découvrir les métiers',
+            to: '/les-metiers',
             variant: 'red',
           },
         ]"
@@ -58,7 +53,8 @@
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique."
         bgColor="bg-gris"
         iconName="toque"
-        responsivTxt="lg:flex-row"
+        pictoSize="w-30 h-30 pt-6"
+        responsivTxt=" lg:flex-row"
         :buttons="[
           {
             text: 'Découvrir',
@@ -71,6 +67,7 @@
       <SectionBase
         title="Plonge au cœur d’un procès"
         text="Un procès, c’est un moment important où la justice intervient pour trancher un conflit ou juger une personne accusée d’une infraction. Voici les grandes étapes d’une audience judiciaire."
+        iconName="balance"
         bgColor="bg-rouge"
         txtColor="text-gris"
         :buttons="[
@@ -87,7 +84,9 @@
         title="Une carrière dans la magistrature"
         text="Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
         bgColor="bg-violet"
-        txtColor="text-gris"        :buttons="[
+        txtColor="text-gris"
+        iconName="themis"
+        :buttons="[
           {
             text: 'Découve les évolutions possibles',
             to: '/carriere-dans-la-magistrature',
@@ -127,9 +126,13 @@
           },
         ]"
       />
-  
-  
+
+<Footer />  
     </main>
   
     
   </template>
+  <script setup>
+import Footer from '../components/Footer.vue'
+
+</script>

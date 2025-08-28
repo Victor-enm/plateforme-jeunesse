@@ -87,7 +87,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
           css: '!bg-transparent !text-gris !border-gris'
         }
       ]"
-      textSecondary="Au cours de sa carrière, tu pourras aussi évoluer entre les fonctions du siège et du parquet et exercer dans des champs d’activité variés : dans les domaines économique, international, carcéral, hospitalier, familial ou de la protection de l’enfance, bref pas de routine !"
+      textSecondary="Au cours de sa carrière, tu pourras aussi évoluer entre les fonctions du siège et du parquet et exercer dans des champs d’activité variés : dans les domaines économique, international, carcéral, hospitalier, familial ou de la protection de l’enfance, bref pas de routine !"
       
       />
 
@@ -100,7 +100,7 @@ Un magistrat en détachement est un juge ou un procureur qui quitte temporaireme
 <br><br>
 Par exemple, tu pourras travailler dans des ministères variés tels que le ministère des Armées, de l’Intérieur, de la Santé, de l’Economie et des Finances, des Outre-Mer ou auprès d’institutions publiques telles que le Défenseur des droits. 
 <br><br>
-Si tu souhaites travailler à l’international, plusieurs possibilités s’offrent à toi :"
+Si tu souhaites travailler à l’international, plusieurs possibilités s’offrent à toi :"
       bgColor= "bg-rouge"
       txtColor= "text-gris"
       :cards= "[
@@ -145,11 +145,12 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
           },
         ]"
       />
+      <Footer />
       
     </main>
   </template>
   
-  <script setup>  
-  
-  </script>
-  
+<script setup>
+import Footer from '../components/Footer.vue'
+
+</script>
