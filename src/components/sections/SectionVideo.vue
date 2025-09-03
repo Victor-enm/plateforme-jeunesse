@@ -1,7 +1,8 @@
 <template>
     <section
         class="snap-start w-full min-h-screen flex flex-col items-center justify-center px-4 text-center pt-32 pb-32"
-        :class="bgColor"        
+        :class="bgColor"
+        :id="ancre"        
     >
    <!-- <video
       controls
@@ -20,5 +21,6 @@
 const props = defineProps({
     bgColor: String,
     videoId: String,
+    ancre: String,
 })
 </script>

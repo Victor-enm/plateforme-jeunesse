@@ -1,18 +1,29 @@
 <template>
     <main class="h-screen w-screen snap-y snap-mandatory overflow-y-scroll">
         <SectionBase
-        title="Une carrière dans la magistrature"
-        text="Devenir magistrat, c’est choisir un métier au cœur de la justice. Juges et procureurs veillent à appliquer la loi, protéger les citoyens et garantir l’équité. Cette carrière exige rigueur, sens de l’éthique et esprit d’analyse. Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
+        title="Juge aux affaires familiales"
+        text="En tant que juge aux affaires familiales, tu es le spécialiste du droit de la famille dans un tribunal. Tu interviens en particulier pour décider de la résidence des enfants, des droits de visite et d’hébergement et du montant de la pension alimentaire ainsi que dans les procédures de divorce. Ton rôle est de chercher les solutions les plus adaptées possibles dans des situations parfois très difficiles. Tu joues aussi un rôle important de protection en matière de violences intra-familiales. Ta fonction, qui exige que tu sois rigoureux et attentif aux autres, te placera au cœur des enjeux de la famille et de la société. "
         bgColor="bg-gris"
         iconName="themis"
         pictoSize="w-30 h-30"
         :buttons="[
           {
-            text: 'Je découvre',
-            href: '#jedecouvre',
+            text: 'Plus d’informations sur ce métier',
+            href: '#Decouvre-le-metier',
+            variant: 'red',
+          },
+          {
+            text: 'Découvre les autres métiers possibles',
+            href: '/les-metiers#magistratsiege',
             variant: 'red',
           },
         ]"
+        />
+
+        <SectionVideo
+          title="Découvre le métier de juge aux affaires familiales"
+          ancre="Decouvre-le-metier"
+          videoID="/src/assets/videos/juge_affaires_familiales.mp4"
         />
 
       <SectionBase

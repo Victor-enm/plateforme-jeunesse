@@ -11,12 +11,7 @@
         <a href="#" aria-label="Facebook">
           <SvgIcon name="facebook" alt="Facebook" class="w-6 h-6" />
         </a>
-        <a href="#" aria-label="X (Twitter)">
-          <SvgIcon name="x" alt="X (Twitter)" class="w-6 h-6" />
-        </a>
-        <a href="#" aria-label="YouTube">
-          <SvgIcon name="tiktok" alt="YouTube" class="w-6 h-6" />
-        </a>
+       
         <a href="#" aria-label="LinkedIn">
           <SvgIcon name="linkedin" alt="LinkedIn" class="w-6 h-6" />
         </a>

@@ -46,6 +46,7 @@
                 :title="card.title"
                 :description="card.description"
                 :class="card.css"
+                :typoDesc="card.typoDesc"
             />
         </div>
 
@@ -64,25 +65,20 @@
         <a href="https://www.facebook.com/EcoleNationaleMagistrature" target="_blank" aria-label="Facebook" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
             <FacebookIcon class="w-full h-full " />
           </a>
-          <a href="https://twitter.com/ENM_France" target="_blank" aria-label="X" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
-            <XIcon class="w-full h-full " />
-          </a>
-          <a href="#" target="_blank" aria-label="Tiktok" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
-            <TiktokIcon class="w-full h-full mt-5 lg:mt-0" />
-          </a>
+          
           <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
-            <LinkedinIcon class="w-full h-full mt-5 lg:mt-0" />
+            <LinkedinIcon class="w-full h-full lg:mt-0" />
           </a>
         </div>
       </section>
 </template>
 
 <script setup>
-import InstagramIcon from '../../assets/icons/instagram.svg'
-import FacebookIcon from '../../assets/icons/facebook.svg'
-import XIcon from '../../assets/icons/x.svg'
-import TiktokIcon from '../../assets/icons/tiktok.svg'
-import LinkedinIcon from '../../assets/icons/linkedin.svg'
+import InstagramIcon from '@/assets/icons/instagram.svg'
+import FacebookIcon from '@/assets/icons/facebook.svg'
+import XIcon from '@/assets/icons/x.svg'
+import TiktokIcon from '@/assets/icons/tiktok.svg'
+import LinkedinIcon from '@/assets/icons/linkedin.svg'
 
 const props = defineProps({
   title: String,

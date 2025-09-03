@@ -180,10 +180,15 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
           },
         ]"
       />
+
+    <Footer />
+
     </main>
+
   </template>
   
   <script setup>  
+import Footer from '@/components/Footer.vue'
   
   </script>
   

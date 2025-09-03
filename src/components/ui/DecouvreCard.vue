@@ -2,7 +2,7 @@
     <div
       class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full cursor-pointer select-none transition text-center lg:max-w-xs"
     >
-      <h2 class="text-xl font-bold text-violet mb-4">{{ title }}</h2>
+      <h2 class="text-xl text-violet mb-4">{{ title }}</h2>
   
         <div
           class="overflow-hidden text-violet mb-4 font-inter"

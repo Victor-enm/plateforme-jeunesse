@@ -33,7 +33,7 @@
 
       <SectionBase
       title= "Les journées portes ouvertes"
-      text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer dans nos locaux sur l’une de ces dates"
+      text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer dans l'École sur l’une de ces dates"
       bgColor= "bg-rouge"
       txtColor= "text-gris"
       card= "true"
@@ -62,22 +62,25 @@
       :cards= "[
         {
           description: '1) Parles-en à ton prof principal',
-          css: '!bg-transparent !text-violet !border-violet'
+          css: '!bg-transparent !text-violet !border-violet',
+          css: 'flex justify-start',
         },
         {
           description: '2) Nous contacter à enm@magistrat.fr',
-          css: '!bg-transparent !text-violet !border-violet'
+          css: '!bg-transparent !text-violet !border-violet',
+          css: 'flex justify-start',
         },
         {
           description: '3) Nous venons à ta rencontre',
-          css: '!bg-transparent !text-violet !border-violet'
+          css: '!bg-transparent !text-violet !border-violet',
+          css: 'flex justify-start',
         },
       ]"
       />
 
       <SectionBase
         title="Suis-nous sur nos différents réseaux"
-        text="Instagram, Facebook, X, TikTok, LinkedIn, nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
+        text="Instagram, Facebook, LinkedIn, nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
         bgColor="bg-violet"
         txtColor="text-gris"
         Rs="true"
