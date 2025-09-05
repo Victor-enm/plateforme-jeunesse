@@ -19,8 +19,8 @@
       <SectionBase
         title="Quel magistrat sommeille en toi&nbsp;?"
         text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi !"
-        bgColor="bg-rouge"
-        txtColor="text-gris"
+        bgColor="bg-gris"
+        txtColor="text-violet"
         iconName="crayons"
         responsivTxt="lg:flex-row"
         :buttons="[
@@ -51,7 +51,8 @@
       <SectionBase
         title="L’école nationale de la magistrature"
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique."
-        bgColor="bg-gris"
+        bgColor="bg-rouge"
+        txtColor="text-gris"
         iconName="toque"
         pictoSize="w-30 h-30 pt-6"
         responsivTxt=" lg:flex-row"
@@ -59,7 +60,7 @@
           {
             text: 'Découvrir',
             to: '/ENM',
-            variant: 'violet',
+            variant: 'blanc',
           },
         ]"
       />
@@ -68,13 +69,13 @@
         title="Plonge au cœur d’un procès"
         text="Un procès, c’est un moment important où la justice intervient pour trancher un conflit ou juger une personne accusée d’une infraction. Voici les grandes étapes d’une audience judiciaire."
         iconName="balance"
-        bgColor="bg-rouge"
-        txtColor="text-gris"
+        bgColor="bg-gris"
+        txtColor="text-violet"
         :buttons="[
           {
             text: 'Découvre les grandes étapes',
             to: '/les-etapes-proces',
-            variant: 'white',
+            variant: 'red',
             class: 'mt-5',
           },
         ]"
@@ -88,7 +89,7 @@
         iconName="themis"
         :buttons="[
           {
-            text: 'Découve les évolutions possibles',
+            text: 'Découvre les évolutions possibles',
             to: '/carriere-dans-la-magistrature',
             variant: 'white',
             class: 'mt-5',

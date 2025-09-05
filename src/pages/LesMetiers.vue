@@ -29,37 +29,37 @@
         {
           title: 'Juge aux affaires familiales',
           description: 'Il prend des décisions dans les conflits familiaux, comme les divorces. Il veille à protéger les droits des membres de la famille et à garantir le bien-être des enfants dans ces situations.',
-          to: '/',
+          to: '/les-metiers/juges-aux-affaires-familiales',
         },
         {
           title: 'Juge de l’application des peines',
           description: 'Il veille à ce que les peines de prison soient bien respectées et décide des mesures pour aider les condamnés à se réinsérer dans la société.',
-          to: '/',
+          to: '/les-metiers/juge-application-des-peines',
         },
         {
             title: 'Juge civil',
             description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif ? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
-            to: '/',
+            to: '/les-metiers/juge-civil',
         },
         {
             title: 'Juge des contentieux et de la protection',
             description: 'Il traite des litiges liés à la protection des personnes vulnérables, comme les mineurs ou les adultes incapables de se défendre seuls.',
-            to: '/',
+            to: '/les-metiers/juge-des-contentieux-protection',
         },
         {
             title: 'Juge correctionnel',
             description: 'Il décide si une personne doit rester en prison pendant son enquête ou si elle peut être libérée. Il veille à ce que les droits de la personne soient respectés tout en protégeant la société.',
-            to: '/',
+            to: '/les-metiers/juge-correctionnel',
         },
         {
             title: 'Juge des enfants',
             description: 'Il prend des décisions pour protéger les mineurs en danger. Il peut aussi décider de mesures éducatives pour aider l’enfant à se reconstruire.',
-            to: '/',
+            to: '/les-metiers/juge-des-enfants',
         },
         {
             title: 'Juge d’instruction',
             description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif ? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
-            to: '/',
+            to: '/les-metiers/juge-instruction',
         },
       ]"
       />
@@ -74,7 +74,7 @@
         {
           title: 'Substitut du procureur',
           description: 'Il assiste le procureur de la République dans ses fonctions. Il joue un rôle clé dans la poursuite des délits et la défense de l’ordre public.',
-          to: '/',
+          to: '/les-metiers/substitut-du-procureur',
         },
     ]"
     />

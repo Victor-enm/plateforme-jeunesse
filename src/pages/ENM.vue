@@ -80,7 +80,7 @@ Ce cursus alterne entre :"
 
         <SectionVideo
         bgColor="bg-gris"
-        videoId="https://www.youtube.com/embed/I59NnurT_jE"
+        videoId="https://www.youtube.com/embed/0pasDbselfw"
 
         />
 
@@ -121,7 +121,7 @@ Les cours se déclinent sous différents formats :"
 
         <SectionVideo
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/I59NnurT_jE"
+        videoId="https://www.youtube.com/embed/3noWeYM3D6c"
 
         />
 
@@ -157,7 +157,7 @@ Les cours se déclinent sous différents formats :"
         />
         <SectionVideo
         bgColor="bg-violet"
-        videoId="https://www.youtube.com/embed/I59NnurT_jE"
+        videoId="https://www.youtube.com/embed/7VqJ-r1NC_Y"
 
         />
 
@@ -165,8 +165,7 @@ Les cours se déclinent sous différents formats :"
          <SectionBase
         :imgSrc=Campus
         title="La vie de campus"
-        text="L’ENM : bien plus qu’une école, une véritable immersion dans le monde judiciaire
-Depuis sa création en 1958, l’Ecole nationale de la magistrature est l’unique école de formation des magistrats en France. Son rôle ? Former des juges et procureurs capables de comprendre la société dans laquelle ils rendent la justice.
+        text="L’ENM : bien plus qu’une école, une véritable immersion dans le monde judiciaire. Depuis sa création en 1958, l’Ecole nationale de la magistrature est l’unique école de formation des magistrats en France. Son rôle ? Former des juges et procureurs capables de comprendre la société dans laquelle ils rendent la justice.
 <br><br>
 Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiques pour exercer les fonctions de magistrat."
         txtColor="text-gris"
@@ -236,7 +235,7 @@ Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiq
         title="Les élèves racontent leur parcours"
         text="Curieux de savoir ce que signifie réellement être élève magistrat à l’ENM ? Rien de mieux que d’écouter ceux qui le vivent au quotidien !
 <br><br>
-Les élèves magistrats des promotions 2024 et 2025 partagent leurs expériences, leurs défis et leurs réussites. De la préparation du concours aux stages en juridiction, en passant par les moments forts de la formation, ils dévoilent tout :"
+Les élèves magistrats des promotions 2024 et 2025 partagent leurs expériences, leurs défis et leurs réussites. De la préparation du concours aux stages en juridiction, en passant par les moments forts de la formation, ils dévoilent tout&nbsp;:"
         txtColor="text-gris"
         bgColor="bg-violet"
         card="true"

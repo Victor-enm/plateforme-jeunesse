@@ -49,7 +49,8 @@
                 :typoDesc="card.typoDesc"
             />
         </div>
-
+        <h2 v-if="titleSecondary" class="text-4xl lg:text-2xl -mb-4 xl:text-8xl lg:w-4xl"
+        :class="txtColor"> {{ titleSecondary }}</h2>
         <p v-if="textSecondary" class="text-base md:text-lg mt-10 max-w-xl font-inter"
         :class="txtColor"
         v-html="textSecondary"></p>
@@ -85,6 +86,7 @@ const props = defineProps({
   text: String,
   responsivTxt: String,
   textSecondary: String,
+  titleSecondary: String,
   bgColor: {
     type: String,
     default: 'bg-rouge',

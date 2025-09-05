@@ -67,7 +67,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
       :cards= "[
         {
           description: 'Changer de spécialité (juge pour enfants, juge d’instruction, procureur…)',
-          css: '!bg-transparent !text-gris !border-gris',
+          css: '!bg-transparent !text-gris !border-gris -mt-8',
           typoDesc: '!font-sans',
         },
         {

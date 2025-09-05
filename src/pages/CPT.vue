@@ -112,7 +112,7 @@
       ]"
       textSecondary="En bonus, les élèves obtiennent un diplôme de l’ENM intitulé
       <br><br>
-      <h2 class='text-4xl md:text-4xl mb-4 text-gris'>“Culture juridique et pratiques judiciaires”</h2>
+      <h2 class='text-4xl md:text-4xl mb-4 text-gris font-sans'>“Culture juridique et pratiques judiciaires”</h2>
       Parfait pour enrichir son parcours."
       />
 
@@ -126,11 +126,11 @@
       card= "true"
       :cards= "[
         {
-          title: 'Montant minimum 382,80 € par mois',
+          title: 'Montant minimum 382,80&nbsp;€ par mois',
           css: '!bg-transparent !text-violet !border-violet'
         },
         {
-          title: 'Une aide complémentaire de 4000 € peut aussi être versée pendant l’année.',
+          title: 'Une aide complémentaire de 4000&nbsp;€ peut aussi être versée pendant l’année.',
           css: '!bg-transparent !text-violet !border-violet'
         },
       ]"
@@ -148,7 +148,7 @@
         },
         {
           title: 'Il est ouvert à ceux qui n’oseraient pas forcément postuler autrement.',
-          css: '!bg-transparent !text-gris !border-gris'
+          css: '!bg-gris !text-violet !border-gris'
         },
         {
           title: 'Il prépare sérieusement à une carrière dans la justice.',
