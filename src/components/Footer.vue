@@ -5,15 +5,19 @@
   
       <!-- Réseaux sociaux -->
       <div class="flex justify-center gap-4 mb-4 text-violet">
-        <a href="#" aria-label="Instagram">
+        <a href="https://www.instagram.com/enm_france/" aria-label="Instagram">
           <SvgIcon name="instagram" alt="Instagram" class="w-6 h-6" />
         </a>
-        <a href="#" aria-label="Facebook">
+        <a href="https://www.facebook.com/EcoleNationaleMagistrature" aria-label="Facebook" target="_blank">
           <SvgIcon name="facebook" alt="Facebook" class="w-6 h-6" />
         </a>
        
-        <a href="#" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/company/3851377/" aria-label="LinkedIn">
           <SvgIcon name="linkedin" alt="LinkedIn" class="w-6 h-6" />
+        </a>
+
+        <a href="https://www.youtube.com/@ecolenationaledelamagistrature" aria-label="Youtube">
+          <SvgIcon name="youtube" alt="Youtube" class="w-6 h-6" />
         </a>
       </div>
   

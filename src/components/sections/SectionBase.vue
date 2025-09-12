@@ -70,6 +70,10 @@
           <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
             <LinkedinIcon class="w-full h-full lg:mt-0" />
           </a>
+
+          <a href="https://www.youtube.com/@ecolenationaledelamagistrature" target="_blank" aria-label="Youtube" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+            <YouTubeIcon class="w-full h-full lg:mt-0" />
+          </a>
         </div>
       </section>
 </template>
@@ -77,8 +81,7 @@
 <script setup>
 import InstagramIcon from '@/assets/icons/instagram.svg'
 import FacebookIcon from '@/assets/icons/facebook.svg'
-import XIcon from '@/assets/icons/x.svg'
-import TiktokIcon from '@/assets/icons/tiktok.svg'
+import YouTubeIcon from '@/assets/icons/youtube_rs.svg'
 import LinkedinIcon from '@/assets/icons/linkedin.svg'
 
 const props = defineProps({

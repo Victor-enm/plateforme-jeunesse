@@ -80,7 +80,7 @@
 
       <SectionBase
         title="Suis-nous sur nos différents réseaux"
-        text="Instagram, Facebook, LinkedIn, nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
+        text="Instagram, Facebook, LinkedIn ou YouTube nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
         bgColor="bg-violet"
         txtColor="text-gris"
         Rs="true"

@@ -40,7 +40,7 @@ Ils doivent analyser les preuves, les témoignages et les arguments des parties 
         bgColor="bg-gris "
         txtColor="text-violet"
         borderColor="border-violet"
-        imgSrc="/images/test2.jpg"
+        :imgSrc="Deliberation"
         nombre="3"
         />
 
@@ -52,7 +52,7 @@ Si la personne est reconnue coupable, une peine est prononcée. Il peut s’agir
         bgColor="bg-violet "
         txtColor="text-gris"
         borderColor="border-gris"
-        imgSrc="/images/test2.jpg"
+        :imgSrc="AnnonceJugement"
         nombre="4"
         />
 
@@ -64,7 +64,7 @@ Ces étapes permettent de garantir une justice équitable en écoutant toutes le
         bgColor="bg-rouge "
         txtColor="text-gris"
         borderColor="border-gris"
-        imgSrc="/images/test2.jpg"
+        :imgSrc="RespectDroits"
         nombre="5"
         />
 
@@ -96,7 +96,10 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
 </template>
 <script setup>
 import Footer from '@/components/Footer.vue'
-import Ouverture from '@/assets/images/proces/FI1_.webp'
-import EcouteDesParties from '@/assets/images/proces/Ecoute des parties_.webp'
+import Ouverture from '@/assets/images/proces/1_Ouverture.webp'
+import EcouteDesParties from '@/assets/images/proces/2_Ecoute_des_parties_.webp'
+import Deliberation from '@/assets/images/proces/3_Deliberation.webp'
+import AnnonceJugement from '@/assets/images/proces/4_Annonce_jugement.webp'
+import RespectDroits from '@/assets/images/proces/5_Respect_des_droits.webp'
 
 </script>
