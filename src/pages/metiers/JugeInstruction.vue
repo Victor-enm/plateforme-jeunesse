@@ -3,6 +3,7 @@
     <SectionBase
       title="Juge d'instruction"
       text="Tu es minutieux, impartial et investi. Tu as l’âme d’un enquêteur et rechercher la vérité te motive. En tant que juge d’instruction, tu diriges les enquêtes complexes pour rassembler des éléments, sans parti pris, et établir la vérité."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -23,7 +24,7 @@
         title="Témoignage d’un juge d'instruction"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/fEeh0UvMkjs"
 
         />
 
@@ -48,7 +49,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -78,5 +79,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_Juge_instruction-02.webp'
+
 
 </script>

@@ -60,18 +60,18 @@
         </div>
 
         <div v-if="Rs" class="w-80 h-auto flex items-center justify-evenly flex-wrap text-gris lg:w-auto lg:mt-10 lg:justify-between">
-          <a href="https://www.instagram.com/enm_france/" target="_blank" aria-label="Instagram" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+          <a href="https://www.instagram.com/enm_france/" target="_blank" aria-label="Instagram" class="w-16 h-16  lg:w-25 lg:h-25">
             <InstagramIcon class="w-full h-full " />
           </a>
-        <a href="https://www.facebook.com/EcoleNationaleMagistrature" target="_blank" aria-label="Facebook" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+        <a href="https://www.facebook.com/EcoleNationaleMagistrature" target="_blank" aria-label="Facebook" class="w-16 h-16  lg:w-25 lg:h-25">
             <FacebookIcon class="w-full h-full " />
           </a>
           
-          <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+          <a href="https://www.linkedin.com/company/3851377/" target="_blank" aria-label="Linkedin" class="w-16 h-16  lg:w-25 lg:h-25">
             <LinkedinIcon class="w-full h-full lg:mt-0" />
           </a>
 
-          <a href="https://www.youtube.com/@ecolenationaledelamagistrature" target="_blank" aria-label="Youtube" class="w-16 h-16 mr-5 lg:w-25 lg:h-25">
+          <a href="https://www.youtube.com/@ecolenationaledelamagistrature" target="_blank" aria-label="Youtube" class="w-16 h-16  lg:w-25 lg:h-25">
             <YouTubeIcon class="w-full h-full lg:mt-0" />
           </a>
         </div>

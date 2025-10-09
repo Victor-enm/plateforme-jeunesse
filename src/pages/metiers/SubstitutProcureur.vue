@@ -3,6 +3,7 @@
     <SectionBase
       title="Substitut du procureur"
       text="Tu es dynamique, rigoureux et investi dans la défense de l’intérêt public. En tant que substitut du procureur, tu prépares et soutiens les dossiers lors des audiences, préconises des peines adaptées et représentes le ministère public. Tes décisions influencent directement l’application de la justice et son équité."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -23,7 +24,7 @@
         title="Témoignage d’un substitut du procureur"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/TSSdhhkrDt0"
 
         />
 
@@ -48,7 +49,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -78,5 +79,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_substitut_proc-02.webp'
+
 
 </script>

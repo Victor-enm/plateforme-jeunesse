@@ -29,7 +29,7 @@ Découvre la formation, la vie sur le campus ainsi que les témoignages d’él�
         title="Une entrée solennelle dans la magistrature"
         text="Félicitations, après 4 années universitaires et une solide préparation, le concours est réussi ! Les nouveaux élèves magistrats entament leur parcours par un moment marquant : la prestation de serment. Cette cérémonie solennelle symbolise leur engagement dans la magistrature. Devant les plus hautes autorités judiciaires, ils revêtent leur robe pour la première fois et prononcent leur serment, un instant riche en émotions !"
         ancre="formation"
-        :imgSrc=Fi1
+        :imgSrc= Entree
         bgColor="bg-violet"
         piece="relative !w-20 !h-20 -top-15 rotate-25 -mb-20"
         cardTitle="Bon à savoir !"
@@ -163,7 +163,7 @@ Les cours se déclinent sous différents formats :"
 
 
          <SectionBase
-        :imgSrc=Campus
+        :imgSrc= VieCampus
         title="La vie de campus"
         text="L’ENM : bien plus qu’une école, une véritable immersion dans le monde judiciaire. Depuis sa création en 1958, l’Ecole nationale de la magistrature est l’unique école de formation des magistrats en France. Son rôle ? Former des juges et procureurs capables de comprendre la société dans laquelle ils rendent la justice.
 <br><br>
@@ -209,7 +209,7 @@ Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiq
         />
 
         <SectionBase
-        :imgSrc=Campus
+        :imgSrc= Decompression
         title="Envie de décompresser après les cours ?"
         txtColor="text-gris"
         bgColor="bg-rouge"
@@ -270,5 +270,8 @@ import Footer from '@/components/Footer.vue'
 import Fi1 from '@/assets/images/pageENM/FI1_.webp'
 import Fi2 from '@/assets/images/pageENM/FI2_.webp'
 import Campus from '@/assets/images/pageENM/Vie de campus_cour ENM Bordeaux_.webp'
+import Decompression from '@/assets/images/pageENM/envie_de_decompresser.webp'
+import VieCampus from '@/assets/images/pageENM/Vie_de_campus.webp'
+import Entree from '@/assets/images/pageENM/Une_entree_solennelle.webp'
 
 </script>

@@ -17,15 +17,15 @@
       card= "true"
       :cards= "[
         {
-          description: 'Paris Studyrama - 21 Juin',
+          description: 'Samedi 15 novembre 2025 – Salon grandes écoles – L’Etudiant à Rennes ',
           css: '!bg-gris !text-violet !border-gris'
         },
         {
-          description: 'Paris Studyrama - 21 Juin',
+          description: 'Mercredi 26 novembre 2025 – Forum des métiers du droit à Paris',
           css: '!bg-gris !text-violet !border-gris'
         },
         {
-          description: 'Paris Studyrama - 21 Juin',
+          description: 'Du jeudi 11 au dimanche 14 décembre 2025 – Mondial des métiers à Lyon',
           css: '!bg-gris !text-violet !border-gris'
         },
       ]"
@@ -39,15 +39,11 @@
       card= "true"
       :cards= "[
         {
-          description: 'Bordeaux ENM - 18 Mai',
+          description: 'Bordeaux ENM - À venir',
           css: '!bg-gris !text-violet !border-gris'
         },
         {
-          description: 'Bordeaux ENM - 18 Mai',
-          css: '!bg-gris !text-violet !border-gris'
-        },
-        {
-          description: 'Bordeaux ENM - 18 Mai',
+          description: 'Paris ENM - À venir',
           css: '!bg-gris !text-violet !border-gris'
         },
       ]"

@@ -3,6 +3,7 @@
     <SectionBase
       title="Juge des contentieux de la protection"
       text="Intéressé par les préoccupations du quotidien, en tant que juge des contentieux de la protection (JCP), tu tranches un nombre important de petits conflits et en particulier tu traites des dossiers impliquant des personnes dans des situations de vulnérabilité, notamment en matière de surendettement, de logement, de crédits à la consommation et de protection des majeurs. Ta capacité à analyser et à trouver des solutions équilibrées te place au cœur des litiges essentiels à la vie en société. Le juge des contentieux de la protection exerce tant dans des grandes villes que des petites villes, pour être au plus proche des citoyens."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -23,7 +24,7 @@
         title="Témoignage d’un juge des contentieux de la protection"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/LATuAPcB34o"
 
         />
 
@@ -48,7 +49,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -78,5 +79,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_JCP-02.webp'
+
 
 </script>

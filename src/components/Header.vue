@@ -9,7 +9,7 @@
       <!-- Mobile burger -->
       <button
         type="button"
-        class="sm:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 z-50"
+        class="md:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 z-50"
         @click="toggleMenu"
         aria-controls="mobile-menu"
         :aria-expanded="isMenuOpen.toString()"
@@ -26,9 +26,9 @@
       </button>
 
       <!-- Desktop nav -->
-      <nav class="hidden sm:flex space-x-4 font-inter">
+      <nav class="hidden md:flex space-x-4 font-inter">
         <router-link v-for="item in navItems" :key="item.labelDesk" :to="item.hrefDesk"
-        class="last:bg-rouge last:text-gris last:p-2 last:border last:rounded-full last:font-sans pt-3 last:md:hover:bg-transparent last:md:hover:text-rouge last:md:hover:border-rouge transition">
+        class="last:bg-rouge last:text-gris last:p-2 last:border last:rounded-full last:font-sans pt-3 last:md:hover:bg-transparent last:md:hover:text-rouge last:md:hover:border-rouge transition md:text-xs lg:text-base">
         {{ item.labelDesk }}
       </router-link>
       </nav>
@@ -38,7 +38,7 @@
     <transition name="fade">
       <div
         v-if="isMenuOpen"
-        class="sm:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
+        class="md:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
         id="mobile-menu"
       >
         <router-link

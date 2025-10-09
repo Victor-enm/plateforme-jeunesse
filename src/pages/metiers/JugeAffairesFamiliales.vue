@@ -24,7 +24,7 @@
         title="Découvre le métier de juge aux affaires familiales"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/hWZAtk2vBQQ"
 
         />
 
@@ -50,7 +50,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2= "Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -80,5 +80,6 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_JAF_violet-02.webp'
 
 </script>

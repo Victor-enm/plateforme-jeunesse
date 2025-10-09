@@ -4,6 +4,7 @@
       title="Juge de l'application des peines"
       text="Le juge de l’application des peines est un magistrat du siège qui intervient auprès des personnes condamnées à des peines d’emprisonnement mais aussi auprès des personnes libres condamnées à des peines qui supposent un suivi. <br>
       Il peut adapter au mieux la peine afin de favoriser l’insertion des condamnés et prévenir le risque de récidive."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -24,7 +25,7 @@
         title="Témoignage d’un juge de l'application des peines"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/LUVxER1DlmI"
 
         />
 
@@ -49,7 +50,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -79,5 +80,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_JAP-02.webp'
+
 
 </script>

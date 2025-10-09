@@ -4,6 +4,7 @@
       title="Juge correctionnel"
       text="Tu es dynamique, rigoureux et à l’écoute.  En tant que juge correctionnel, tu es en charge de juger les personnes ayant commis un délit. Tu prépares les dossiers pour ensuite les exposer à l’audience que tu diriges tel un chef d’orchestre.  <br>
       A la fin tu décides de la culpabilité et de la peine du/des prévenu(s)."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -24,7 +25,7 @@
         title="Témoignage d’un juge correctionnel"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/jAEKaFIrse4"
 
         />
 
@@ -48,7 +49,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -78,5 +79,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_Juge_correctionnel-02.webp'
+
 
 </script>

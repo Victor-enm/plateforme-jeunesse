@@ -27,7 +27,7 @@
           {
             text: 'Je fais  le test !',
             to: '/autre',
-            variant: 'fullWhite',
+            variant: 'violet',
           },
         ]"
       />

@@ -3,6 +3,7 @@
     <SectionBase
       title="Juge des enfants"
       text="D’un naturel empathique, tu souhaites protéger les mineurs en danger, en aidant les familles en difficulté. Tu mesures aussi l’importance de sanctionner et surtout d’accompagner les mineurs qui ont commis des infractions. Ton écoute et ta capacité à comprendre les situations difficiles sont des atouts pour assurer ces missions."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -23,7 +24,7 @@
         title="Témoignage d’un juge des enfants"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/M9FsZS8YK8w"
 
         />
 
@@ -46,7 +47,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -76,5 +77,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_JE-02.webp'
+
 
 </script>

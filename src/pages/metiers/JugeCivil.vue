@@ -3,6 +3,7 @@
     <SectionBase
       title="Juge civil"
       text="Tu es naturellement rigoureux, tu aimes réfléchir et trouver des solutions, en tant que juge civil, tu es au cœur de la vie en société. Le juge civil traite des petits désaccords civils de la vie quotidienne (dettes impayées, travaux mal exécutés, etc.). Il s’occupe également de conflits sociétaux délicats (ex : la filiation d’un enfant issu d’une gestation pour autrui faite à l’étranger, le préjudice écologique) et de conflits économiques majeurs (ex : droit des marques)."
+      bgColor="bg-gris"
       :buttons="[
         {
           text: 'Plus d’informations sur ce métier',
@@ -23,7 +24,7 @@
         title="Un jour dans la vie d’un juge civil"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/HtS4qBiiKfs?si=X6z39E2mpMc4J_Lr"
+        videoId="https://www.youtube.com/embed/P1G7qfW2F0E"
 
         />
 
@@ -44,7 +45,7 @@
       text= "Quels parcours suivre ?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
   <SectionBase
         title="Ce métier est fait pour toi ?"
@@ -74,5 +75,7 @@
   
 <script setup>
 import Footer from '@/components/Footer.vue'
+import Parcours from '@/assets/images/metiers/Parcours_Juge_civil-02.webp'
+
 
 </script>
