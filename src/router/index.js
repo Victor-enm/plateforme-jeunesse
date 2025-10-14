@@ -44,5 +44,25 @@ const router = createRouter({
   routes,
 })
 
+router.beforeEach((to, from, next) => {
+  // Titre
+  document.title = to.meta.title || 'EMCQ'
+
+  // Meta description
+  const metaDescription = document.querySelector('meta[name="description"]')
+  if (metaDescription) {
+    metaDescription.setAttribute('content', to.meta.description || 'EMCQ – être magistrat c\'est quoi ?')
+  }
+
+  next()
+});
+
+router.afterEach(() => {
+  if (window._paq) {
+    window._paq.push(['setCustomUrl', window.location.href])
+    window._paq.push(['setDocumentTitle', document.title])
+    window._paq.push(['trackPageView'])
+  }
+})
 
 export default router

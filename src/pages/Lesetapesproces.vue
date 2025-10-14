@@ -11,7 +11,7 @@
         <SectionImageStages
         title="L'ouverture de l'audience"
         text="Le procès commence avec le président de l’audience (le juge ou le président de la cour d’assises). Il rappelle les faits et présente les éléments du dossier afin que tout le monde ait bien en tête les enjeux de l’affaire. Il veille également à ce que les règles de procédure soient respectées tout au long de l’audience."
-        bgColor="bg-violet"
+        bgColor="bg-violet 2xl:flex-row-reverse"
         :imgSrc=Ouverture
         nombre="1"
         />
@@ -37,7 +37,7 @@ Parfois, des témoins ou des experts (comme des médecins légistes ou des psych
         text="Une fois que tout le monde s’est exprimé, les juges (ou les jurés dans certains cas) se retirent pour discuter et prendre leur décision. 
 <br><br>
 Ils doivent analyser les preuves, les témoignages et les arguments des parties pour rendre un jugement juste. Parfois, ils annoncent leur verdict tout de suite, mais il arrive aussi que la décision soit rendue plus tard."
-        bgColor="bg-gris "
+        bgColor="bg-gris 2xl:flex-row-reverse"
         txtColor="text-violet"
         borderColor="border-violet"
         :imgSrc="Deliberation"
@@ -61,7 +61,7 @@ Si la personne est reconnue coupable, une peine est prononcée. Il peut s’agir
         text="Durant tout le procès, chaque partie dispose de droits fondamentaux. L’accusé a le droit d’être assisté par un avocat et de se défendre, tandis que la victime peut être représentée et demander réparation. Le tribunal doit garantir une justice impartiale et équitable, en respectant les lois en vigueur.
 <br><br>
 Ces étapes permettent de garantir une justice équitable en écoutant toutes les parties et en prenant une décision sur la base des faits et du droit. Un procès est un moment solennel où chaque mot et chaque élément de preuve peut être déterminant dans l’issue de l’affaire."
-        bgColor="bg-rouge "
+        bgColor="bg-rouge 2xl:flex-row-reverse"
         txtColor="text-gris"
         borderColor="border-gris"
         :imgSrc="RespectDroits"

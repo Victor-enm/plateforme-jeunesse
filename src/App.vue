@@ -1,8 +1,10 @@
 <!-- App.vue -->
 <template>
   <div class="font-sans">
-    <Loader v-if="showLoader" />
-    <div v-else>
+    <Loader v-if="showLoader" 
+  class="transition-opacity duration-500 ease-in-out"
+  :class="{ 'opacity-0': isFadingOut }"/>
+  <div v-else>
       <Header />
       <router-view />
     </div>
@@ -15,11 +17,17 @@ import { ref, onMounted } from "vue";
 import Loader from "@/components/loader.vue";
 
 const showLoader = ref(true);
+const isFadingOut = ref(false);
 
 onMounted(() => {
+  // Démarre l'animation de fondu après 1.5s
+  setTimeout(() => {
+    isFadingOut.value = true;
+  }, 2500);
+
   setTimeout(() => {
     showLoader.value = false;
-  }, 2000); // 2s
+  }, 3100); // 2s
 });
 
 </script>

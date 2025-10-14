@@ -4,13 +4,13 @@
         title="Les Classes Prépas Talents de l'ENM"
         text="Un coup de pouce vers la magistrature"
         bgColor="bg-gris"
-        iconName="codes"
-        pictoSize="w-30 h-30"
+        iconName="Logo_Prepa_Talents"
+        pictoSize="w-55 h-55"
         />
 
       
       <SectionBase
-      title= "C’est quoi une Classe Prépa Talents ?"
+      title= "C’est quoi une Classe Prépa Talents&nbsp;?"
       text= "Les Classes Prépas Talents de l’École nationale de la magistrature (ENM), ce sont des préparations gratuites et accompagnées pour aider des étudiants méritants à réussir le concours d’entrée."
       bgColor= "bg-violet"
       txtColor= "text-gris"
@@ -25,7 +25,7 @@
       />
 
       <SectionBase
-      title= "Où ça se passe ?"
+      title= "Où ça se passe&nbsp;?"
       text= "Ces classes sont réparties dans plusieurs villes en France."
       bgColor= "bg-gris"
       txtColor= "text-violet"
@@ -64,7 +64,7 @@
       />
 
       <SectionBase
-      title= "À qui ça s’adresse ?"
+      title= "À qui ça s’adresse&nbsp;?"
       text= "Les Classes Prépas Talents sont ouvertes à des étudiants remplissant certains critères."
       bgColor= "bg-violet"
       txtColor= "text-gris"
@@ -72,7 +72,7 @@
       :cards= "[
         {
           title: 'Être de nationalité française',
-          css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1'
+          css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1 !font-inter'
         },
         {
           title: 'Être titulaire (ou en cours d’obtention) d’un Bac+4',
@@ -87,7 +87,7 @@
           css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1'
         },
         {
-          title: 'Être motivé… vraiment motivé !',
+          title: 'Être motivé… vraiment motivé&nbsp;!',
           css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1'
         },
       ]"
@@ -189,6 +189,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
   
   <script setup>  
 import Footer from '@/components/Footer.vue'
+import Carte from '../assets/images/Carte_france.svg'
   
   </script>
   

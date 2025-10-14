@@ -24,7 +24,7 @@
         title="Témoignage d’un juge d'instruction"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/fEeh0UvMkjs"
+        videoId="https://www.youtube.com/embed/2c6LSZMJBg4"
 
         />
 
@@ -55,7 +55,7 @@
         title="Ce métier est fait pour toi ?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
-        iconName="code penal"
+        iconName="code civil"
         txtColor="text-gris"
         :buttons="[
           {
@@ -65,8 +65,8 @@
             class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
-            to: '/quiz',
+            text: 'Les métiers de la magistrature',
+            to: '/les-metiers',
             variant: 'fullViolet',
             class: 'lg:hover:border-rouge'
           },

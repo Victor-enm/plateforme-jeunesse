@@ -51,7 +51,7 @@
         title="Ce métier est fait pour toi ?"
         text="Pour en savoir plus sur la formation et la vie à l’ENM, consulte la rubrique dédiée sur la plateforme. Découvre également les autres métiers de la magistrature."
         bgColor="bg-rouge"
-        iconName="code penal"
+        iconName="code civil"
         txtColor="text-gris"
         :buttons="[
           {
@@ -61,8 +61,8 @@
             class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
-            to: '/quiz',
+            text: 'Les métiers de la magistrature',
+            to: '/les-metiers',
             variant: 'fullViolet',
             class: 'lg:hover:border-rouge'
           },

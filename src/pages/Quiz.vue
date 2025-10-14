@@ -3,8 +3,8 @@
     <!-- Intro Starter -->
     <SectionBase
       v-if="currentStep === 'intro'"
-      title="Quel magistrat(e) sommeille en toi ?"
-      text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi !"
+      title="Quel magistrat(e) sommeille en toi&nbsp;?"
+      text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi&nbsp;!"
       txtColor="text-gris"
       bgColor="bg-rouge"
       :buttons="[

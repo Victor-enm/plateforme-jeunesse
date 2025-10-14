@@ -39,7 +39,7 @@
       textSecondary="Le juge correctionnel, à la fin du procès, décide de la culpabilité et de la peine la plus adaptée aux faits et au prévenu, seul ou avec l’aide de deux autres juges. Il doit connaitre et appliquer la loi pour ensuite rédiger un jugement expliquant son raisonnement."
     />
     <SectionBase
-      title= "Un métier qui a du sens :"
+      title= "Un métier qui a du sens"
       text= "Le juge correctionnel incarne la Justice. Il doit rendre vivant son dossier, être à l’écoute de tous les acteurs pour arbitrer et décider. A travers son action il participe à apaiser les conflits de la société et réparer les torts subis par les victimes. "
       bgColor= "bg-violet"
       txtColor= "text-gris"
@@ -55,7 +55,7 @@
         title="Ce métier est fait pour toi ?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
-        iconName="code penal"
+        iconName="code civil"
         txtColor="text-gris"
         :buttons="[
           {
@@ -65,8 +65,8 @@
             class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
-            to: '/quiz',
+            text: 'Les métiers de la magistrature',
+            to: '/les-metiers',
             variant: 'fullViolet',
             class: 'lg:hover:border-rouge'
           },

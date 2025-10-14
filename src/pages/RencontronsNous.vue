@@ -79,7 +79,7 @@
         text="Instagram, Facebook, LinkedIn ou YouTube nous sommes sur tous les canaux alors n’hésite pas à nous rejoindre pour suivre l’actualité."
         bgColor="bg-violet"
         txtColor="text-gris"
-        Rs="true"
+        Rs=true
         />
       <Footer />
     </main>

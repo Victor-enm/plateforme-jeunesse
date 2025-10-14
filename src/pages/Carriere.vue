@@ -5,14 +5,8 @@
         text="Devenir magistrat, c’est choisir un métier au cœur de la justice. Juges et procureurs veillent à appliquer la loi, protéger les citoyens et garantir l’équité. Cette carrière exige rigueur, sens de l’éthique et esprit d’analyse. Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
         bgColor="bg-gris"
         iconName="themis"
-        pictoSize="w-30 h-30"
-        :buttons="[
-          {
-            text: 'Je découvre',
-            href: '#jedecouvre',
-            variant: 'red',
-          },
-        ]"
+        pictoSize="w-30 h-30 2xl:mt-8"
+        
         />
 
       <SectionBase
@@ -28,6 +22,7 @@
         },
         {
           description: 'Un master (Bac +5) pour approfondir tes connaissances.',
+          css: '!font-sans text-violet border-violet',
         }
       ]"
       textSecondary="Ensuite, tu devras passer le concours de l’École nationale de la magistrature (ENM), qui forme les futurs juges et procureurs pendant 31 mois.<br><br>
@@ -48,7 +43,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
       card= "true"
       :cards= "[
         {
-          description: 'Ton salaire pourra naturellement être plus élevé si tu évolue dans la hiérarchie judicaire',
+          description: 'Ton salaire pourra naturellement être plus élevé si tu évolues dans la hiérarchie judicaire',
           css: 'bg-gris !border-gris !rounded-4xl text-violet',
         }
       ]"

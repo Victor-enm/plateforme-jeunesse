@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center h-screen w-screen bg-white pl-25">
+  <div class="flex items-center justify-center h-screen w-screen bg-gris pl-25">
     <Logo
       alt="Logo"
       class="animate-bounce w-15 h-15"

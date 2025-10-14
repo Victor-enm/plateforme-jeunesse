@@ -1,6 +1,6 @@
 export const questions = [
   {
-    text: "Si tu pouvais résoudre une grande affaire, tu choisirais :",
+    text: "Si tu pouvais résoudre une grande affaire, tu choisirais:",
     options: [
       { text: "Un mystère avec des indices à découvrir.", type: "A" },
       { text: "Un scandale qui pourrait changer la société.", type: "B" },

@@ -37,7 +37,7 @@
       textSecondary="Le substitut travaille en équipe au sein du parquet, et en partenariat avec de nombreux professionnels au sein du palais de justice (greffe, juge d’instruction, juge d’application des peines et autres magistrats, avocats…), mais aussi avec des professionnels variés hors du palais de justice : services d’enquête, éducateurs, élus, administration pénitentiaire, associations… "
     />
     <SectionBase
-      title= "Un acteur essentiel qui veille à l’application de la loi"
+      title= "Un acteur essentiel qui veille à l’application de la&nbsp;loi"
       text= "Subordonné au procureur de la République, le substitut joue un rôle indispensable dans le bon fonctionnement du parquet. Il gère une multitude d’affaires allant des infractions mineures aux dossiers plus complexes, en s’assurant à chaque étape de la procédure que la loi est appliquée et respectée."
       bgColor= "bg-violet"
       txtColor= "text-gris"
@@ -55,7 +55,7 @@
         title="Ce métier est fait pour toi ?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
-        iconName="code penal"
+        iconName="code civil"
         txtColor="text-gris"
         :buttons="[
           {
@@ -65,8 +65,8 @@
             class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
-            to: '/quiz',
+            text: 'Les métiers de la magistrature',
+            to: '/les-metiers',
             variant: 'fullViolet',
             class: 'lg:hover:border-rouge'
           },

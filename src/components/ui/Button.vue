@@ -3,7 +3,7 @@
       :is="componentType"
       :to="to"
       :href="href"
-      class="inline-block"
+      class="inline-block 2xl:text-4xl 2xl:pt-5 2xl:pb-5"
       :class="buttonClasses"
       v-bind="linkAttrs"
     >

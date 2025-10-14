@@ -6,7 +6,7 @@
         bgColor="bg-gris"
         iconName="code penal"
         responsivTxt="lg:flex-row"
-        pictoSize="lg:relative lg:top-20 lg:right-90"
+        pictoSize="lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135"
         :buttons="[
           {
             text: 'Je fais  le test !',
@@ -37,7 +37,7 @@
         text="Les métiers de la magistrature sont essentiels pour garantir le respect des lois et protéger la société. Juges, procureurs et autres professionnels du droit jouent un rôle fondamental dans l’équilibre de la justice. Parcours cette page pour découvrir les différents métiers et les responsabilités qui les accompagnent."
         bgColor="bg-violet"
         iconName="codes"
-        txtColor="text-gris"
+        txtColor="text-gris 2xl:pb-6"
         pictoSize="w-30 h-30 md:hidden"
         :buttons="[
           {
@@ -86,7 +86,6 @@
         text="Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
         bgColor="bg-violet"
         txtColor="text-gris"
-        iconName="themis"
         :buttons="[
           {
             text: 'Découvre les évolutions possibles',
@@ -117,6 +116,7 @@
         text="Un coup de pouce vers la magistrature"
         bgColor="bg-rouge"
         iconName="codes"
+        pictoSize="w-30 h-30"
         txtColor="text-gris"
         :buttons="[
           {

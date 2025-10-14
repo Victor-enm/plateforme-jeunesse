@@ -18,6 +18,7 @@
             variant: 'red',
           },
         ]"
+        
         />
       <SectionDecouvre
       title= "Les magistrat(e)s du siège"
