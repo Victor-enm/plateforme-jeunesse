@@ -7,7 +7,8 @@
 Tél. : +33 (0)5.56.00.10.10
 Courriel : accueil-bdx.enm@justice.fr<br><br>
 Directeur de la publication :  Henri-Pierre Godey, Chef du service communication<br>
-Développement : Victor Prudhon, développeur web"
+Développement : Victor Prudhon, développeur web<br>
+Design : <a href='https://www.charlesalligny.fr/' class='underline'>Charles Alligny</a>"
         bgColor="bg-gris"
         iconName="crayons"
         responsivTxt="lg:flex-row"
@@ -21,7 +22,9 @@ Netlify, Inc.<br>
 2325 3rd Street, Suite 296<br>
 San Francisco, CA 94107<br>
 États-Unis<br>
-<a href='https://www.netlify.com' target='_blank'>https://www.netlify.com</a>"
+<a href='https://www.netlify.com' target='_blank' class='underline'>https://www.netlify.com</a>
+<br><br><br>
+Le code source de l’application est disponible en open-source sur la plateforme GitHub."
         bgColor="bg-rouge"
         txtColor="text-gris"
         responsivTxt="lg:flex-row"
@@ -37,6 +40,15 @@ Toute reproduction, représentation, modification, publication ou adaptation des
         txtColor="text-gris"
         pictoSize="md:hidden"
       />
+
+      <SectionBase
+        title="Crédits"
+        text="Remerciements à notre cheffe de projet Laura Masurel, sa méthodologie et son dévouement ont été essentiels pour mener ce projet à bien. Nous tenons également à exprimer notre gratitude à Célia Normand, Lella Desplats pour leurs engagement et la stratégie de communication. Enfin, un grand merci à tous nos bêta-testeurs pour leurs précieux retours. Votre participation active a permis d'améliorer la qualité et l'expérience utilisateur."
+        bgColor="bg-gris"
+        iconName="crayons"
+        responsivTxt="lg:flex-row"
+        pictoSize="lg:relative lg:top-20 lg:right-90"
+      />
   
       <Footer />
     </main>
@@ -44,6 +56,6 @@ Toute reproduction, représentation, modification, publication ou adaptation des
     
   </template>
   <script setup>
-import Footer from '../components/Footer.vue'
+import Footer from '@/components/Footer.vue'
 
 </script>

@@ -9,6 +9,8 @@ import RencontronsNous from '../pages/RencontronsNous.vue'
 import Quiz from '../pages/Quiz.vue'
 import CPT from '../pages/CPT.vue'
 import MentionsLegales from '../pages/MentionsLegales.vue'
+import PolitiqueConfidentialite from '../pages/PolitiqueConfidentialite.vue'
+import Accessibilite from '../pages/accessibilite.vue'
 import JaF from '../pages/metiers/JugeAffairesFamiliales.vue'
 import JaP from '../pages/metiers/JugeApplicationPeines.vue'
 import JCivil from '../pages/metiers/JugeCivil.vue'
@@ -36,6 +38,8 @@ const routes = [
   { path: '/classes-prepas-talents-enm', name: 'Classes prépas Talents ENM', component: CPT},
   { path: '/quiz', name: 'Quiz', component: Quiz},
   { path: '/mentions-legales', name: 'Mentions Légales', component: MentionsLegales},
+  { path: '/politique-confidentialite', name: 'Politique de confidentialité', component: PolitiqueConfidentialite},
+  { path: '/accessibilite', name: 'Accessibilité', component: Accessibilite},
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: Erreur},
 ]
 

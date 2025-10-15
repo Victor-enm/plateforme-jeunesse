@@ -19,9 +19,10 @@
         {
           title: 'L’objectif ?',
           description: 'Ouvrir l’accès à la magistrature à tous les profils, y compris ceux qui n’auraient pas forcément imaginé cette voie.',
-          css: '!bg-gris !text-violet !border-gris'
+          css: '!bg-gris !text-violet !border-gris mb-12'
         }
       ]"
+      instagramCPT="true"
       />
 
       <SectionBase
@@ -29,37 +30,7 @@
       text= "Ces classes sont réparties dans plusieurs villes en France."
       bgColor= "bg-gris"
       txtColor= "text-violet"
-      card= "true"
-      :cards= "[
-        {
-          title: 'Bordeaux',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1 !pt-3 !pb-1'
-        },
-        {
-          title: 'Paris',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-        {
-          title: 'Lyon',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-        {
-          title: 'Limoges',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-        {
-          title: 'Orléans',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-        {
-          title: 'Besançon',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-        {
-          title: 'Douai',
-          css: '!bg-transparent !text-violet !border-violet !pt-3 !pb-1'
-        },
-      ]"
+      :imgSrc3="Carte"
       textSecondary="Chaque classe est liée à une université partenaire et propose un vrai accompagnement pédagogique."
       />
 
@@ -189,7 +160,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
   
   <script setup>  
 import Footer from '@/components/Footer.vue'
-import Carte from '../assets/images/Carte_france.svg'
+import Carte from '@/assets/images/Carte_france_low.webp'
   
   </script>
   

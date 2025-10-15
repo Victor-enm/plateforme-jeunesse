@@ -25,9 +25,9 @@
   
       <!-- Liens légaux -->
       <div class="flex justify-center gap-6 font-inter no-underline mb-4">
-        <RouterLink to="/cookies" class=" hover:text-rouge">Cookies</RouterLink>
+        <RouterLink to="/accessibilite" class=" hover:text-rouge">Accessibilité</RouterLink>
         <RouterLink to="/mentions-legales" class=" hover:text-rouge">Mentions légales</RouterLink>
-        <RouterLink to="/confidentialite" class=" hover:text-rouge">Confidentialité</RouterLink>
+        <RouterLink to="/politique-confidentialite" class=" hover:text-rouge">Confidentialité</RouterLink>
       </div>
       <div class="flex justify-center gap-6 font-inter">
         <p class="mb-1 font-inter">© 2025 ENM - Tous droits réservés</p>

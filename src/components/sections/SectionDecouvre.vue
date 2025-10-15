@@ -17,7 +17,7 @@
         </p>
         
 
-        <div v-if="ExpandableCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-12">
+        <div v-if="ExpandableCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-55 !-mt-25">
             <ExpandableCard
                 v-for="(card, index) in ExpandableCards"
                 :key="index"
@@ -25,7 +25,7 @@
                 :description="card.description"
             />
         </div>
-        <div v-if="DecouvreCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-12">
+        <div v-if="DecouvreCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-55 !-mt-25">
             <DecouvreCard
                 v-for="(card, index) in DecouvreCards"
                 :key="index"
