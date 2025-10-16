@@ -4,9 +4,9 @@
         title="Être magistrat(e), c’est quoi&nbsp;?"
         text="Les magistrats veillent à l’application de la loi en tant que juges ou procureurs, jouant ainsi un rôle clé dans la société. Découvre celui qui te correspond et les études à suivre en passant le test !"
         bgColor="bg-gris"
-        iconName="code penal"
+        iconName="codes"
         responsivTxt="lg:flex-row"
-        pictoSize="lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135"
+        pictoSize="w-40 h-40 lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135"
         :buttons="[
           {
             text: 'Je fais  le test !',
@@ -36,9 +36,9 @@
         title="Les métiers de la magistrature"
         text="Les métiers de la magistrature sont essentiels pour garantir le respect des lois et protéger la société. Juges, procureurs et autres professionnels du droit jouent un rôle fondamental dans l’équilibre de la justice. Parcours cette page pour découvrir les différents métiers et les responsabilités qui les accompagnent."
         bgColor="bg-violet"
-        iconName="codes"
+        iconName="code penal"
         txtColor="text-gris 2xl:pb-6"
-        pictoSize="w-30 h-30 md:hidden"
+        pictoSize="md:hidden"
         :buttons="[
           {
             text: 'Découvrir les métiers',

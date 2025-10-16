@@ -1,11 +1,10 @@
 <template>
     <main class="h-screen w-screen snap-y snap-mandatory overflow-y-scroll">
         <SectionBase
-        title="Les Classes Prépas Talents de l'ENM"
-        text="Un coup de pouce vers la magistrature"
+        text="Les Classes Prépas Talents de l'ENM, un coup de pouce vers la magistrature"
         bgColor="bg-gris"
         iconName="Logo_Prepa_Talents"
-        pictoSize="w-55 h-55"
+        pictoSize="w-90 h-90 p-0 !-m-20"
         />
 
       
@@ -19,7 +18,7 @@
         {
           title: 'L’objectif ?',
           description: 'Ouvrir l’accès à la magistrature à tous les profils, y compris ceux qui n’auraient pas forcément imaginé cette voie.',
-          css: '!bg-gris !text-violet !border-gris mb-12'
+          css: '!bg-transparent !text-gris !border-gris mb-12'
         }
       ]"
       instagramCPT="true"
@@ -115,15 +114,15 @@
       :cards= "[
         {
           title: 'Ce programme est une vraie chance d’accéder à un métier qui a du sens.',
-          css: '!bg-gris !text-violet !border-gris'
+          css: '!bg-transparent !text-gris !border-gris'
         },
         {
           title: 'Il est ouvert à ceux qui n’oseraient pas forcément postuler autrement.',
-          css: '!bg-gris !text-violet !border-gris'
+          css: '!bg-transparent !text-gris !border-gris'
         },
         {
           title: 'Il prépare sérieusement à une carrière dans la justice.',
-          css: '!bg-gris !text-violet !border-gris'
+          css: '!bg-transparent !text-gris !border-gris'
         },
       ]"
       textSecondary="Plus d’infos sur <a href='https://www.enm.justice.fr/' target='_blank' class='underline'>enm.justice.fr</a>"

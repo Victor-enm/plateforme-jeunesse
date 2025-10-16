@@ -56,6 +56,7 @@
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
         iconName="code civil"
+        pictoSize="rotate-335 mb-15"
         txtColor="text-gris"
         :buttons="[
           {

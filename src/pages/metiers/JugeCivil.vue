@@ -52,6 +52,7 @@
         text="Pour en savoir plus sur la formation et la vie à l’ENM, consulte la rubrique dédiée sur la plateforme. Découvre également les autres métiers de la magistrature."
         bgColor="bg-rouge"
         iconName="code civil"
+        pictoSize="rotate-335 mb-15"
         txtColor="text-gris"
         :buttons="[
           {
