@@ -24,7 +24,8 @@
         title="Témoignage d’un substitut du procureur"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/TSSdhhkrDt0"
+        linkVideo="https://www.youtube.com/embed/TSSdhhkrDt0"
+        :photo="Photo"
 
         />
 
@@ -81,6 +82,7 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_substitut_proc-02.webp'
+import Photo from '@/assets/images/metiers/Clementine.webp'
 
 
 </script>

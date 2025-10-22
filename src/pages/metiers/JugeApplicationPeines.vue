@@ -25,7 +25,8 @@
         title="Témoignage d’un juge de l'application des peines"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/LUVxER1DlmI"
+        linkVideo="https://www.youtube.com/embed/LUVxER1DlmI"
+        :photo="Photo"
 
         />
 
@@ -82,6 +83,8 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JAP-02.webp'
+import Photo from '@/assets/images/metiers/Amelie.webp'
+
 
 
 </script>

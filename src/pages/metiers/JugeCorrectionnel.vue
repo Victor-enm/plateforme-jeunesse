@@ -25,7 +25,8 @@
         title="Témoignage d’un juge correctionnel"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/jAEKaFIrse4"
+        linkVideo="https://www.youtube.com/embed/jAEKaFIrse4"
+        :photo="Photo"
 
         />
 
@@ -81,6 +82,7 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_Juge_correctionnel-02.webp'
+import Photo from '@/assets/images/metiers/Cecile.webp'
 
 
 </script>

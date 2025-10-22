@@ -175,7 +175,7 @@ Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiq
         :cards="[
           {
             description: 'L’ENM favorise les rencontres entre les élèves magistrats et d’autres professionnels du droit comme les avocats, policiers, experts médicaux et sociologues.',
-            css: 'bg-transparent text-gris !border-gris -mt-6 2xl:mt-0',
+            css: 'bg-transparent text-gris !border-gris -mt-6 xl:mt-0',
           },
            {
             description: 'La formation met l’accent sur les compétences humaines et éthiques, essentielles pour être un bon magistrat.',
@@ -195,7 +195,7 @@ Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiq
         :cards="[
           {
             description: 'Le site historique Pey-Berland, situé 10 rue des Frères Bonie, est à deux pas du Palais de Justice et de nombreux lieux culturels.',
-            css: 'bg-gris border-violet border-2 text-violet -mt-6 2xl:mt-0',
+            css: 'bg-gris border-violet border-2 text-violet -mt-6 xl:mt-0',
           },
            {
             description: 'En 2024, face à l’augmentation du nombre d’auditeurs de justice, un second campus a ouvert ses portes dans un quartier moderne et éco-conçu, à seulement 20 minutes du site principal.',

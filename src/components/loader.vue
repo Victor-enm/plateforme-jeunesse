@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center justify-center h-screen w-screen bg-gris pl-25">
+  <div class="fixed inset-0 flex items-center justify-center bg-gris z-50">
     <Logo
       alt="Logo"
-      class="animate-bounce w-15 h-15"
+      class="animate-bounce max-w-45 max-h-48"
     />
   </div>
 </template>

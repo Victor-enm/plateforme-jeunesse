@@ -141,7 +141,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
             text: 'École nationale de la magistrature',
             to: '/ENM',
             variant: 'white',
-            class: 'mb-5'
+            class: 'mb-5 mr-5'
           },
           {
             text: 'Quel magistrat es-tu ?',

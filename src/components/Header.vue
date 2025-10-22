@@ -1,15 +1,15 @@
 <template>
   <header class="bg-gris shadow-md fixed top-0 left-0 right-0 z-50 w-full h-[10vh] lg:h-34">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between lg:justify-evenly lg:max-w-full lg:pl-15 lg:pr-15 text-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between lg:justify-between lg:max-w-full lg:pl-15 lg:pr-15 text-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center">
-        <img src="/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-28 lg:h-auto " />
+        <img src="/logo-emcq.svg" alt="Logo" class="w-[62px] h-auto sm:h-12 lg:w-28 lg:h-auto" />
       </RouterLink>
 
       <!-- Mobile burger -->
       <button
         type="button"
-        class="md:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 z-50"
+        class="xl:hidden p-2 text-violet hover:text-violet focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 z-50"
         @click="toggleMenu"
         aria-controls="mobile-menu"
         :aria-expanded="isMenuOpen.toString()"
@@ -26,9 +26,9 @@
       </button>
 
       <!-- Desktop nav -->
-      <nav class="hidden md:flex space-x-4 font-inter">
+      <nav class="hidden xl:flex space-x-4 font-inter">
         <router-link v-for="item in navItems" :key="item.labelDesk" :to="item.hrefDesk"
-        class="last:bg-rouge last:text-gris last:p-2 last:border last:rounded-full last:font-sans pt-3 last:md:hover:bg-transparent last:md:hover:text-rouge last:md:hover:border-rouge transition md:text-xs lg:text-base"
+        class="last:bg-rouge last:text-gris last:p-2 last:border last:rounded-full last:font-sans pt-3 last:md:hover:bg-transparent last:md:hover:text-rouge last:md:hover:border-rouge transition md:text-xs lg:text-base 2xl:text-lg"
         active-class="font-bold"
           exact-active-class="font-bold">
         {{ item.labelDesk }}
@@ -40,7 +40,7 @@
     <transition name="fade">
       <div
         v-if="isMenuOpen"
-        class="md:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
+        class="xl:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
         id="mobile-menu"
       >
         <router-link

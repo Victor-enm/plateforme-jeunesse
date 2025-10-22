@@ -5,19 +5,19 @@
         :class="bgColor"
         :id="ancre"   
     >  
-    <div v-if="imgSrc" class="w-full h-auto flex items-center justify-center mb-5 2xl:pr-30 2xl:pl-30 xl:pr-20 xl:pl-20">
+    <div v-if="imgSrc" class="w-full h-auto flex items-center justify-center mb-5 2xl:pr-30 2xl:pl-30 xl:pr-20 xl:pl-20 lg:pr-50 lg:pl-50">
           <img  :src="imgSrc" className="bject-contain mb-4 text-violet rounded-2xl xl:object-cover xl:w-full 2xl:max-h-110 xl:max-h-60" />
         </div>
     <div v-if="iconName" class="w-20 h-20 mb-5 2xl:w-40 2xl:h-40"
         :class="pictoSize">
           <SvgIcon  :name="iconName" className="object-contain mb-4 text-violet" />
         </div>
-        <h2 class="text-4xl lg:text-2xl mb-4 xl:text-5xl lg:w-4xl 2xl:w-5xl"
+        <h2 class="text-4xl mb-4 xl:text-5xl lg:w-4xl 2xl:w-5xl"
         :class="txtColor">{{ title }}</h2>
 
         <div 
         :class="responsivTxt"
-        class="flex flex-col items-center justify-center"
+        class="flex flex-col items-center justify-center lg:flex-wrap"
         >
         <p v-if="text" class="text-base text-center md:text-lg mb-10 lg:mb-0 max-w-4xl font-inter"
         :class="txtColor"
@@ -25,7 +25,7 @@
         </p>
         <span><Button
           v-for="(button, index) in buttons"
-          class="lg:text-2xl"
+          class="lg:text-2xl lg:mt-6"
           :key="index"
           :variant="button.variant"
           :to="button.to"
@@ -58,17 +58,17 @@
         v-html="cardText">
       </p>
     </div>
-    <div v-if="imgSrc3" class="w-full flex items-center justify-center mb-5">
+    <div v-if="imgSrc3" class="w-full flex items-center justify-center mb-5 pl-40 pr-40">
   <img :src="imgSrc3" class="w-full h-auto object-cover rounded-2xl mt-4" />
 </div>
 
-        <h2 v-if="titleSecondary" class="text-4xl lg:text-2xl -mb-4 xl:text-8xl lg:w-4xl"
+        <h2 v-if="titleSecondary" class="text-4xl mb-4 xl:text-5xl lg:w-4xl 2xl:w-5xl mt-6"
         :class="txtColor"> {{ titleSecondary }}</h2>
-        <p v-if="textSecondary" class="text-base md:text-lg mt-10 max-w-xl font-inter"
+        <p v-if="textSecondary" class="text-base md:text-lg max-w-xl font-inter xl:mt-4"
         :class="txtColor"
         v-html="textSecondary"></p>
 
-        <div v-if="imgSrc2" class="w-full h-auto flex items-center justify-center mb-5">
+        <div v-if="imgSrc2" class="w-full h-auto flex items-center justify-center mb-5 lg:pl-55 lg:pr-55">
           <img  :src="imgSrc2" className="object-contain mt-4 text-violet rounded-2xl" />
         </div>
 

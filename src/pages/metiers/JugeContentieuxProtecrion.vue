@@ -24,7 +24,8 @@
         title="Témoignage d’un juge des contentieux de la protection"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/LATuAPcB34o"
+        linkVideo="https://www.youtube.com/embed/LATuAPcB34o"
+        :photo="Photo"
 
         />
 
@@ -81,6 +82,7 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JCP-02.webp'
+import Photo from '@/assets/images/metiers/Celia.webp'
 
 
 </script>

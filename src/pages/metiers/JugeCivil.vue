@@ -24,7 +24,8 @@
         title="Un jour dans la vie d’un juge civil"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/P1G7qfW2F0E"
+        linkVideo="https://www.youtube.com/embed/P1G7qfW2F0E"
+        :photo="Photo"
 
         />
 
@@ -77,6 +78,8 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_Juge_civil-02.webp'
+import Photo from '@/assets/images/metiers/David.webp'
+
 
 
 </script>

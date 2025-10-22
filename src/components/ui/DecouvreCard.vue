@@ -1,7 +1,7 @@
 <template>
   <router-link 
         :to="to"
-        class="bg-gris rounded-2xl shadow-md p-6 max-w-md w-full cursor-pointer select-none transition text-center lg:max-w-xs flex flex-col">
+        class="bg-gris rounded-2xl shadow-md mb-4 p-6 max-w-md w-full cursor-pointer select-none transition text-center lg:max-w-xs flex flex-col">
   
       <h2 class="text-xl text-violet mb-4 2xl:text-3xl">{{ title }}</h2>
   

@@ -7,9 +7,9 @@
         
     >   
     <div class="max-h-full overflow-auto px-4 flex flex-col items-center">
-        <h2 class="text-4xl md:text-4xl mb-4 lg:text-8xl lg:w-4xl"
+        <h2 class="text-4xl md:text-4xl mb-4z lg:w-4xl xl:text-5xl 2xl:w-5xl"
         :class="txtColor">{{ title }}</h2>
-        <p class="text-base md:text-lg mb-10 max-w-xl font-inter"
+        <p class="text-base md:text-lg mb-10 max-w-4xl font-inter lg:mt-6"
         :class="txtColor" 
         v-html="text"
         >
@@ -17,7 +17,7 @@
         </p>
         
 
-        <div v-if="ExpandableCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-55 !-mt-25">
+        <div v-if="ExpandableCards" class="w-full max-w-xl md:flex md:justify-center md:flex-wrap lg:justify-evenly lg:max-w-4xl xl:max-w-6xl mb-55 lg:mb-35 !-mt-25 lg:!-mt-15">
             <ExpandableCard
                 v-for="(card, index) in ExpandableCards"
                 :key="index"
@@ -25,7 +25,7 @@
                 :description="card.description"
             />
         </div>
-        <div v-if="DecouvreCards" class="w-full max-w-xl space-y-4 lg:flex lg:justify-evenly lg:flex-wrap lg:max-w-6xl mb-55 !-mt-25">
+        <div v-if="DecouvreCards" class="w-full max-w-xl md:flex md:justify-center md:flex-wrap lg:justify-evenly lg:max-w-4xl xl:max-w-6xl mb-55 lg:mb-35 !-mt-25 lg:!-mt-15">
             <DecouvreCard
                 v-for="(card, index) in DecouvreCards"
                 :key="index"

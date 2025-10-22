@@ -18,7 +18,7 @@
       :cards= "[
         {
           description: 'Une licence (Bac +3) pour apprendre les bases du droit.',
-          css: '!font-sans -mt-5 text-violet border-violet',
+          css: '!font-sans -mt-5 text-violet border-violet lg:mt-0',
         },
         {
           description: 'Un master (Bac +5) pour approfondir tes connaissances.',
@@ -30,7 +30,7 @@
         Si tu ne veux pas suivre le parcours classique, il existe des passerelles ! Des avocats, des greffiers ou des policiers expérimentés peuvent passer un concours spécial pour rejoindre la magistrature."
       imgSrc2="/src/assets/icons/parcours magistrat.svg"
       />
-        <div class="w-25 h-25 relative top-35 rotate-90 left-70 -mt-30"><Piece/></div>
+        <div class="w-25 h-25 relative top-35 rotate-90 left-70 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-200"><Piece/></div>
       <SectionBase
       title= "Combien gagne un magistrat ?"
       text= "L’un des avantages de ce métier, c’est aussi la sécurité financière.
@@ -62,7 +62,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
       :cards= "[
         {
           description: 'Changer de spécialité (juge pour enfants, juge d’instruction, procureur…)',
-          css: '!bg-transparent !text-gris !border-gris -mt-8',
+          css: '!bg-transparent !text-gris !border-gris -mt-8 lg:mt-0',
           typoDesc: '!font-sans',
         },
         {

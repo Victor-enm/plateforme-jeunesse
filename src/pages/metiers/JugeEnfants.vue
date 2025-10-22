@@ -24,7 +24,8 @@
         title="Témoignage d’un juge des enfants"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/M9FsZS8YK8w"
+        linkVideo="https://www.youtube.com/embed/M9FsZS8YK8w"
+        :photo="Photo"
 
         />
 
@@ -79,6 +80,7 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JE-02.webp'
+import Photo from '@/assets/images/metiers/Stephanie.webp'
 
 
 </script>

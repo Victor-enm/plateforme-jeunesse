@@ -6,7 +6,7 @@
         bgColor="bg-gris"
         iconName="codes"
         responsivTxt="lg:flex-row"
-        pictoSize="w-40 h-40 lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135"
+        pictoSize="w-40 h-40 lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135 xl:right-115"
         :buttons="[
           {
             text: 'Je fais  le test !',
@@ -55,7 +55,7 @@
         txtColor="text-gris"
         iconName="toque"
         pictoSize="w-30 h-30 pt-6"
-        responsivTxt=" lg:flex-row"
+        responsivTxt=" 2xl:flex-row"
         :buttons="[
           {
             text: 'Découvrir',

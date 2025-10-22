@@ -24,7 +24,8 @@
         title="Découvre le métier de juge aux affaires familiales"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        videoId="https://www.youtube.com/embed/hWZAtk2vBQQ"
+        linkVideo="https://www.youtube.com/embed/hWZAtk2vBQQ"
+        :photo="Photo"
 
         />
 
@@ -57,7 +58,7 @@
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
         iconName="code civil"
-        pictoSize="rotate-335 mb-15 text-gris"
+        pictoSize="rotate-335 mb-15"
         txtColor="text-gris"
         :buttons="[
           {
@@ -82,5 +83,6 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JAF_violet-02.webp'
+import Photo from '@/assets/images/metiers/Robin.webp'
 
 </script>

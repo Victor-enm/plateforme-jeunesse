@@ -13,7 +13,7 @@
             {{ nombre }}
         </span>
     </div>
-    <div class="max-h-full overflow-auto px-4">
+    <div class="max-h-full overflow-auto px-4 lg:flex">
         <h2 class="text-3xl md:text-4xl font-bold mb-4 2xl:text-5xl"
         :class="txtColor">{{ title }}</h2>
         <p class="text-base md:text-lg mb-10 max-w-xl font-inter"
