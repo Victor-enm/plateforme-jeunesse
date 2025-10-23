@@ -7,13 +7,13 @@
 Découvre la formation, la vie sur le campus ainsi que les témoignages d’élèves de l’ENM."
         bgColor="bg-gris"
         iconName="toque"
-        pictoSize="w-30 h-30"
+        pictoSize="w-30 h-30 2xl:w-45 2xl:h-45"
         />
 
         <SectionBase
         title="La formation à l’école nationale de la magistrature"
         text="Une formation d’excellence pour devenir magistrat"
-        txtColor="text-gris"
+        txtColor="text-gris 2xl:pb-6"
         bgColor="bg-rouge"
         :buttons="[
           {

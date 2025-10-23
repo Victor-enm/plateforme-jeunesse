@@ -20,7 +20,7 @@
         title="L’écoute des parties"
         text="Chaque personne concernée par l’affaire prend la parole pour exprimer sa version des faits et défendre ses intérêts.
 <br><br>
-La personne accusée (appelée « prévenu » en correctionnelle ou « accusé » aux assises) commence par donner sa version des événements. Si une victime est impliquée, elle peut expliquer ce qu’elle a vécu. 
+La personne accusée (appelée «&nbsp;prévenu&nbsp;» en correctionnelle ou «&nbsp;accusé&nbsp;» aux assises) commence par donner sa version des événements. Si une victime est impliquée, elle peut expliquer ce qu’elle a vécu. 
 <br><br>
 Ensuite, le Procureur de la République, représentant l’intérêt de la société, présente ses arguments et peut proposer une sanction. 
 <br><br>
@@ -75,7 +75,7 @@ Devenir magistrat, c’est un choix ambitieux, mais qui te donnera un rôle clé
 Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette aventure passionnante ! "
         bgColor="bg-gris"
         iconName="code penal"
-        txtColor="text-violet"
+        txtColor="text-violet 2xl:pb-6"
         :buttons="[
           {
             text: 'École nationale de la magistrature',

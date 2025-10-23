@@ -4,7 +4,7 @@
         text="Les Classes Prépas Talents de l'ENM, un coup de pouce vers la magistrature"
         bgColor="bg-gris"
         iconName="Logo_Prepa_Talents"
-        pictoSize="w-90 h-90 p-0 !-m-20"
+        pictoSize="w-90 h-90 p-0 !-m-20 2xl:w-120 2xl:h-100"
         />
 
       
@@ -12,7 +12,7 @@
       title= "C’est quoi une Classe Prépa Talents&nbsp;?"
       text= "Les Classes Prépas Talents de l’École nationale de la magistrature (ENM), ce sont des préparations gratuites et accompagnées pour aider des étudiants méritants à réussir le concours d’entrée."
       bgColor= "bg-violet"
-      txtColor= "text-gris"
+      txtColor= "text-gris 2xl:pb-6"
       card= "true"
       :cards= "[
         {
@@ -37,7 +37,7 @@
       title= "À qui ça s’adresse&nbsp;?"
       text= "Les Classes Prépas Talents sont ouvertes à des étudiants remplissant certains critères."
       bgColor= "bg-violet"
-      txtColor= "text-gris"
+      txtColor= "text-gris 2xl:pb-6"
       card= "true"
       :cards= "[
         {
@@ -68,7 +68,7 @@
       title= "Concrètement, on y fait quoi ?"
       text= "La prépa commence en octobre et dure toute l’année scolaire. Elle permet de se préparer à deux concours."
       bgColor= "bg-rouge"
-      txtColor= "text-gris"
+      txtColor= "text-gris 2xl:pb-6"
       card= "true"
       :cards= "[
         {
@@ -135,7 +135,7 @@ Devenir magistrat, c’est un choix ambitieux, mais qui te donnera un rôle clé
 Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette aventure passionnante ! "
         bgColor="bg-rouge"
         iconName="code penal"
-        txtColor="text-gris"
+        txtColor="text-gris 2xl:pb-6"
         :buttons="[
           {
             text: 'École nationale de la magistrature',

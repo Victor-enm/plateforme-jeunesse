@@ -4,6 +4,7 @@
         title="Les métiers de la magistrature"
         text="Les métiers de la magistrature sont essentiels pour garantir le respect des lois et protéger la société. Juges, procureurs et autres professionnels du droit jouent un rôle fondamental dans l’équilibre de la justice. Parcours cette page pour découvrir les différents métiers et les responsabilités qui les accompagnent."
         bgColor="bg-gris"
+        txtColor="2xl:pb-6 text-violet"
         iconName="codes"
         pictoSize="lg:w-40 lg:h-40"
         :buttons="[
@@ -86,9 +87,10 @@
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique. 
 <br><br>
 Découvre la formation, la vie sur le campus ainsi que les témoignages d’élèves de l’ENM."
+        txtColor="2xl:pb-6 text-violet"
         bgColor="bg-gris"
         iconName="toque"
-        pictoSize="lg:w-40 lg:h-40 lg:mt-10 2xl:-mb-20 2xl:w-60 2xl:h-60"
+        pictoSize="lg:w-40 lg:h-40 lg:mt-10 2xl:w-45 2xl:h-45"
         responsivTxt="2xl:flex-row"
         :buttons="[
           {

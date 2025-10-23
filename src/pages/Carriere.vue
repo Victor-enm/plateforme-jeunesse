@@ -28,7 +28,7 @@
       textSecondary="Ensuite, tu devras passer le concours de l’École nationale de la magistrature (ENM), qui forme les futurs juges et procureurs pendant 31 mois.<br><br>
 
         Si tu ne veux pas suivre le parcours classique, il existe des passerelles ! Des avocats, des greffiers ou des policiers expérimentés peuvent passer un concours spécial pour rejoindre la magistrature."
-      imgSrc2="/src/assets/icons/parcours magistrat.svg"
+      :imgSrc2="Parcours"
       />
         <div class="w-25 h-25 relative top-35 rotate-90 left-70 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-200"><Piece/></div>
       <SectionBase
@@ -44,7 +44,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
       :cards= "[
         {
           description: 'Ton salaire pourra naturellement être plus élevé si tu évolues dans la hiérarchie judicaire',
-          css: 'bg-gris !border-gris !rounded-4xl text-violet',
+          css: 'bg-transparent !border-gris !rounded-4xl text-gris',
         }
       ]"
 
@@ -91,7 +91,7 @@ Par exemple, tu pourras travailler dans des ministères variés tels que le mini
 <br><br>
 Si tu souhaites travailler à l’international, plusieurs possibilités s’offrent à toi :"
       bgColor= "bg-rouge"
-      txtColor= "text-gris"
+      txtColor= "text-gris 2xl:pb-12"
       :ExpandableCards= "[
         {
           title: 'Être magistrat de liaison',
@@ -119,12 +119,12 @@ Si tu souhaites travailler à l’international, plusieurs possibilités s’off
         Si tu cherches un travail stimulant, utile et reconnu, cette voie est faite pour toi !"
         bgColor="bg-gris"
         iconName="code penal"
-        txtColor="text-violet"
+        txtColor="text-violet 2xl:pb-6"
         :buttons="[
           {
             text: 'Quel magistrat es-tu ?',
             to: '/quiz',
-            variant: 'fullRed',
+            variant: 'red',
           },
         ]"
       />
@@ -136,5 +136,6 @@ Si tu souhaites travailler à l’international, plusieurs possibilités s’off
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Piece from '@/assets/icons/piece.svg'
+import Parcours from '@/assets/icons/parcours magistrat.webp'
 
 </script>

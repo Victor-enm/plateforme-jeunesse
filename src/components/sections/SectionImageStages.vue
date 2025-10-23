@@ -15,7 +15,7 @@
         </span>
     </div>
     </div>
-    <div class="max-h-full overflow-auto px-4 lg:basis-3/4 2xl:pr-50 2xl:pl-50 2xl:pt-6 lg:flex lg:flex-col lg:items-center">
+    <div class="max-h-full overflow-auto px-4 lg:basis-3/4 2xl:pr-50 2xl:pl-50 2xl:pt-6 lg:flex lg:flex-col lg:items-center 2xl:items-start">
         <h2 class="text-3xl md:text-4xl font-bold mb-4 2xl:text-8xl 2xl:text-left"
         :class="txtColor">{{ title }}</h2>
         <p class="text-base md:text-lg mb-10 max-w-xl font-inter 2xl:text-left"

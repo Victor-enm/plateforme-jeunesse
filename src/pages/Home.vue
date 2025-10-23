@@ -70,7 +70,7 @@
         text="Un procès, c’est un moment important où la justice intervient pour trancher un conflit ou juger une personne accusée d’une infraction. Voici les grandes étapes d’une audience judiciaire."
         iconName="balance"
         bgColor="bg-gris"
-        txtColor="text-violet"
+        txtColor="text-violet 2xl:pb-6"
         :buttons="[
           {
             text: 'Découvre les grandes étapes',
@@ -85,7 +85,7 @@
         title="Une carrière dans la magistrature"
         text="Après des études de droit et une formation spécialisée, les magistrats prennent des décisions qui impactent la société. Un choix ambitieux pour celles et ceux qui veulent s’engager pour la justice et l’intérêt général."
         bgColor="bg-violet"
-        txtColor="text-gris"
+        txtColor="text-gris 2xl:pb-6"
         :buttons="[
           {
             text: 'Découvre les évolutions possibles',
@@ -99,6 +99,7 @@
       <SectionBase
         title="Rencontrons-nous"
         text="L’École nationale de la magistrature va à la rencontre des jeunes pour faire découvrir le métier de magistrat. Conférences, salons, journées portes ouvertes ou collaborations avec des créateurs de contenus : autant d’initiatives pour mieux faire connaître cette profession essentielle. Et si c’était fait pour toi ? Passe le test et découvre les études à suivre !"
+        txtColor=" text-violet 2xl:pb-6"
         bgColor="bg-gris"
         iconName="code penal"
         :buttons="[
@@ -117,7 +118,7 @@
         bgColor="bg-rouge"
         iconName="codes"
         pictoSize="w-30 h-30"
-        txtColor="text-gris"
+        txtColor="text-gris 2xl:pb-6"
         :buttons="[
           {
             text: 'Découvre comment y accéder',

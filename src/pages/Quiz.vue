@@ -5,7 +5,7 @@
       v-if="currentStep === 'intro'"
       title="Quel magistrat(e) sommeille en toi&nbsp;?"
       text="Juge des enfants, procureur de la république, juge d’instruction… Découvre avec ce quiz d’environ 5 minutes quel métier de magistrat(e) est fait pour toi&nbsp;!"
-      txtColor="text-gris"
+      txtColor="text-gris 2xl:pb-6"
       bgColor="bg-rouge"
       :buttons="[
         {
@@ -92,47 +92,58 @@ const computedResult = computed(() => {
     return acc;
   }, {});
 
+  // Trie les réponses par ordre décroissant de fréquence
   const sortedCounts = Object.entries(counts).sort(([, countA], [, countB]) => countB - countA);
 
-  let resultKey = '';
-
-  // Cas de l'égalité parfaite (si toutes les réponses sont égales)
-  const allCountsEqual = sortedCounts.length > 0 && sortedCounts.every(([, count]) => count === sortedCounts[0][1]);
-  if (allCountsEqual) {
-    // S'assurer qu'il y a au moins une réponse pour éviter un cas vide
-    if (sortedCounts.length === 4) { // Vérifie s'il y a 4 types de réponses (a, b, c, d)
-      resultKey = 'ABCD'; // Égalité parfaite entre a, b, c, d
-    } else if (sortedCounts.length > 1) { // Gérer les cas où il y a égalité entre moins de 4 réponses
-        // Par exemple, si toutes les réponses sont 'a' et 'b' avec le même compte
-        const types = sortedCounts.map(([type]) => type).sort().join(''); // 'AB', 'AC', etc.
-        resultKey = types.toUpperCase();
-    } else if (sortedCounts.length === 1) { // Cas où il n'y a qu'un seul type de réponse
-        resultKey = sortedCounts[0][0].toUpperCase();
-    } else { // Aucun résultat
-        return null;
-    }
-  } else {
-    // Cas des majorités simples ou doubles
-    const topType = sortedCounts[0]?.[0];
-    const topCount = sortedCounts[0]?.[1] || 0;
-    const secondType = sortedCounts[1]?.[0];
-    const secondCount = sortedCounts[1]?.[1] || 0;
-
-    if (topCount > secondCount) {
-      // Majorité simple (A, B, C ou D)
-      resultKey = topType.toUpperCase();
-    } else if (topCount === secondCount && topCount > 0) {
-      // Majorité double (AB, AC, AD, BC, BD, CD)
-      // Assure que les types sont triés alphabétiquement pour une clé cohérente (ex: AB, pas BA)
-      const combinedTypes = [topType, secondType].sort().join('').toUpperCase();
-      resultKey = combinedTypes;
-    } else {
-        // Gérer le cas où il n'y a pas de réponses ou un cas non prévu
-        return null; // Ou une valeur par défaut
-    }
+  // Cas où il n'y a aucune réponse
+  if (sortedCounts.length === 0) {
+    return null;
   }
 
-  // Retourne le résultat correspondant à la clé trouvée
-  return results[resultKey];
+  // Récupère le nombre de réponses uniques
+  const uniqueResponseTypes = sortedCounts.length;
+
+  // Cas d'égalité parfaite (toutes les réponses ont le même nombre)
+  const allCountsEqual = sortedCounts.every(([, count]) => count === sortedCounts[0][1]);
+
+  if (allCountsEqual) {
+    // Si toutes les réponses sont égales et qu'il y a 4 types (A, B, C, D)
+    if (uniqueResponseTypes === 4) {
+      return results['ABCD'];
+    }
+    // Si toutes les réponses sont égales mais moins de 4 types (ex: A, B, C)
+    const types = sortedCounts.map(([type]) => type).sort().join('').toUpperCase();
+    return results[types];
+  }
+
+  // Cas des majorités simples ou multiples
+  const topCount = sortedCounts[0][1];
+  const secondCount = sortedCounts[1]?.[1] || 0;
+  const thirdCount = sortedCounts[2]?.[1] || 0;
+  const fourthCount = sortedCounts[3]?.[1] || 0;
+
+  // Cas d'une majorité claire (ex: A > B, C, D)
+  if (topCount > secondCount) {
+    return results[sortedCounts[0][0].toUpperCase()];
+  }
+  // Cas d'une égalité double (ex: A = B > C, D)
+  else if (topCount === secondCount && topCount > thirdCount) {
+    const combinedTypes = [sortedCounts[0][0], sortedCounts[1][0]].sort().join('').toUpperCase();
+    return results[combinedTypes];
+  }
+  // Cas d'une égalité triple (ex: A = B = C > D)
+  else if (topCount === secondCount && topCount === thirdCount && topCount > fourthCount) {
+    const combinedTypes = [sortedCounts[0][0], sortedCounts[1][0], sortedCounts[2][0]].sort().join('').toUpperCase();
+    return results[combinedTypes];
+  }
+  // Cas d'une égalité quadruple (ex: A = B = C = D)
+  else if (topCount === secondCount && topCount === thirdCount && topCount === fourthCount) {
+    return results['ABCD'];
+  }
+  // Cas non prévu (ne devrait pas arriver si le code est correct)
+  else {
+    return null;
+  }
 });
+
 </script>

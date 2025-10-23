@@ -1,6 +1,6 @@
 <template>
   <div v-if="result" class="w-full max-w-xl text-center space-y-6">
-    <h2 class="text-3xl font-bold text-violet">{{ result.title }}</h2>
+    <h2 class="text-3xl font-bold text-violet 2xl:text-5xl">{{ result.title }}</h2>
     <p class="text-base md:text-lg mb-10 max-w-xl font-inter text-violet">{{ result.description }}</p>
     <div class="flex flex-col justify-center gap-4">
       <router-link
@@ -15,8 +15,8 @@
     </div>
   </div>
   <div v-else class="text-center">
-    <p class="text-gray-500 italic">Aucun résultat à afficher.</p>
-    <button class="mt-4 text-blue-500 underline" @click="$emit('reset')">Recommencer le quiz</button>
+    <p class="text-violet italic">Aucun résultat à afficher.</p>
+    <button class="mt-4 text-violet underline" @click="$emit('reset')">Recommencer le quiz</button>
   </div>
 </template>
 
