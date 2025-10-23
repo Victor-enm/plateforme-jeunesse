@@ -25,9 +25,7 @@
         title="Témoignage d’un juge de l'application des peines"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        linkVideo="https://www.youtube.com/embed/LUVxER1DlmI"
-        :photo="Photo"
-
+        videoId="https://www.youtube.com/embed/Kc8BruqJHdY"
         />
 
     <SectionBase
@@ -48,13 +46,13 @@
     />
   <SectionBase
       title= "Juge de l'application des peines"
-      text= "Quels parcours suivre ?"
+      text= "Quels parcours suivre&nbsp;?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
       :imgSrc2="Parcours"
       />
   <SectionBase
-        title="Ce métier est fait pour toi ?"
+        title="Ce métier est fait pour toi&nbsp;?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
         iconName="code civil"

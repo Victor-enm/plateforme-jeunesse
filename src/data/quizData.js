@@ -1,6 +1,6 @@
 export const questions = [
   {
-    text: "Si tu pouvais résoudre une grande affaire, tu choisirais:",
+    text: "Si tu pouvais résoudre une grande affaire, tu choisirais\u00A0:",
     options: [
       { text: "Un mystère avec des indices à découvrir.", type: "A" },
       { text: "Un scandale qui pourrait changer la société.", type: "B" },
@@ -9,7 +9,7 @@ export const questions = [
     ],
   },
   {
-    text: "Dans une équipe, tu es plutôt :",
+    text: "Dans une équipe, tu es plutôt\u00A0:",
     options: [
       { text: "Celui qui trouve les indices et les détails.", type: "A" },
       { text: "Celui qui prend les décisions rapidement.", type: "B" },
@@ -18,7 +18,7 @@ export const questions = [
     ],
   },
   {
-    text: "Quand il y a un conflit,  que fais-tu en premier ?",
+    text: "Quand il y a un conflit,  que fais-tu en premier\u00A0?",
     options: [
       { text: "J’écoute les deux côtés pour comprendre ce qu’il se passe.", type: "A" },
       { text: "Je trouve une solution rapide efficace.", type: "B" },
@@ -27,7 +27,7 @@ export const questions = [
     ],
   },
   {
-    text: "Si tu pouvais passer du temps avec un(e) personnage important(e) de la justice, tu choisirais :",
+    text: "Si tu pouvais passer du temps avec un(e) personnage important(e) de la justice, tu choisirais\u00A0:",
     options: [
       { text: "Sherlock Holmes pour sa logique et ses capacités d'observation.", type: "A" },
       { text: "Robert Badinter pour ses actions en faveur des droits humains.", type: "B" },
@@ -36,7 +36,7 @@ export const questions = [
     ],
   },
   {
-    text: "Face à une injustice, tu préfères :",
+    text: "Face à une injustice, tu préfères\u00A0:",
     options: [
       { text: "Y répondre par la loi.", type: "A" },
       { text: "Défendre les personnes qui en ont besoin.", type: "B" },
@@ -45,7 +45,7 @@ export const questions = [
     ],
   },
   {
-    text: "Ta matière préférée à l’école :",
+    text: "Ta matière préférée à l’école\u00A0:",
     options: [
       { text: "L’Histoire, pour comprendre comment les événements se sont déroulés.", type: "A" },
       { text: "Le Français, car tu aimes argumenter et manier les mots.", type: "B" },
@@ -54,7 +54,7 @@ export const questions = [
     ],
   },
   {
-    text: "Pour apprendre des choses, tu préfères :",
+    text: "Pour apprendre des choses, tu préfères\u00A0:",
     options: [
       { text: "Étudier un sujet qui te passionne, même si ça demande beaucoup d’effort.", type: "A" },
       { text: "Te concentrer sur quelque chose de pratique et utile dans la vie de tous les jours.", type: "B" },
@@ -63,7 +63,7 @@ export const questions = [
     ],
   },
   {
-    text: "Si tu avais un super-pouvoir dans un tribunal, tu choisirais :",
+    text: "Si tu avais un super-pouvoir dans un tribunal, tu choisirais\u00A0:",
     options: [
       { text: "Pouvoir remarquer tous les détails que les autres ne remarquent pas.", type: "A" },
       { text: "Être capable de convaincre facilement tout le monde.", type: "B" },
@@ -72,7 +72,7 @@ export const questions = [
     ],
   },
   {
-    text: "Le genre de film que tu préfères :",
+    text: "Le genre de film que tu préfères\u00A0:",
     options: [
       { text: "Un film à mystères.", type: "A" },
       { text: "Un film où un juge lutte pour rendre justice.", type: "B" },
@@ -81,16 +81,16 @@ export const questions = [
     ],
   },
   {
-    text: "Quand tu finis une journée de cours, tu préfères :",
+    text: "Quand tu finis une journée de cours, tu préfères\u00A0:",
     options: [
       { text: "Regarder une série policière ou judiciaire sur ta plateforme de streaming favorite.", type: "A" },
       { text: "Écouter un podcast sur une affaire célèbre en marchant ou en faisant du sport.", type: "B" },
-      { text: "Lire un bon roman policier, avec plein de suspens et de rebondissements ! ", type: "C" },
-      { text: "Pas de pause : tu travailles directement en rentrant ! ", type: "D" },
+      { text: "Lire un bon roman policier, avec plein de suspens et de rebondissements\u00A0! ", type: "C" },
+      { text: "Pas de pause\u00A0: tu travailles directement en rentrant\u00A0! ", type: "D" },
     ],
   },
   {
-    text: "Ton environnement de travail idéal est :",
+    text: "Ton environnement de travail idéal est\u00A0:",
     options: [
       { text: "Calme, entouré par toutes tes affaires.", type: "A" },
       { text: "Dynamique, avec des sujets variés.", type: "B" },
@@ -99,7 +99,7 @@ export const questions = [
     ],
   },
   {
-    text: "Pour toi, un bon professionnel de la justice doit avant tout :",
+    text: "Pour toi, un bon professionnel de la justice doit avant tout\u00A0:",
     options: [
       { text: "Avoir un œil de lynx, pour voir les petits détails que les autres ne remarquent pas.", type: "A" },
       { text: "Être un super-héros pour avoir le courage de défendre ce en quoi il croit.", type: "B" },
@@ -117,7 +117,7 @@ export const questions = [
     ],
   },
   {
-    text: "Dans un groupe, tu es celui/celle qui :",
+    text: "Dans un groupe, tu es celui/celle qui\u00A0:",
     options: [
       { text: "Repère les incohérences et les erreurs.", type: "A" },
       { text: "Prend les décisions et dirige les autres.", type: "B" },
@@ -126,7 +126,7 @@ export const questions = [
     ],
   },
   {
-    text: "Pour toi, le rôle principal d’un tribunal est de :",
+    text: "Pour toi, le rôle principal d’un tribunal est de\u00A0:",
     options: [
       { text: "Découvrir la vérité en analysant les preuves.", type: "A" },
       { text: "Rendre la justice de manière équitable.", type: "B" },
@@ -135,7 +135,7 @@ export const questions = [
     ],
   },
   {
-    text: "Quand tu fais face à une tâche complexe, tu préfères :",
+    text: "Quand tu fais face à une tâche complexe, tu préfères\u00A0:",
     options: [
       { text: "La décomposer pour bien comprendre chaque étape.", type: "A" },
       { text: "Passer directement à l’action.", type: "B" },
@@ -144,7 +144,7 @@ export const questions = [
     ],
   },
   {
-    text: "Pour toi, résoudre un problème, c’est :",
+    text: "Pour toi, résoudre un problème, c’est\u00A0:",
     options: [
       { text: "Analyser les différentes opinions et informations avant de décider.", type: "A" },
       { text: "Tester rapidement des solutions sans trop hésiter.", type: "B" },
@@ -153,7 +153,7 @@ export const questions = [
     ],
   },
   {
-    text: "Tu préfères travailler :",
+    text: "Tu préfères travailler\u00A0:",
     options: [
       { text: "Seul, pour être plus concentré.", type: "A" },
       { text: "En équipe, car l’échange d’idées permet de mieux avancer.", type: "B" },
@@ -164,10 +164,10 @@ export const questions = [
   {
     text: "Dans un projet de groupe, tu es...",
     options: [
-      { text: "Le stratège : tu mets en place la marche à suivre pour la suite.", type: "A" },
-      { text: "Le fonceur : tu plonges directement dans l’action pour voir où cela te mène.", type: "B" },
-      { text: "Le médiateur : tu fais en sorte que le travail d’équipe se passe bien.", type: "C" },
-      { text: "L’organisateur :  tu es celui qui maintient tout en ordre et qui s’assure du bon déroulé du projet. ", type: "D" },
+      { text: "Le stratège\u00A0: tu mets en place la marche à suivre pour la suite.", type: "A" },
+      { text: "Le fonceur\u00A0: tu plonges directement dans l’action pour voir où cela te mène.", type: "B" },
+      { text: "Le médiateur\u00A0: tu fais en sorte que le travail d’équipe se passe bien.", type: "C" },
+      { text: "L’organisateur\u00A0:  tu es celui qui maintient tout en ordre et qui s’assure du bon déroulé du projet. ", type: "D" },
     ],
   },
   {
@@ -185,12 +185,12 @@ export const questions = [
 export const results = {
   A: {
     title: "Juge d'instruction",
-    description: "La rigueur incarnée ! Ta capacité à examiner les faits en détail et à résoudre des mystères complexes fait de toi un excellent candidat pour le métier de juge d'instruction. ",
+    description: "La rigueur incarnée\u00A0! Ta capacité à examiner les faits en détail et à résoudre des mystères complexes fait de toi un excellent candidat pour le métier de juge d'instruction. ",
     to: "/les-metiers/juge-instruction",
   },
   B: {
     title: "Substitut du procureur (ou vice-procureur)",
-    description: "Action ! Tu es une personne capable de prendre des décisions rapides et efficaces. Le métier de substitut du procureur, qui exige de l'initiative et de la réactivité, est fait pour toi. ",
+    description: "Action\u00A0! Tu es une personne capable de prendre des décisions rapides et efficaces. Le métier de substitut du procureur, qui exige de l'initiative et de la réactivité, est fait pour toi. ",
     to: "/les-metiers/substitut-du-procureur",
   },
   C: {
@@ -200,7 +200,7 @@ export const results = {
   },
   D: {
     title: "Juge aux affaires familiales",
-    description: "Humain et pragmatique, tu es capable de gérer des situations humaines et familiales complexes, le métier de juge aux affaires familiales est fait pour toi !",
+    description: "Humain et pragmatique, tu es capable de gérer des situations humaines et familiales complexes, le métier de juge aux affaires familiales est fait pour toi\u00A0!",
     to: "/les-metiers/juges-aux-affaires-familiales",
   },
   AB: {
@@ -235,7 +235,7 @@ export const results = {
   },
   ABC: {
     title: "Juge des enfants",
-    description: "Félicitations ! Tu allies l'analyse, la réactivité et l'empathie, des qualités indispensables pour traiter des affaires sensibles et protéger les droits des enfants. Le métier de juge des enfants est fait pour toi. ",
+    description: "Félicitations\u00A0! Tu allies l'analyse, la réactivité et l'empathie, des qualités indispensables pour traiter des affaires sensibles et protéger les droits des enfants. Le métier de juge des enfants est fait pour toi. ",
     to: "/les-metiers/juge-des-enfants",
   },
   ABD: {
@@ -245,7 +245,7 @@ export const results = {
   },
   BCD: {
     title: "Juge aux affaires familiales",
-    description: "Félicitations ! Tu combines réactivité, empathie et organisation, ce qui fait de toi un excellent candidat pour le métier de juge aux affaires familiales. ",
+    description: "Félicitations\u00A0! Tu combines réactivité, empathie et organisation, ce qui fait de toi un excellent candidat pour le métier de juge aux affaires familiales. ",
     to: "/les-metiers/juges-aux-affaires-familiales",
   },
   ABCD: {

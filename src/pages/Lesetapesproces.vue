@@ -6,6 +6,7 @@
         bgColor="bg-gris"
         iconName="balance"
         pictoSize="w-35 h-35"
+        down="true"
         />
 
         <SectionImageStages
@@ -69,10 +70,10 @@ Ces étapes permettent de garantir une justice équitable en écoutant toutes le
         />
 
         <SectionBase
-        title="Ce métier est fait pour toi ?"
-        text="Si tu es curieux, que tu aimes argumenter, débattre et comprendre le fonctionnement de la justice, alors pourquoi ne pas envisager cette voie ? <br>
+        title="Ce métier est fait pour toi&nbsp;?"
+        text="Si tu es curieux, que tu aimes argumenter, débattre et comprendre le fonctionnement de la justice, alors pourquoi ne pas envisager cette voie&nbsp;? <br>
 Devenir magistrat, c’est un choix ambitieux, mais qui te donnera un rôle clé dans la société. <br>
-Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette aventure passionnante ! "
+Tu veux faire respecter la loi et aider les autres&nbsp;? Alors lance-toi dans cette aventure passionnante ! "
         bgColor="bg-gris"
         iconName="code penal"
         txtColor="text-violet 2xl:pb-6"
@@ -84,7 +85,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
             class: 'mb-5 lg:mr-5 lg:mt-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
+            text: 'Quel magistrat es-tu&nbsp;?',
             to: '/',
             variant: 'fullRed',
             class: 'lg:hover:border-rouge'

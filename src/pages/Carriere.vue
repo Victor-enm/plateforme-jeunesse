@@ -6,11 +6,11 @@
         bgColor="bg-gris"
         iconName="themis"
         pictoSize="w-30 h-30 2xl:mt-8"
-        
+        down="true"
         />
 
       <SectionBase
-      title= "Quelles études suivre ?"
+      title= "Quelles études suivre&nbsp;?"
       text= "Le chemin pour devenir magistrat demande de la détermination, mais il est accessible avec du travail et de la motivation. Après le bac, il faut faire des études de droit."
       bgColor= "bg-gris"
       txtColor= "text-violet"
@@ -22,29 +22,29 @@
         },
         {
           description: 'Un master (Bac +5) pour approfondir tes connaissances.',
-          css: '!font-sans text-violet border-violet',
+          css: '!font-sans text-violet border-violet mb-6 lg:mb-0',
         }
       ]"
       textSecondary="Ensuite, tu devras passer le concours de l’École nationale de la magistrature (ENM), qui forme les futurs juges et procureurs pendant 31 mois.<br><br>
 
-        Si tu ne veux pas suivre le parcours classique, il existe des passerelles ! Des avocats, des greffiers ou des policiers expérimentés peuvent passer un concours spécial pour rejoindre la magistrature."
+        Si tu ne veux pas suivre le parcours classique, il existe des passerelles&nbsp;! Des avocats, des greffiers ou des policiers expérimentés peuvent passer un concours spécial pour rejoindre la magistrature."
       :imgSrc2="Parcours"
       />
-        <div class="w-25 h-25 relative top-35 rotate-90 left-70 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-200"><Piece/></div>
+        <div class="w-25 h-25 relative top-35 rotate-90 left-60 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-200"><Piece/></div>
       <SectionBase
-      title= "Combien gagne un magistrat ?"
+      title= "Combien gagne un magistrat&nbsp;?"
       text= "L’un des avantages de ce métier, c’est aussi la sécurité financière.
 <br><br>
 Pendant ta formation à l’ENM, même en tant qu’élève magistrat, tu seras rémunéré. Tu percevras 1907 € net par mois pendant tes 31 mois de formation.
 <br><br>
 Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mois. Cette rémunération évoluera en même temps que ta carrière puisqu’elle attendra 4702 € à partir de la 6e année d’activité et 7260 € lorsque tu auras plus de 19 ans de carrière. "
       bgColor= "bg-rouge"
-      txtColor= "text-gris"
+      txtColor= "text-gris z-10"
       card= "true"
       :cards= "[
         {
           description: 'Ton salaire pourra naturellement être plus élevé si tu évolues dans la hiérarchie judicaire',
-          css: 'bg-transparent !border-gris !rounded-4xl text-gris',
+          css: 'bg-transparent !border-gris&nbsp;!rounded-4xl text-gris',
         }
       ]"
 
@@ -55,7 +55,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
 
       <SectionBase
       title= "Comment peut évoluer ta carrière&nbsp;?"
-      text= "Tu ne resteras pas au même poste toute ta vie ! "
+      text= "Tu ne resteras pas au même poste toute ta vie&nbsp;! "
       bgColor= "bg-violet"
       txtColor= "text-gris"
       card= "true"
@@ -72,17 +72,17 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
         },
         {
           description: 'Rejoindre de grandes institutions comme la Cour de cassation ou le Conseil d’État',
-          css: '!bg-transparent !text-gris !border-gris',
+          css: '!bg-transparent !text-gris !border-gris mb-6 lg:mb-0',
           typoDesc: '!font-sans',
         }
       ]"
-      textSecondary="Au cours de sa carrière, tu pourras aussi évoluer entre les fonctions du siège et du parquet et exercer dans des champs d’activité variés : dans les domaines économique, international, carcéral, hospitalier, familial ou de la protection de l’enfance, bref pas de routine !"
+      textSecondary="Au cours de sa carrière, tu pourras aussi évoluer entre les fonctions du siège et du parquet et exercer dans des champs d’activité variés : dans les domaines économique, international, carcéral, hospitalier, familial ou de la protection de l’enfance, bref pas de routine&nbsp;!"
       
       />
 
 
       <SectionDecouvre
-      title= "Des opportunités en dehors des tribunaux français ?"
+      title= "Des opportunités en dehors des tribunaux français&nbsp;?"
       text= "Au terme de quatre années d’exercice, tu pourras accéder à des fonctions en détachement au sein d’autres administrations ou à l’international.
 <br><br>
 Un magistrat en détachement est un juge ou un procureur qui quitte temporairement ses fonctions judiciaires habituelles pour exercer une activité professionnelle différente, tout en conservant son statut de magistrat et ses droits à l’avancement. 
@@ -91,7 +91,7 @@ Par exemple, tu pourras travailler dans des ministères variés tels que le mini
 <br><br>
 Si tu souhaites travailler à l’international, plusieurs possibilités s’offrent à toi :"
       bgColor= "bg-rouge"
-      txtColor= "text-gris 2xl:pb-12"
+      txtColor= "text-gris first:pb-6 2xl:pb-12"
       :ExpandableCards= "[
         {
           title: 'Être magistrat de liaison',
@@ -116,13 +116,13 @@ Si tu souhaites travailler à l’international, plusieurs possibilités s’off
         title="Pourquoi choisir ce métier"
         text="Devenir magistrat, c'est choisir une carrière où chaque journée est différente <br><br>
         Tu peux aider les victimes, faire respecter la loi et avoir un impact direct sur la société. C'est aussi un métier où tu as de grandes responsabilités et où tes décisions comptent.<br><br>
-        Si tu cherches un travail stimulant, utile et reconnu, cette voie est faite pour toi !"
+        Si tu cherches un travail stimulant, utile et reconnu, cette voie est faite pour toi&nbsp;!"
         bgColor="bg-gris"
         iconName="code penal"
         txtColor="text-violet 2xl:pb-6"
         :buttons="[
           {
-            text: 'Quel magistrat es-tu ?',
+            text: 'Quel magistrat es-tu&nbsp;?',
             to: '/quiz',
             variant: 'red',
           },

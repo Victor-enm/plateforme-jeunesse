@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gris text-center py-10 px-20 text-sm text-neutral-700 snap-start 2xl:text-base">
       <!-- Texte principal -->
-      <p class="mb-4 font-inter">Suis l’actualité de l’ENM sur nos différents réseaux !</p>
+      <p class="mb-4 font-inter">Suis l’actualité de l’ENM sur nos différents réseaux&nbsp;!</p>
   
       <!-- Réseaux sociaux -->
       <div class="flex justify-center gap-4 mb-4 text-violet ">

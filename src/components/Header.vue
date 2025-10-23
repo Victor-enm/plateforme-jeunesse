@@ -40,7 +40,7 @@
     <transition name="fade">
       <div
         v-if="isMenuOpen"
-        class="xl:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 z-10"
+        class="xl:hidden fixed inset-0 bg-gris flex flex-col items-center justify-center space-y-4 text-center px-6 pt-10 z-10"
         id="mobile-menu"
       >
         <router-link
@@ -73,13 +73,13 @@ const closeMenu = () => {
 };
 
 const navItems = [
-  { label: 'Quel magistrat es-tu ?', href: '/quiz', labelDesk:'Les métiers de la magistrature', hrefDesk: '/les-metiers' },
+  { label: 'Quel magistrat es-tu\u00A0?', href: '/quiz', labelDesk:'Les métiers de la magistrature', hrefDesk: '/les-metiers' },
   { label: 'Les métiers de la magistrature', href: '/les-metiers', labelDesk:'L’ENM', hrefDesk: '/ENM' },
   { label: 'L\'école nationale de la magistrature', href: '/ENM', labelDesk:'Étapes d’un procès', hrefDesk: '/les-etapes-proces' },
   { label: 'Les grandes étapes d\'un procès', href: '/les-etapes-proces', labelDesk:'Les carrières dans la magistrature', hrefDesk: '/carriere-dans-la-magistrature' },
   { label: 'Une carrière dans la magistrature', href: '/carriere-dans-la-magistrature', labelDesk:'Rencontrons-nous', hrefDesk: '/rencontrons-nous' },
   { label: 'Rencontrons-nous', href: '/rencontrons-nous', labelDesk:'Les classes Prépas Talents de l’ENM', hrefDesk: '/classes-prepas-talents-enm' },
-  { label: 'Les classes Prépas Talents de l\'ENM', href: '/classes-prepas-talents-enm', labelDesk:'Quel magistrat es-tu ?', hrefDesk: '/quiz' },
+  { label: 'Les classes Prépas Talents de l\'ENM', href: '/classes-prepas-talents-enm', labelDesk:'Quel magistrat es-tu\u00A0?', hrefDesk: '/quiz' },
 ]
 </script>
 

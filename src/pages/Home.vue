@@ -5,15 +5,8 @@
         text="Les magistrats veillent à l’application de la loi en tant que juges ou procureurs, jouant ainsi un rôle clé dans la société. Découvre celui qui te correspond et les études à suivre en passant le test !"
         bgColor="bg-gris"
         iconName="codes"
-        responsivTxt="lg:flex-row"
         pictoSize="w-40 h-40 lg:relative lg:top-20 lg:right-90 2xl:top-15 2xl:right-135 xl:right-115"
-        :buttons="[
-          {
-            text: 'Je fais  le test !',
-            to: '/quiz',
-            variant: 'violet',
-          },
-        ]"
+        down="true"
       />
 
       <SectionBase
@@ -26,7 +19,7 @@
         :buttons="[
           {
             text: 'Je fais  le test !',
-            to: '/autre',
+            to: '/quiz',
             variant: 'violet',
           },
         ]"
@@ -49,7 +42,7 @@
       />
 
       <SectionBase
-        title="L’école nationale de la magistrature"
+        title="L’École nationale de la magistrature"
         text="L’École nationale de la magistrature (ENM) offre une formation unique pour devenir juge ou procureur, alliant théorie et pratique."
         bgColor="bg-rouge"
         txtColor="text-gris"
@@ -69,6 +62,7 @@
         title="Plonge au cœur d’un procès"
         text="Un procès, c’est un moment important où la justice intervient pour trancher un conflit ou juger une personne accusée d’une infraction. Voici les grandes étapes d’une audience judiciaire."
         iconName="balance"
+        pictoSize="w-30 h-30"
         bgColor="bg-gris"
         txtColor="text-violet 2xl:pb-6"
         :buttons="[
@@ -98,7 +92,7 @@
 
       <SectionBase
         title="Rencontrons-nous"
-        text="L’École nationale de la magistrature va à la rencontre des jeunes pour faire découvrir le métier de magistrat. Conférences, salons, journées portes ouvertes ou collaborations avec des créateurs de contenus : autant d’initiatives pour mieux faire connaître cette profession essentielle. Et si c’était fait pour toi ? Passe le test et découvre les études à suivre !"
+        text="L’École nationale de la magistrature va à la rencontre des jeunes pour faire découvrir le métier de magistrat. Conférences, salons, journées portes ouvertes ou collaborations avec des créateurs de contenus : autant d’initiatives pour mieux faire connaître cette profession essentielle. Et si c’était fait pour toi&nbsp;? Passe le test et découvre les études à suivre !"
         txtColor=" text-violet 2xl:pb-6"
         bgColor="bg-gris"
         iconName="code penal"

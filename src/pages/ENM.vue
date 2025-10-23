@@ -8,6 +8,7 @@ Découvre la formation, la vie sur le campus ainsi que les témoignages d’él�
         bgColor="bg-gris"
         iconName="toque"
         pictoSize="w-30 h-30 2xl:w-45 2xl:h-45"
+        down="true"
         />
 
         <SectionBase
@@ -45,7 +46,7 @@ Découvre la formation, la vie sur le campus ainsi que les témoignages d’él�
         <SectionBase
         :imgSrc=Fi2
         title="Une formation immersive de 2 ans et demi"
-        text="L’ENM propose un parcours complet combinant enseignements théoriques et mises en situation réelles. L’objectif ? Apprendre à juger avec compétence, éthique, discernement et humanité, tout en comprenant les enjeux sociaux et institutionnels du système judiciaire.
+        text="L’ENM propose un parcours complet combinant enseignements théoriques et mises en situation réelles. L’objectif&nbsp;? Apprendre à juger avec compétence, éthique, discernement et humanité, tout en comprenant les enjeux sociaux et institutionnels du système judiciaire.
 Ce cursus alterne entre&nbsp;:"
         txtColor="text-violet"
         bgColor="bg-gris"
@@ -166,7 +167,7 @@ Les cours se déclinent sous différents formats&nbsp;:"
          <SectionBase
         :imgSrc= VieCampus
         title="La vie de campus"
-        text="L’ENM : bien plus qu’une école, une véritable immersion dans le monde judiciaire. Depuis sa création en 1958, l’Ecole nationale de la magistrature est l’unique école de formation des magistrats en France. Son rôle ? Former des juges et procureurs capables de comprendre la société dans laquelle ils rendent la justice.
+        text="L’ENM : bien plus qu’une école, une véritable immersion dans le monde judiciaire. Depuis sa création en 1958, l’Ecole nationale de la magistrature est l’unique école de formation des magistrats en France. Son rôle&nbsp;? Former des juges et procureurs capables de comprendre la société dans laquelle ils rendent la justice.
 <br><br>
 Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiques pour exercer les fonctions de magistrat."
         txtColor="text-gris"
@@ -234,7 +235,7 @@ Ici l’enseignement consiste à apprendre à utiliser ses connaissances juridiq
 
         <SectionBase
         title="Les élèves racontent leur parcours"
-        text="Curieux de savoir ce que signifie réellement être élève magistrat à l’ENM ? Rien de mieux que d’écouter ceux qui le vivent au quotidien !
+        text="Curieux de savoir ce que signifie réellement être élève magistrat à l’ENM&nbsp;? Rien de mieux que d’écouter ceux qui le vivent au quotidien !
 <br><br>
 Les élèves magistrats des promotions 2024 et 2025 partagent leurs expériences, leurs défis et leurs réussites. De la préparation du concours aux stages en juridiction, en passant par les moments forts de la formation, ils dévoilent tout&nbsp;:"
         txtColor="text-gris"

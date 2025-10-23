@@ -4,7 +4,8 @@
         text="Les Classes Prépas Talents de l'ENM, un coup de pouce vers la magistrature"
         bgColor="bg-gris"
         iconName="Logo_Prepa_Talents"
-        pictoSize="w-90 h-90 p-0 !-m-20 2xl:w-120 2xl:h-100"
+        pictoSize="w-90 h-90 p-0 !-m-20 xl:w-60 xl:h-60 xl:!m-0 xl:!-mb-20 2xl:w-120 2xl:h-100"
+        down="true"
         />
 
       
@@ -16,7 +17,7 @@
       card= "true"
       :cards= "[
         {
-          title: 'L’objectif ?',
+          title: 'L’objectif&nbsp;?',
           description: 'Ouvrir l’accès à la magistrature à tous les profils, y compris ceux qui n’auraient pas forcément imaginé cette voie.',
           css: '!bg-transparent !text-gris !border-gris mb-12'
         }
@@ -58,14 +59,14 @@
         },
         {
           title: 'Être motivé… vraiment motivé&nbsp;!',
-          css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1'
+          css: '!bg-transparent !text-gris !border-gris !pt-3 !pb-1 mb-6 lg:mb-0'
         },
       ]"
       textSecondary="Un dossier de candidature est à déposer, suivi d’un entretien de motivation avec un jury."
       />
 
       <SectionBase
-      title= "Concrètement, on y fait quoi ?"
+      title= "Concrètement, on y fait quoi&nbsp;?"
       text= "La prépa commence en octobre et dure toute l’année scolaire. Elle permet de se préparer à deux concours."
       bgColor= "bg-rouge"
       txtColor= "text-gris 2xl:pb-6"
@@ -77,7 +78,7 @@
         },
         {
           title: 'Le 1er concours spécial “Talents”',
-          css: '!bg-transparent !text-gris !border-gris'
+          css: '!bg-transparent !text-gris !border-gris mb-6 lg:mb-0'
         },
       ]"
       textSecondary="En bonus, les élèves obtiennent un diplôme de l’ENM intitulé
@@ -89,7 +90,7 @@
       <SectionBase
       iconName="piece"
       pictoSize="w-30 h-30"
-      title= "Et niveau finances ?"
+      title= "Et niveau finances&nbsp;?"
       text= "Bonne nouvelle : l’année est gratuite et en plus, une bourse est versée chaque mois, calculée selon les critères du CROUS."
       bgColor= "bg-gris"
       txtColor= "text-violet"
@@ -122,17 +123,17 @@
         },
         {
           title: 'Il prépare sérieusement à une carrière dans la justice.',
-          css: '!bg-transparent !text-gris !border-gris'
+          css: '!bg-transparent !text-gris !border-gris mb-6 lg:mb-0'
         },
       ]"
       textSecondary="Plus d’infos sur <a href='https://www.enm.justice.fr/' target='_blank' class='underline'>enm.justice.fr</a>"
       />
       
       <SectionBase
-        title="Ce métier est fait pour toi ?"
-        text="Si tu es curieux, que tu aimes argumenter, débattre et comprendre le fonctionnement de la justice, alors pourquoi ne pas envisager cette voie ? <br>
+        title="Ce métier est fait pour toi&nbsp;?"
+        text="Si tu es curieux, que tu aimes argumenter, débattre et comprendre le fonctionnement de la justice, alors pourquoi ne pas envisager cette voie&nbsp;? <br>
 Devenir magistrat, c’est un choix ambitieux, mais qui te donnera un rôle clé dans la société. <br>
-Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette aventure passionnante ! "
+Tu veux faire respecter la loi et aider les autres&nbsp;? Alors lance-toi dans cette aventure passionnante ! "
         bgColor="bg-rouge"
         iconName="code penal"
         txtColor="text-gris 2xl:pb-6"
@@ -144,7 +145,7 @@ Tu veux faire respecter la loi et aider les autres ? Alors lance-toi dans cette 
             class: 'mb-5 mr-5'
           },
           {
-            text: 'Quel magistrat es-tu ?',
+            text: 'Quel magistrat es-tu&nbsp;?',
             to: '/',
             variant: 'fullViolet',
           },

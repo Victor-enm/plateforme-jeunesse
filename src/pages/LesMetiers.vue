@@ -41,7 +41,7 @@
         },
         {
             title: 'Juge civil',
-            description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif ? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
+            description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif&nbsp;? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
             to: '/les-metiers/juge-civil',
         },
         {
@@ -61,7 +61,7 @@
         },
         {
             title: 'Juge d’instruction',
-            description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif ? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
+            description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif&nbsp;? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
             to: '/les-metiers/juge-instruction',
         },
       ]"

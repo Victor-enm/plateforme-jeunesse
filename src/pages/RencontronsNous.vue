@@ -6,6 +6,7 @@
         bgColor="bg-gris"
         iconName="codes"
         pictoSize="w-30 h-30 2xl:w-45 2xl:h-45"
+        down="true"
         />
 
       

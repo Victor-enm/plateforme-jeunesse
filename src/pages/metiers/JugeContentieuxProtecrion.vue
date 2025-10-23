@@ -31,7 +31,7 @@
 
     <SectionBase
       title= "Protéger les personnes vulnérables"
-      text= "Le juge des contentieux de la protection (JCP) aide les personnes fragiles, en raison de leur âge ou de leur santé, qui ont besoin d’un soutien au quotidien. Il met en place des mesures (sauvegarde de justice, curatelle, tutelle ou habilitation familiale) en fonction de leurs besoins réels. Son rôle ? Protéger ces personnes tout en respectant au maximum leur liberté. Une mission particulièrement valorisante pour le juge du fait de utilité sociale forte!"
+      text= "Le juge des contentieux de la protection (JCP) aide les personnes fragiles, en raison de leur âge ou de leur santé, qui ont besoin d’un soutien au quotidien. Il met en place des mesures (sauvegarde de justice, curatelle, tutelle ou habilitation familiale) en fonction de leurs besoins réels. Son rôle&nbsp;? Protéger ces personnes tout en respectant au maximum leur liberté. Une mission particulièrement valorisante pour le juge du fait de utilité sociale forte!"
       bgColor= "bg-gris"
       txtColor= "text-violet"
       titleSecondary="Traiter les affaires relatives à la location d’un logement"
@@ -47,13 +47,13 @@
     />
   <SectionBase
       title= "Juge des contentieux de la protection"
-      text= "Quels parcours suivre ?"
+      text= "Quels parcours suivre&nbsp;?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
       :imgSrc2="Parcours"
       />
   <SectionBase
-        title="Ce métier est fait pour toi ?"
+        title="Ce métier est fait pour toi&nbsp;?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
         iconName="code civil"

@@ -43,13 +43,13 @@
     />
   <SectionBase
       title= "Juge civil"
-      text= "Quels parcours suivre ?"
+      text= "Quels parcours suivre&nbsp;?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
       :imgSrc2="Parcours"
       />
   <SectionBase
-        title="Ce métier est fait pour toi ?"
+        title="Ce métier est fait pour toi&nbsp;?"
         text="Pour en savoir plus sur la formation et la vie à l’ENM, consulte la rubrique dédiée sur la plateforme. Découvre également les autres métiers de la magistrature."
         bgColor="bg-rouge"
         iconName="code civil"

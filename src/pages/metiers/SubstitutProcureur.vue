@@ -47,13 +47,13 @@
     />
   <SectionBase
       title= "Substitut du procureur"
-      text= "Quels parcours suivre ?"
+      text= "Quels parcours suivre&nbsp;?"
       bgColor= "bg-gris"
       txtColor= "text-violet"
       :imgSrc2="Parcours"
       />
   <SectionBase
-        title="Ce métier est fait pour toi ?"
+        title="Ce métier est fait pour toi&nbsp;?"
         text="Si tu veux en savoir plus sur les différents métiers de la magistrature et formations, rends-toi sur les liens suivants."
         bgColor="bg-rouge"
         iconName="code civil"
