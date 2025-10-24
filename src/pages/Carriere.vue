@@ -44,7 +44,7 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
       :cards= "[
         {
           description: 'Ton salaire pourra naturellement être plus élevé si tu évolues dans la hiérarchie judicaire',
-          css: 'bg-transparent !border-gris&nbsp;!rounded-4xl text-gris',
+          css: 'bg-transparent !border-gris !rounded-4xl text-gris',
         }
       ]"
 

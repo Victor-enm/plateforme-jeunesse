@@ -12,7 +12,7 @@
     />-->
     <div v-if="photo" class="w-auto h-screen flex items-center justify-center">
       <a :href="linkVideo" target="_blank">
-        <img :src="photo" alt="miniature métiers youtube" class="w-150 lg:w-100 h-auto"/>
+        <img loading="lazy" :src="photo" alt="miniature métiers youtube" class="w-150 lg:w-100 h-auto"/>
       </a>
     </div>
 

@@ -9,7 +9,7 @@
           text: 'Plus d’informations sur ce métier',
           href: '#Decouvre-le-metier',
           variant: 'fullRed',
-          class: 'mb-5'
+          class: 'mb-5 lg:mr-5'
         },
         {
           text: 'Découvre les autres métiers possibles',
@@ -24,8 +24,7 @@
         title="Découvre le métier de juge aux affaires familiales"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        linkVideo="https://www.youtube.com/embed/hWZAtk2vBQQ"
-        :photo="Photo"
+        videoId="https://www.youtube.com/embed/8YcZNb2e84M"
 
         />
 
@@ -83,6 +82,5 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JAF_violet-02.webp'
-import Photo from '@/assets/images/metiers/Robin.webp'
 
 </script>

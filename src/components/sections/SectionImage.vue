@@ -6,7 +6,7 @@
 
     >
     <div v-if="imgSrc" class="w-full h-auto flex items-center justify-center mb-5">
-          <img :src="imgSrc" className="object-contain mb-4 text-violet rounded-2xl" />
+          <img loading="lazy" :src="imgSrc" className="object-contain mb-4 text-violet rounded-2xl" />
         </div>
     <div v-if="nombre" :class="borderColor" class="relative inline-flex items-center justify-center w-20 h-20 rounded-full border border-gris mb-5 pb-3">
         <span :class="txtColor" class="text-6xl">

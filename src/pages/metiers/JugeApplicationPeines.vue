@@ -10,7 +10,7 @@
           text: 'Plus d’informations sur ce métier',
           href: '#Decouvre-le-metier',
           variant: 'fullRed',
-          class: 'mb-5'
+          class: 'mb-5 lg:mr-5'
         },
         {
           text: 'Découvre les autres métiers possibles',
@@ -81,7 +81,6 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JAP-02.webp'
-import Photo from '@/assets/images/metiers/Amelie.webp'
 
 
 

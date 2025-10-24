@@ -9,7 +9,7 @@
           text: 'Plus d’informations sur ce métier',
           href: '#Decouvre-le-metier',
           variant: 'fullRed',
-          class: 'mb-5'
+          class: 'mb-5 lg:mr-5'
         },
         {
           text: 'Découvre les autres métiers possibles',
@@ -24,8 +24,7 @@
         title="Témoignage d’un juge des enfants"
         ancre="Decouvre-le-metier"
         bgColor="bg-rouge"
-        linkVideo="https://www.youtube.com/embed/M9FsZS8YK8w"
-        :photo="Photo"
+        videoId="https://www.youtube.com/embed/hsKP049Bu3Y"
 
         />
 
@@ -80,7 +79,6 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Parcours from '@/assets/images/metiers/Parcours_JE-02.webp'
-import Photo from '@/assets/images/metiers/Stephanie.webp'
 
 
 </script>
