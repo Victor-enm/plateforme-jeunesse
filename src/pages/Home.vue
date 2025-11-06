@@ -15,7 +15,6 @@
         bgColor="bg-gris"
         txtColor="text-violet"
         iconName="crayons"
-        responsivTxt="lg:flex-row"
         :buttons="[
           {
             text: 'Je fais  le test !',

@@ -30,7 +30,7 @@
         Si tu ne veux pas suivre le parcours classique, il existe des passerelles&nbsp;! Des avocats, des greffiers ou des policiers expérimentés peuvent passer un concours spécial pour rejoindre la magistrature."
       :imgSrc2="Parcours"
       />
-        <div class="w-25 h-25 relative top-35 rotate-90 left-60 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-200"><Piece/></div>
+        <div class="w-25 h-25 relative top-35 rotate-90 left-60 -mt-30 lg:top-75 lg:w-45 lg:h-65 lg:-mt-65 lg:rotate-0 lg:left-260 2xl:left-350 2xl:top-100"><Piece/></div>
       <SectionBase
       title= "Combien gagne un magistrat&nbsp;?"
       text= "L’un des avantages de ce métier, c’est aussi la sécurité financière.
@@ -63,17 +63,14 @@ Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mo
         {
           description: 'Changer de spécialité (juge pour enfants, juge d’instruction, procureur…)',
           css: '!bg-transparent !text-gris !border-gris -mt-8 lg:mt-0',
-          typoDesc: '!font-sans',
         },
         {
           description: 'Monter en grade et devenir président de tribunal ou procureur général',
           css: '!bg-transparent !text-gris !border-gris',
-          typoDesc: '!font-sans',
         },
         {
           description: 'Rejoindre de grandes institutions comme la Cour de cassation ou le Conseil d’État',
           css: '!bg-transparent !text-gris !border-gris mb-6 lg:mb-0',
-          typoDesc: '!font-sans',
         }
       ]"
       textSecondary="Au cours de sa carrière, tu pourras aussi évoluer entre les fonctions du siège et du parquet et exercer dans des champs d’activité variés : dans les domaines économique, international, carcéral, hospitalier, familial ou de la protection de l’enfance, bref pas de routine&nbsp;!"
@@ -91,7 +88,7 @@ Par exemple, tu pourras travailler dans des ministères variés tels que le mini
 <br><br>
 Si tu souhaites travailler à l’international, plusieurs possibilités s’offrent à toi :"
       bgColor= "bg-rouge"
-      txtColor= "text-gris first:pb-6 2xl:pb-12"
+      txtColor= "text-gris first:pb-6 2xl:pb-12 lg:mb-20 first:lg:mb-0"
       :ExpandableCards= "[
         {
           title: 'Être magistrat de liaison',
@@ -136,6 +133,6 @@ Si tu souhaites travailler à l’international, plusieurs possibilités s’off
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Piece from '@/assets/icons/piece.svg'
-import Parcours from '@/assets/icons/parcours magistrat.webp'
+import Parcours from '@/assets/images/metiers/Parcours_base.webp'
 
 </script>

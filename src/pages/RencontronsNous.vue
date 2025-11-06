@@ -59,18 +59,15 @@
       :cards= "[
         {
           description: '1) Parles-en à ton prof principal',
-          css: '!bg-transparent !text-violet !border-violet',
-          css: 'flex justify-start',
+          css: 'flex justify-start !bg-transparent !text-violet !border-violet',
         },
         {
           description: '2) Nous contacter à enm@magistrat.fr',
-          css: '!bg-transparent !text-violet !border-violet',
-          css: 'flex justify-start',
+          css: 'flex justify-start !bg-transparent !text-violet !border-violet',
         },
         {
           description: '3) Nous venons à ta rencontre',
-          css: '!bg-transparent !text-violet !border-violet',
-          css: 'flex justify-start',
+          css: 'flex justify-start !bg-transparent !text-violet !border-violet',
         },
       ]"
       />
