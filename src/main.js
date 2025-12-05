@@ -12,14 +12,9 @@ app.use(router)
 
 app.use(VueMatomo, {
   host: 'https://enm.matomo.cloud/',
-  siteId: 9
-});
-
-new Vue({
-  el: '#app',
-  router,
-  components: {App},
-  template: ''
+  siteId: 9,
+  router, // permet de tracker les changements de routes automatiquement
+  enableLinkTracking: true
 })
 
-window._paq.push(['trackPageView']); // Pour suivre les visites sur vos pages
+app.mount('#app')
