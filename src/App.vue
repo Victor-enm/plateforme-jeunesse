@@ -1,33 +1,40 @@
-<!-- App.vue -->
 <template>
   <div class="font-sans">
-    <Loader v-if="showLoader" 
-  class="transition-opacity duration-500 ease-in-out"
-  :class="{ 'opacity-0': isFadingOut }"/>
-  <div v-else>
-      <Header />
-      <router-view />
-    </div>
+    <Transition name="fade">
+      <Loader v-if="showLoader" />
+    </Transition>
+    
+    <Transition name="fade">
+      <div v-if="!showLoader">
+        <Header />
+        <router-view />
+      </div>
+    </Transition>
   </div>
 </template>
 
 <script setup>
 import Header from '@/components/Header.vue';
 import { ref, onMounted } from "vue";
-import Loader from "@/components/loader.vue";
+import Loader from "@/components/EMCQLoader2.vue";
 
 const showLoader = ref(true);
-const isFadingOut = ref(false);
 
 onMounted(() => {
-  // Démarre l'animation de fondu après 1.5s
-  setTimeout(() => {
-    isFadingOut.value = true;
-  }, 2500);
-
   setTimeout(() => {
     showLoader.value = false;
-  }, 3100); // 3,1s
+  }, 5000); 
 });
-
 </script>
+
+<style>
+/* Classes CSS pour les transitions (Tailwind ne suffit pas seul pour Vue transitions) */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.8s ease-in-out;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
