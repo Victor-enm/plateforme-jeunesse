@@ -47,7 +47,6 @@
         txtColor="text-gris"
         iconName="toque"
         pictoSize="w-30 h-30 pt-6"
-        responsivTxt=" 2xl:flex-row"
         :buttons="[
           {
             text: 'Découvrir',

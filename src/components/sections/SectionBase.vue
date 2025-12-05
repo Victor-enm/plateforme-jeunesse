@@ -23,7 +23,11 @@
         :class="txtColor"
         v-html="text">
         </p>
-        <p v-if="down" class="text-5xl text-violet">⏷</p>
+      
+        <div v-if="down" class="w-15 h-15 text-violet flex items-center justify-center 2xl:w-30 2xl:h-30 lg:mt-10 lg:mb-0 lg:justify-center lg:gap-6  ">
+          <CaretDown />
+        </div>
+
         <span><Button
           v-for="(button, index) in buttons"
           class="lg:text-2xl lg:mt-6 xl:mt-0"
@@ -100,6 +104,8 @@ import FacebookIcon from '@/assets/icons/facebook.svg'
 import YouTubeIcon from '@/assets/icons/youtube_rs.svg'
 import LinkedinIcon from '@/assets/icons/linkedin.svg'
 import Piece from '@/assets/icons/piece.svg'
+import CaretDown from '@/assets/icons/caret-down.svg'
+
 import { onMounted } from 'vue'
 
 
