@@ -35,11 +35,6 @@
           to: '/les-metiers/juges-aux-affaires-familiales',
         },
         {
-          title: 'Juge de l’application des peines',
-          description: 'Il veille à ce que les peines de prison soient bien respectées et décide des mesures pour aider les condamnés à se réinsérer dans la société.',
-          to: '/les-metiers/juge-application-des-peines',
-        },
-        {
             title: 'Juge civil',
             description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif&nbsp;? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
             to: '/les-metiers/juge-civil',
@@ -63,6 +58,11 @@
             title: 'Juge d’instruction',
             description: 'Il mène les enquêtes sur les affaires les plus complexes. Son objectif&nbsp;? Comprendre ce qu’il s’est passé avant qu’un procès ait lieu.',
             to: '/les-metiers/juge-instruction',
+        },
+        {
+          title: 'Juge de l’application des peines',
+          description: 'Il veille à ce que les peines de prison soient bien respectées et décide des mesures pour aider les condamnés à se réinsérer dans la société.',
+          to: '/les-metiers/juge-application-des-peines',
         },
       ]"
       />

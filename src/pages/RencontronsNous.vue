@@ -12,24 +12,9 @@
       
       <SectionBase
       title= "Nos prochains salons"
-      text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer sur l’un de nos stands sur ces futurs salons"
+      text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer sur l’un de nos stands sur ces futurs salons. Les prochains auront lieu à partir de septembre 2026"
       bgColor= "bg-violet"
       txtColor= "text-gris 2xl:pb-6"
-      card= "true"
-      :cards= "[
-        {
-          description: 'Samedi 15 novembre 2025 – Salon grandes écoles – L’Etudiant à Rennes ',
-          css: '!bg-gris !text-violet !border-gris'
-        },
-        {
-          description: 'Mercredi 26 novembre 2025 – Forum des métiers du droit à Paris',
-          css: '!bg-gris !text-violet !border-gris'
-        },
-        {
-          description: 'Du jeudi 11 au dimanche 14 décembre 2025 – Mondial des métiers à Lyon',
-          css: '!bg-gris !text-violet !border-gris'
-        },
-      ]"
       />
 
       <SectionBase
@@ -40,11 +25,11 @@
       card= "true"
       :cards= "[
         {
-          description: 'Bordeaux ENM - À venir',
+          description: 'Bordeaux ENM - Janvier 2027',
           css: '!bg-gris !text-violet !border-gris'
         },
         {
-          description: 'Paris ENM - À venir',
+          description: 'Paris ENM - Janvier 2027',
           css: '!bg-gris !text-violet !border-gris'
         },
       ]"

@@ -64,7 +64,7 @@
       </p>
     </div>
     <div v-if="imgSrc3" class="w-full flex items-center justify-center mb-5 xl:pl-40 xl:pr-40">
-  <img loading="lazy" :src="imgSrc3" class="w-full h-auto object-cover rounded-2xl mt-4 xl:w-[60%]" />
+  <img loading="lazy" :src="imgSrc3" class="w-full h-auto object-cover rounded-2xl mt-4 xl:w-[35%]" />
 </div>
 
         <h2 v-if="titleSecondary" class="text-4xl mb-4 xl:text-5xl lg:w-4xl 2xl:w-5xl mt-6"

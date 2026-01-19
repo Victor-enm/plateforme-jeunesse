@@ -27,11 +27,10 @@
 
       <SectionBase
       title= "Où ça se passe&nbsp;?"
-      text= "Ces classes sont réparties dans plusieurs villes en France."
+      text= "Ces classes sont réparties dans plusieurs villes en France. Chaque classe est liée à une université partenaire et propose un vrai accompagnement pédagogique."
       bgColor= "bg-gris"
       txtColor= "text-violet"
       :imgSrc3="Carte"
-      textSecondary="Chaque classe est liée à une université partenaire et propose un vrai accompagnement pédagogique."
       />
 
       <SectionBase
@@ -160,7 +159,7 @@ Tu veux faire respecter la loi et aider les autres&nbsp;? Alors lance-toi dans c
   
   <script setup>  
 import Footer from '@/components/Footer.vue'
-import Carte from '@/assets/images/Carte_france_low.webp'
+import Carte from '@/assets/images/ENM_carte_France_Guadeloupe_contours.webp'
   
   </script>
   
