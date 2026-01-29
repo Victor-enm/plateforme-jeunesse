@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate-sitemap && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "generate-sitemap": "node scripts/generate-sitemap.cjs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@tailwindcss/vite": "^4.1.4",
+    "@vueuse/head": "^2.0.0",
     "install": "^0.13.0",
     "tailwindcss": "^4.1.4",
     "vue": "^3.5.13",
