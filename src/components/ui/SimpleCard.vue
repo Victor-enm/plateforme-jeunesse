@@ -8,6 +8,9 @@
       <p v-if="description" class="text-s font-inter"
       :class="typoDesc"
       >{{ description }}</p>
+      <p v-if="description2" class="text-s font-inter !font-normal">
+        {{ description2 }}
+      </p>
     </div>
   </template>
   
@@ -15,6 +18,7 @@
   const props = defineProps({
     title: String,
     description: String,
+    description2: String,
     css: String,
     typoDesc: String,
   })

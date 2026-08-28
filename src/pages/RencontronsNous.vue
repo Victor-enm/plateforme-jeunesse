@@ -25,20 +25,24 @@
       card= "true"
       :cards= "[
         {
-          description: 'Journées européennes du patrimoine et du matrimoine – 19 septembre 2026',
-          css: '!bg-gris !text-violet !border-gris'
+          description: 'Journées européennes du patrimoine',
+          description2: '19 septembre 2026',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
         },
         {
-          description: 'Nuit du droit – 5 octobre 2026',
-          css: '!bg-gris !text-violet !border-gris'
+          description: 'Nuit du droit',
+          description2: '5 octobre 2026',
+            css: '!bg-gris !text-violet !border-gris !font-bold'
         },
         {
-          description: 'Journée portes ouvertes ENM Bordeaux – Janvier 2027',
-          css: '!bg-gris !text-violet !border-gris'
+          description: 'Journée portes ouvertes ENM Bordeaux',
+          description2: 'Janvier 2027',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
         },
         {
-          description: 'Journée portes ouvertes ENM Paris – Janvier 2027',
-          css: '!bg-gris !text-violet !border-gris'
+          description: 'Journée portes ouvertes ENM Paris',
+          description2: 'Janvier 2027',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
         },
       ]"
       />

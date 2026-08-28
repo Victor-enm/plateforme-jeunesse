@@ -49,6 +49,7 @@
                 :key="index"
                 :title="card.title"
                 :description="card.description"
+                :description2="card.description2"
                 :class="card.css"
                 :typoDesc="card.typoDesc"
                 class="w-full md:w-1/2 2xl:w-1/3"
