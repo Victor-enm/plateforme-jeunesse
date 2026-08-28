@@ -18,18 +18,26 @@
       />
 
       <SectionBase
-      title= "Les journées portes ouvertes"
+      title= "Nos prochains événements à l’ENM"
       text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer dans l'École sur l’une de ces dates"
       bgColor= "bg-rouge"
       txtColor= "text-gris 2xl:pb-6"
       card= "true"
       :cards= "[
         {
-          description: 'Bordeaux ENM - Janvier 2027',
+          description: 'Journées européennes du patrimoine et du matrimoine – 19 septembre 2026',
           css: '!bg-gris !text-violet !border-gris'
         },
         {
-          description: 'Paris ENM - Janvier 2027',
+          description: 'Nuit du droit – 5 octobre 2026',
+          css: '!bg-gris !text-violet !border-gris'
+        },
+        {
+          description: 'Journée portes ouvertes ENM Bordeaux – Janvier 2027',
+          css: '!bg-gris !text-violet !border-gris'
+        },
+        {
+          description: 'Journée portes ouvertes ENM Paris – Janvier 2027',
           css: '!bg-gris !text-violet !border-gris'
         },
       ]"
