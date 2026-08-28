@@ -25,12 +25,12 @@
       card= "true"
       :cards= "[
         {
-          description: 'Journées européennes du patrimoine',
+          description: 'Journées européennes du patrimoine ENM Bordeaux',
           description2: '19 septembre 2026',
           css: '!bg-gris !text-violet !border-gris !font-bold'
         },
         {
-          description: 'Nuit du droit',
+          description: 'Nuit du droit ENM Bordeaux et Paris',
           description2: '5 octobre 2026',
             css: '!bg-gris !text-violet !border-gris !font-bold'
         },
