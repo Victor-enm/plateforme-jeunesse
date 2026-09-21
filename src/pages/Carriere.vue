@@ -35,9 +35,9 @@
       title= "Combien gagne un magistrat&nbsp;?"
       text= "L’un des avantages de ce métier, c’est aussi la sécurité financière.
 <br><br>
-Pendant ta formation à l’ENM, même en tant qu’élève magistrat, tu seras rémunéré. Tu percevras 1907 € net par mois pendant tes 31 mois de formation.
+Pendant ta formation à l’ENM, même en tant qu’élève magistrat, tu seras rémunéré. Tu percevras 1956 € net par mois pendant tes 31 mois de formation.
 <br><br>
-Au début de ta carrière, ton salaire sera autour de 2600 à 3000€ net par mois. Cette rémunération évoluera en même temps que ta carrière puisqu’elle attendra 4702 € à partir de la 6e année d’activité et 7260 € lorsque tu auras plus de 19 ans de carrière. "
+Au début de ta carrière, ton salaire sera autour des 3884€ net par mois. Cette rémunération évoluera en même temps que ta carrière puisqu’elle attendra 5083 € à partir de la 6e année d’activité et 8480 € lorsque tu auras plus de 19 ans de carrière. "
       bgColor= "bg-rouge"
       txtColor= "text-gris z-10"
       card= "true"
