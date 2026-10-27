@@ -9,7 +9,8 @@
       :class="typoDesc"
       >{{ description }}</p>
       <p v-if="description2" class="text-s font-inter !font-normal">
-        {{ description2 }}
+        {{ description2 }}<br>
+        {{ description3 }}
       </p>
     </div>
   </template>
@@ -19,6 +20,7 @@
     title: String,
     description: String,
     description2: String,
+    description3: String,
     css: String,
     typoDesc: String,
   })

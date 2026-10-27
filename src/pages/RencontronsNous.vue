@@ -15,6 +15,21 @@
       text= "Si la magistrature t’intéresse n’hésite pas à venir nous rencontrer sur l’un de nos stands sur ces futurs salons. Les prochains auront lieu à partir de septembre 2026"
       bgColor= "bg-violet"
       txtColor= "text-gris 2xl:pb-6"
+      card= "true"
+      :cards= "[
+        {
+          description: 'Salon mondial des métiers',
+          description2: 'Du 10 au 13 décembre 2026, de 9h à 18h',
+          description3: 'Eurexpo – Lyon',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
+        },
+        {
+          description: 'Salon L’Étudiant Concours et prépas',
+          description2: '12 décembre 2026, de 10h à 18h',
+          description3: 'Espace Champerret - Hall C - Paris',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
+        },
+      ]"
       />
 
       <SectionBase
@@ -24,16 +39,6 @@
       txtColor= "text-gris 2xl:pb-6"
       card= "true"
       :cards= "[
-        {
-          description: 'Journées européennes du patrimoine',
-          description2: '19 septembre 2026 - Bordeaux',
-          css: '!bg-gris !text-violet !border-gris !font-bold'
-        },
-        {
-          description: 'Nuit du droit',
-          description2: '5 octobre 2026 - Bordeaux et Paris',
-            css: '!bg-gris !text-violet !border-gris !font-bold'
-        },
         {
           description: 'Journée portes ouvertes',
           description2: 'Janvier 2027 - Bordeaux',
