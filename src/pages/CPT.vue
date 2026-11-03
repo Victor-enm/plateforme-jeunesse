@@ -96,11 +96,11 @@
       card= "true"
       :cards= "[
         {
-          title: 'Montant minimum 382,80&nbsp;€ par mois',
+          title: 'Montant de bourse selon votre échelon, de 0bis à 7 en fonction des revenus',
           css: '!bg-transparent !text-violet !border-violet'
         },
         {
-          title: 'Une aide complémentaire de 4000&nbsp;€ peut aussi être versée pendant l’année.',
+          title: 'Une aide complémentaire de 5000&nbsp;€ sous réserve d’assiduité et de présentation au concours',
           css: '!bg-transparent !text-violet !border-violet'
         },
       ]"
