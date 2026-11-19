@@ -29,6 +29,12 @@
           description3: 'Espace Champerret - Hall C - Paris',
           css: '!bg-gris !text-violet !border-gris !font-bold'
         },
+        {
+          description: 'Forum des métiers du droit de Sciences Po',
+          description2: '22 janvier 2027, de 14h à 18h',
+          description3: '1 place Saint-Thomas d’Aquin, Paris',
+          css: '!bg-gris !text-violet !border-gris !font-bold'
+        },
       ]"
       />
 
@@ -41,12 +47,12 @@
       :cards= "[
         {
           description: 'Journée portes ouvertes',
-          description2: 'Janvier 2027 - Bordeaux',
+          description2: '16 janvier 2027 - Bordeaux',
           css: '!bg-gris !text-violet !border-gris !font-bold'
         },
         {
           description: 'Journée portes ouvertes',
-          description2: 'Janvier 2027 - Paris',
+          description2: '30 janvier 2027 - Paris',
           css: '!bg-gris !text-violet !border-gris !font-bold'
         },
       ]"
